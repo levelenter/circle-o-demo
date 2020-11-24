@@ -23,6 +23,9 @@ const meta = [
 
 module.exports = {
   meta: meta,
+  script: [
+    { src: 'https://use.typekit.net/arj7eql.js' }
+  ],
   link: [
     { hid: 'favicon', rel: 'shortcut icon', href: `/img/global/favicon.png` },
     { hid: 'apple-touch-icon-precomposed', rel: 'apple-touch-icon-precomposed', href: `/img/global/webclip.png` },
