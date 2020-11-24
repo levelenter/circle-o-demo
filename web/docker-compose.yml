@@ -1,0 +1,25 @@
+version: '3'
+
+services:
+  web:
+    image: nginx:alpine
+    environment:
+      - VIRTUAL_HOST=tj.dev.test
+      - CERT_NAME=_wildcard.dev.test
+    depends_on:
+      - app
+    volumes:
+      - ./etc/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      - ../2020_MI_campaign:/var/www/html/2020_MI_campaign
+      - ../2020_IM_campaign:/var/www/html/2020_IM_campaign
+  app:
+    image: php:fpm-alpine
+    volumes:
+      - ./etc/php-fpm.d/www.conf:/usr/local/etc/php-fpm.d/www.conf
+      - ../2020_MI_campaign:/var/www/html/2020_MI_campaign
+      - ../2020_IM_campaign:/var/www/html/2020_IM_campaign
+
+networks:
+  default:
+    external:
+      name: common_link

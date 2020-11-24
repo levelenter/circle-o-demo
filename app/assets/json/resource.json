@@ -1,0 +1,658 @@
+{
+  "jp": {
+    "pref": {
+      "miyagi": {
+        "description": "東北地方最大の都市・仙台市を擁し、都市部と豊かな自然の魅力を併せ持つ。沿岸部は多様な海産物に恵まれるとともに、日本三景の一つ「松島」など景勝地も多い。",
+        "visitLink": ""
+      },
+      "iwate": {
+        "description": "美しい海岸線がどこまでも続く本州最大の県。世界遺産「平泉」には平安末期に栄えた華やかな仏教文化が残され人々を魅了する。南部鉄器、秀衡塗などの伝統文化も豊か。",
+        "visitLink": ""
+      }
+    },
+    "spot": {
+      "a": {
+        "title": "松島",
+        "description": "日本三景のひとつに数えられる東北きっての景勝地。松島湾には約260の島が点在して、複雑で優美な景観を形作る。月の名所としても知られ、陰影に満ちた夕景も美しい。",
+        "link": "",
+        "map": "",
+        "TripAdvisor": ""
+      },
+      "b": {
+        "title": "瑞鳳殿",
+        "description": "独眼竜政宗として知られる仙台藩祖・伊達政宗を祀る霊廟。鬱蒼とした杉木立の間に現れる、桃山文化を強く反映した絢爛豪華な霊廟に圧倒される。",
+        "link": "",
+        "map": "",
+        "TripAdvisor": ""
+      },
+      "c": {
+        "title": "御釜",
+        "description": "蔵王連峰に抱かれた火口湖で、蔵王ハイラインでも人気の高い観光スポット。展望台からは、エメラルドグリーンから刻々と色を変える湖面と周囲の荒々しい火山の岩肌を一望できる。",
+        "link": "",
+        "map": "",
+        "TripAdvisor": ""
+      },
+      "d": {
+        "title": "浄土ヶ浜",
+        "description": "三陸海岸を代表する景勝地。松の緑に真っ白な岩肌、瑠璃色の海の景観はまさに極楽浄土。さっぱ船に揺られて進むと宝石のように美しいコバルトブルーの「青の洞窟」に辿り着く。",
+        "link": "",
+        "map": "",
+        "TripAdvisor": ""
+      },
+      "e": {
+        "title": "厳美渓",
+        "description": "磐井川の浸食によってできた渓谷で、滝や甌穴、奇岩、深淵など、変化に富んだダイナミックな景色が楽しめる。対岸からロープ伝いに届く名物「空飛ぶだんご」も体験したい。",
+        "link": "",
+        "map": "",
+        "TripAdvisor": ""
+      },
+      "f": {
+        "title": "毛越寺",
+        "description": "平安時代に建立された世界遺産・毛越寺、ここに仏の世界を現した「浄土庭園」がある。庭園の大部分を占める池には勾玉、玉石、枯山水の築山など、極楽浄土が表現されている。",
+        "link": "",
+        "map": "",
+        "TripAdvisor": ""
+      }
+    },
+    "literals": {
+      "001": "",
+      "002m": "",
+      "002i": "",
+      "003mm": "",
+      "003mz": "",
+      "003mo": "",
+      "003ij": "",
+      "003ig": "",
+      "003im": "",
+      "004": "",
+      "L005M": "宮城県と岩手県の世界遺産や国立公園であなたにとって完璧な景色を見つけて探検してください。",
+      "L005I": "岩手県と宮城県の世界遺産や国立公園であなたにとって完璧な景色を見つけて探検してください。",
+      "006": "",
+      "L007": "",
+      "L008": "",
+      "009m": "",
+      "009i": "",
+      "010": "",
+      "011": "",
+      "012m": "",
+      "012i": "",
+      "L013M": "宮城県には魅力がたくさんあります。公式サイトで魅力を発見しよう。",
+      "L013I": "岩手県には魅力がたくさんあります。公式サイトで魅力を発見しよう。",
+      "L014": ""
+    }
+  },
+  "en": {
+    "pref": {
+      "miyagi": {
+        "description": "Sendai, the biggest city in Tohoku, is in Miyagi Prefecture where there’s a blend of urban culture and nature. All kinds of seafoods are available near the water, and there are many scenic spots including one of Japan’s three great sights, Matsushima.",
+        "visitLink": "https://visitmiyagi.com/"
+      },
+      "iwate": {
+        "description": "Iwate is the biggest prefecture in Honshu and has endless beautiful coastlines. A glorious buddhist culture which flourished at the end of the Heian era still remains and captivates visitors in Hiraizumi, which is a world heritage. There is also a lot of traditional culture such as Nanbu ironware and Hidehira-nuri.",
+        "visitLink": "https://visitiwate.com/"
+      }
+    },
+    "spot": {
+      "a": {
+        "title": "MATSUSHIMA",
+        "description": "Matsushima is a place of scenic beauty in Tohoku and is known as one of the three great views of Japan. There are around 260 islands in Matsushima Bay which forms an intricate and elegant scenery. Matsushima is also known as a scenic spot for seeing the moon which creates a stunning evening view of light and shadow.",
+        "link": "https://visitmiyagi.com/areas/matsushima-bay/",
+        "map": "https://goo.gl/maps/e78AWCFKvXCVzssn8",
+        "TripAdvisor": "https://www.tripadvisor.com/Attraction_Review-g319095-d1386254-Reviews-Matsushima_Bay-Matsushima_machi_Miyagi_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "b": {
+        "title": "ZUIHODEN MAUSOLEUM",
+        "description": "This is the mausoleum of Date Masamune, a Sendai feudal lord also known as Dokuganryu Masamune. Appearing between lush Japanese cedars, the luxurious mausoleum with strong Momoyama cultural influences is impressive.",
+        "link": "https://visitmiyagi.com/articles/zuihoden-mausoleum/",
+        "map": "https://goo.gl/maps/9v4QLy6nW1LVV2eA7",
+        "TripAdvisor": "https://www.tripadvisor.com/Attraction_Review-g298249-d1386303-Reviews-Zuihoden-Sendai_Miyagi_Prefecture_Tohoku.html"
+      },
+      "c": {
+        "title": "OKAMA",
+        "description": "A crater lake in the highest area of Zao Mountain Range, Okama’s emerald green water is mystic. The color of the water changes over time and strongly draws the eye.",
+        "link": "https://visitmiyagi.com/articles/mount-zao-okama-crater/",
+        "map": "https://goo.gl/maps/frdtg19Po35YmaHr9",
+        "TripAdvisor": "https://www.tripadvisor.com/Attraction_Review-g1104107-d1397280-Reviews-Okama_Crater-Zao_machi_Katta_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "d": {
+        "title": "JODOGAHAMA BEACH",
+        "description": "The main scenic spot along the Sanriku Coast. Picturesque scenery featuring green pine trees, white rock faces, and the blue ocean is truly a \"Gokurakujodo (Land of Perfect Bliss).\" Ride on a Sappa Boat (small fishing boat) to the Blue Cave where the cobalt blue water is as beautiful as jewels.",
+        "link": "https://visitiwate.com/article/4697",
+        "map": "https://goo.gl/maps/uFRsFFRKABDkWuXRA",
+        "TripAdvisor": "https://www.tripadvisor.com/Attraction_Review-g1022873-d1379009-Reviews-Jodogahama_Beach-Miyako_Iwate_Prefecture_Tohoku.html"
+      },
+      "e": {
+        "title": "GENBI GORGE",
+        "description": "Various dynamic views of waterfalls, potholes, unique rocks and abyss in the gorge created by Iwai River can be seen. Experiencing the delivery of a local specialty called “Flying Dumplings” from the opposite shore via rope is also a must.",
+        "link": "https://visitiwate.com/en/article/4707",
+        "map": "https://goo.gl/maps/VPDZ4e6AGQzmJYMCA",
+        "TripAdvisor": "https://www.tripadvisor.com/Attraction_Review-g1022875-d1170683-Reviews-Gembi_Valley-Ichinoseki_Iwate_Prefecture_Tohoku.html"
+      },
+      "f": {
+        "title": "MOTSUJI TEMPLE",
+        "description": "Motsuji Temple is a World Heritage Site that was constructed in the Heian Period. It includes a “Pure Land Garden” that represents the world of the Buddha. In the lake that takes up much of the garden, Buddhist paradise is represented with strings of jewels, gemstones, and dry gardens with artificial hills.",
+        "link": "https://visitiwate.com/article/4784",
+        "map": "https://goo.gl/maps/SWPtdSRdqNU2m7Pv8",
+        "TripAdvisor": "https://www.tripadvisor.com/Attraction_Review-g1120431-d325855-Reviews-Motsu_ji_Temple-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html"
+      }
+    },
+    "literals": {
+      "001": "Find Your Perfect View.",
+      "002m": "in MIYAGI pref & IWATE pref.",
+      "002i": "in IWATE pref & MIYAGI pref.",
+      "003mm": "MATSUHIMA in MIYAGI pref",
+      "003mz": "ZUIHODEN in MIYAGI pref",
+      "003mo": "OKAMA in MIYAGI pref",
+      "003ij": "JODOGAHAMA BEACH in IWATE pref",
+      "003ig": "GENBI GORGE in IWATE pref",
+      "003im": "MOTSUJI TEMPLE in IWATE pref",
+      "004": "Select your perfect view.\r",
+      "L005M": "FIND/EXPLORE your perfect views at world heritage sites and national parks in Miyagi pref and Iwate pref.",
+      "L005I": "FIND/EXPLORE your perfect views at world heritage sites and national parks in Iwate pref and Miyagi pref.",
+      "006": "FIND/EXPOLRE",
+      "L007": "Glamour Of The View",
+      "L008": "Perfect View Tour",
+      "009m": "TOHOKU JAPAN Movie in MIYAGI pref & IWATE pref.",
+      "009i": "TOHOKU JAPAN Movie in IWATE pref & MIYAGI pref.",
+      "010": "Recommended Perfect Views.\r",
+      "011": "Do You Find Your Perfect View?",
+      "012m": "Welcome to MIYAGI & IWATE Pref In JAPAN.",
+      "012i": "Welcome to IWATE & MIYAGI Pref In JAPAN.",
+      "L013M": "Discover the many charms of Miyagi on the official website.",
+      "L013I": "Discover the many charms of Iwate on the official website.",
+      "L014": "Miyagi Prefecture has many attractions.Discover the charm on the official website."
+    }
+  },
+  "fr": {
+    "pref": {
+      "miyagi": {
+        "description": "Abritant Sendai, la plus grande ville du Tohoku, la préfecture de Miyagi charme ses visiteurs par ses zones urbaines et sa magnifique nature. La zone côtière jouit d'une grande diversité de fruits de mer et offre de nombreux endroits pittoresques comme Matsushima, l'une des trois vues les plus célèbres du Japon.",
+        "visitLink": "https://visitmiyagi.com/"
+      },
+      "iwate": {
+        "description": "Iwate est la plus grande préfecture de Honshu et possède d'innombrables côtes magnifiques. Une brillante culture bouddhiste qui a fleuri à la fin de l'époque de Heian subsiste encore et captive les visiteurs à Hiraizumi, un site du patrimoine mondial. On y trouve également de nombreuses cultures traditionnelles telles que la ferronnerie de Nambu ou la laque Hidehira.",
+        "visitLink": "https://visitiwate.com/"
+      }
+    },
+    "spot": {
+      "a": {
+        "title": "Matsushima",
+        "description": "Matsushima est un lieu si pittoresque du Tohoku qu'il est réputé comme l'une des trois vues les plus célèbres du Japon. Sa baie compte environ 260 îles qui forment un paysage complexe et élégant. Matsushima est également connu comme un lieu qui permet d'admirer la lune, et la vue du coucher de soleil pleine d'ombres est magnifique.",
+        "link": "https://visitmiyagi.com/areas/matsushima-bay/",
+        "map": "https://goo.gl/maps/e78AWCFKvXCVzssn8",
+        "TripAdvisor": "https://www.tripadvisor.fr/Attraction_Review-g319095-d1386254-Reviews-Matsushima_Bay-Matsushima_machi_Miyagi_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "b": {
+        "title": "Zuiho-den",
+        "description": "Il s'agit du mausolée de Date Masamune, seigneur féodal de Sendai également surnommé Dokuganryu (le dragon borgne) Masamune. Apparaissant entre de luxuriants cèdres japonais, ce mausolée luxueux aux fortes influences culturelles Momoyama est impressionnant.",
+        "link": "https://visitmiyagi.com/articles/zuihoden-mausoleum/",
+        "map": "https://goo.gl/maps/9v4QLy6nW1LVV2eA7",
+        "TripAdvisor": "https://www.tripadvisor.fr/Attraction_Review-g298249-d1386303-Reviews-Zuihoden-Sendai_Miyagi_Prefecture_Tohoku.html"
+      },
+      "c": {
+        "title": "Okama",
+        "description": "Ce lac de cratère entouré par la chaîne du mont Zao est un lieu de visite populaire sur la Zao Highline. Depuis la plateforme d'observation, vous pourrez admirer la surface du lac passer fréquemment du vert émeraude à d'autres couleurs, ainsi que les parois tourmentées des volcans environnants.",
+        "link": "https://visitmiyagi.com/articles/mount-zao-okama-crater/",
+        "map": "https://goo.gl/maps/frdtg19Po35YmaHr9",
+        "TripAdvisor": "https://www.tripadvisor.fr/Attraction_Review-g1104107-d1397280-Reviews-Okama_Crater-Zao_machi_Katta_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "d": {
+        "title": "Plage de Jodogahama",
+        "description": "Cette plage fait partie des sites incontournables de la côte de Sanriku. Les pins verts, la surface des rochers d'un blanc pur et la mer d'un bleu lapis-lazuli forment une vue véritalement paradisiaque. En vous déplaçant en barque, vous arriverez à la magnifique « grotte bleue » au bleu de cobalt évoquant une pierre précieuse.",
+        "link": "https://visitiwate.com/article/4697",
+        "map": "https://goo.gl/maps/uFRsFFRKABDkWuXRA",
+        "TripAdvisor": "https://www.tripadvisor.fr/Attraction_Review-g1022873-d1379009-Reviews-Jodogahama_Beach-Miyako_Iwate_Prefecture_Tohoku.html"
+      },
+      "e": {
+        "title": "Gorges de Genbikei",
+        "description": "Le site permet d'admirer les vues variées et dynamiques offertes par les chutes d'eau, les marmites du diable, les rochers étranges ou les gouffres dans ces gorges créées par l'érosion de la rivière Iwai. Ne manquez pas d'essayer la livraison d'une spécialité locale baptisée « boulettes volantes » depuis la rive opposée, via une corde.",
+        "link": "https://visitiwate.com/en/article/4707",
+        "map": "https://goo.gl/maps/VPDZ4e6AGQzmJYMCA",
+        "TripAdvisor": "https://www.tripadvisor.fr/Attraction_Review-g1022875-d1170683-Reviews-Gembi_Valley-Ichinoseki_Iwate_Prefecture_Tohoku.html"
+      },
+      "f": {
+        "title": "Temple Motsuji",
+        "description": "Le temple Motsuji est un site du patrimoine mondial qui a été bâti à l'époque de Heian. Il abrite un « jardin des terres pures » qui évoque le monde du Bouddha. Dans le lac qui occupe une grande partie de ce jardin, le paradis bouddhiste est représenté par une île centrale en forme de joyau magatama, des pavés ronds et la colline artificielle d'un jardin sec.",
+        "link": "https://visitiwate.com/article/4784",
+        "map": "https://goo.gl/maps/SWPtdSRdqNU2m7Pv8",
+        "TripAdvisor": "https://www.tripadvisor.fr/Attraction_Review-g1120431-d325855-Reviews-Motsu_ji_Temple-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html"
+      }
+    },
+    "literals": {
+      "001": "",
+      "002m": "",
+      "002i": "",
+      "003mm": "",
+      "003mz": "",
+      "003mo": "",
+      "003ij": "",
+      "003ig": "",
+      "003im": "",
+      "004": "",
+      "L005M": "Trouvez et explorez les paysages de vos rêves dans les préfectures de Miyagi et Iwate qui abritent des sites du patrimoine mondial et des parcs nationaux.",
+      "L005I": "Trouvez et explorez les paysages de vos rêves dans les préfectures d'Iwate et de Miyagi qui abritent des sites du patrimoine mondial et des parcs nationaux.",
+      "006": "",
+      "L007": "De magnifiques paysages",
+      "L008": "Une excursion dans des paysages de rêves",
+      "009m": "",
+      "009i": "",
+      "010": "",
+      "011": "",
+      "012m": "",
+      "012i": "",
+      "L013M": "La préfecture de Miyagi offre bien des charmes. Visitez son site officiel pour les découvrir.",
+      "L013I": "La préfecture d'Iwate offre bien des charmes. Visitez son site officiel pour les découvrir.",
+      "L014": ""
+    }
+  },
+  "de": {
+    "pref": {
+      "miyagi": {
+        "description": "Hier liegt Sendai City, die größte Stadt in der Region Tohoku, die sowohl den städtischen Charme als auch eine reiche Natur hat.\r\n Das Küstengebiet ist mit einer Vielzahl von Meeresprodukten gesegnet, und es gibt viele landschaftlich schöne Orte wie \"Matsushima\", einer der drei bedeutenden landschaftlich schönsten Orte in Japan.",
+        "visitLink": "https://visitmiyagi.com/"
+      },
+      "iwate": {
+        "description": "Die größte Präfektur in Honshu mit der langen, wunderschönen Küste. \r\n Das Welterbe \"Hiraizumi\" zieht Menschen mit seiner beeindruckenden buddhistischen Kultur an, die in der späten Heian-Zeit blühte. \r\n Reich an traditioneller Kultur wie Nanbu Ironware (Nanbu Gusseisen) und Hidehira Nuri (japanische Lackwaren).",
+        "visitLink": "https://visitiwate.com/"
+      }
+    },
+    "spot": {
+      "a": {
+        "title": "Matsushima",
+        "description": "Ein landschaftlich schöner Ort in Tohoku, einer der drei bedeutenden landschaftlich schönsten Orte in Japan. \nIn der Bucht von Matsushima sind etwa 260 Inseln verstreut, die eine komplexe und elegante Landschaft bilden. \nDer Ort ist als berühmt für den Mond bekannt und die kontrastreiche  Abendlandschaft ist wunderschön.",
+        "link": "https://visitmiyagi.com/areas/matsushima-bay/",
+        "map": "https://goo.gl/maps/e78AWCFKvXCVzssn8",
+        "TripAdvisor": "https://www.tripadvisor.de/Attraction_Review-g319095-d1386254-Reviews-Matsushima_Bay-Matsushima_machi_Miyagi_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "b": {
+        "title": "Zuihoden",
+        "description": "Das Mausoleum ist Date Masamune gewidmet,  der auch als „Einäugiger Drache Masamune“ und als Gründer des feudalen Sendai Clans bekannt ist. \nDas Mausoleum, von überwältigender Schönheit, spiegelt die Momoyama-Kultur wider, eingebettet in den dichten Zedernhain.",
+        "link": "https://visitmiyagi.com/articles/zuihoden-mausoleum/",
+        "map": "https://goo.gl/maps/9v4QLy6nW1LVV2eA7",
+        "TripAdvisor": "https://www.tripadvisor.de/Attraction_Review-g298249-d1386303-Reviews-Zuihoden-Sendai_Miyagi_Prefecture_Tohoku.html"
+      },
+      "c": {
+        "title": "Okama",
+        "description": "Der Kratersee, umgeben von der Zao-Bergkette, ist ein beliebter Touristenort an der Zao High Line.\nVon der Sternwarte aus überblickt man die Seeoberfläche, deren Smaragdgrün sich von Zeit zu Zeit verändert, umgeben von der Felsoberfläche des rauen Vulkans.",
+        "link": "https://visitmiyagi.com/articles/mount-zao-okama-crater/",
+        "map": "https://goo.gl/maps/frdtg19Po35YmaHr9",
+        "TripAdvisor": "https://www.tripadvisor.de/Attraction_Review-g1104107-d1397280-Reviews-Okama_Crater-Zao_machi_Katta_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "d": {
+        "title": "Jodogahama Küste",
+        "description": "Ein landschaftlich schöner Ort, der die Küste von Sanriku zeigt. \nDas Grün der Kiefern, die reine weiße Felsoberfläche und das blaue Meer ergeben eine Landschaft wie das reine Land von Gokuraku Jodo (wahres Paradies).\nMit dem Boot erreicht man die kobaltblaue \"Blaue Höhle\", die so schön wie ein Juwel ist. ",
+        "link": "https://visitiwate.com/article/4697",
+        "map": "https://goo.gl/maps/uFRsFFRKABDkWuXRA",
+        "TripAdvisor": "https://www.tripadvisor.de/Attraction_Review-g1022873-d1379009-Reviews-Jodogahama_Beach-Miyako_Iwate_Prefecture_Tohoku.html"
+      },
+      "e": {
+        "title": "Genbikei Tal",
+        "description": "Im Tal, das der Iwai-Fluss durch Erosion hinterlassen hat, kann man eine Vielzahl dynamischer landschaftlicher Besonderheiten genießen, wie Wasserfälle, Vertiefungen, seltsame Felsen und Schluchten. \nMan kann auch den berühmten \"Fliegenden Dango\" erleben, der vom gegenüberliegenden Ufer, entlang eines Seils, zu einem kommt.",
+        "link": "https://visitiwate.com/en/article/4707",
+        "map": "https://goo.gl/maps/VPDZ4e6AGQzmJYMCA",
+        "TripAdvisor": "https://www.tripadvisor.de/Attraction_Review-g1022875-d1170683-Reviews-Gembi_Valley-Ichinoseki_Iwate_Prefecture_Tohoku.html"
+      },
+      "f": {
+        "title": "Moutsuuji Tempel",
+        "description": "Der Moutsuuji Tempel, ein in der Heian-Zeit erbautes Weltkulturerbe, verfügt über einen \"Jodo-Garten\", der die Welt Buddhas zeigt. \nDer Teich, der den größten Teil des Gartens einnimmt, stellt das reine Land von Gokuraku Jodo dar, einschließlich Magatama (Edelstein-Ball), Tamaishi (Kugelstein) und dem Tsukiyama (Teil des Tempelgartens) des Karesansui (Anlage des Tempelgartens).",
+        "link": "https://visitiwate.com/article/4784",
+        "map": "https://goo.gl/maps/SWPtdSRdqNU2m7Pv8",
+        "TripAdvisor": "https://www.tripadvisor.de/Attraction_Review-g1120431-d325855-Reviews-Motsu_ji_Temple-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html"
+      }
+    },
+    "literals": {
+      "001": "",
+      "002m": "",
+      "002i": "",
+      "003mm": "",
+      "003mz": "",
+      "003mo": "",
+      "003ij": "",
+      "003ig": "",
+      "003im": "",
+      "004": "",
+      "L005M": "In den Präfekturen Miyagi und Iwate befinden sich Weltkulturerbestätten und Nationalparks. \n Finden Sie Ihre perfekte Aussicht und erkunden Sie diese.",
+      "L005I": "In den Präfekturen Iwate und Miyagi befinden sich Weltkulturerbestätten und Nationalparks. \n Finden Sie Ihre perfekte Aussicht und erkunden Sie diese.",
+      "006": "",
+      "L007": "Überwältigende Aussicht",
+      "L008": "Die perfekte Aussichtstour",
+      "009m": "",
+      "009i": "",
+      "010": "",
+      "011": "",
+      "012m": "",
+      "012i": "",
+      "L013M": "Es gibt viele Attraktionen in der Präfektur Miyagi. \n Entdecken Sie ihre Attraktivität auf der offiziellen Website.",
+      "L013I": "Es gibt viele Attraktionen in der Präfektur Iwate. \n Entdecken Sie ihre Attraktivität auf der offiziellen Website.",
+      "L014": ""
+    }
+  },
+  "cn": {
+    "pref": {
+      "miyagi": {
+        "description": "宫城县坐拥东北地区最大的都市·仙台市，同时具有大都市与丰富自然风光的魅力。其沿岸部分不仅盛产多种多样的海产品，还拥有日本三景之一的“松岛”等诸多风景名胜。",
+        "visitLink": "https://zh.visitmiyagi.com/"
+      },
+      "iwate": {
+        "description": "岩手县是秀美海岸线延绵不绝的、本州岛最大的县。世界遗产“平泉”留有曾于平安末期繁荣的华美的佛教文化，使人为之倾倒。此县还拥有南部铁器、秀衡涂等丰富的传统文化。",
+        "visitLink": "https://visitiwate.com/zh-cn/?redir"
+      }
+    },
+    "spot": {
+      "a": {
+        "title": "松岛",
+        "description": "松岛是被列为日本三景之一的、东北地区头号风景名胜。松岛湾零星散布着大约 260 个岛屿，形成了既复杂又优美的景观。其作为赏月景点也名声在外，盈满阴影的黄昏也很美。",
+        "link": "https://zh.visitmiyagi.com/areas/matsushima-bay/",
+        "map": "https://j.map.baidu.com/16/WCl",
+        "TripAdvisor": "https://www.tripadvisor.cn/Attraction_Review-g319095-d1386254-Reviews-Matsushima_Bay-Matsushima_machi_Miyagi_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "b": {
+        "title": "瑞凤殿",
+        "description": "这里供奉着大河剧《独眼龙政宗》中著名的仙台藩祖伊达政宗的灵庙。瑞凤殿出现在葱郁的杉树林之间，高度反映了桃山文化绚烂华丽风格的建筑本身令人折服。",
+        "link": "https://visitmiyagi.com/articles/zuihoden-mausoleum/",
+        "map": "https://j.map.baidu.com/61/cjl",
+        "TripAdvisor": "https://www.tripadvisor.cn/Attraction_Review-g298249-d1386303-Reviews-Zuihoden-Sendai_Miyagi_Prefecture_Tohoku.html"
+      },
+      "c": {
+        "title": "御釜",
+        "description": "御釜是地处于藏王连峰海拔最高地区的火山湖，其宝石绿色的湖水颇具神秘感。湖水的颜色每时每刻都发生着微妙的改变，光是望着湖水就有种似乎要被吸进去的感觉。",
+        "link": "https://zh.visitmiyagi.com/feature/mt-zao-okama-crater/",
+        "map": "https://j.map.baidu.com/b1/kZl",
+        "TripAdvisor": "https://www.tripadvisor.cn/Attraction_Review-g1104107-d1397280-Reviews-Okama_Crater-Zao_machi_Katta_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "d": {
+        "title": "净土浜",
+        "description": "代表三陆海岸的名胜地。翠绿的松树、白色岩石、琉璃色的大海景观交相辉映，形成犹如极乐净土般的美景。乘坐小舟可抵达宛如宝石的美丽的钴蓝色“青之洞窟”。",
+        "link": "https://visitiwate.com/zh-cn/article/4697?redir",
+        "map": "https://j.map.baidu.com/d4/tFl",
+        "TripAdvisor": "https://www.tripadvisor.cn/Attraction_Review-g1022873-d1379009-Reviews-Jodogahama_Beach-Miyako_Iwate_Prefecture_Tohoku.html"
+      },
+      "e": {
+        "title": "严美溪 ",
+        "description": "它是由盘井川的侵蚀而形成的溪谷。游客在这里可以欣赏到瀑布、瓯穴、奇石、深渊等富于变化的生机勃勃的景色。从对岸沿缆绳传递而来的特色名产“飞天丸子”令游客情不自禁地想体验一番。",
+        "link": "https://visitiwate.com/zh-cn/article/4707?redir",
+        "map": "https://j.map.baidu.com/61/Dqn",
+        "TripAdvisor": "https://www.tripadvisor.cn/Attraction_Review-g1022875-d1170683-Reviews-Gembi_Valley-Ichinoseki_Iwate_Prefecture_Tohoku.html"
+      },
+      "f": {
+        "title": "毛越寺",
+        "description": "建造于平安时代的世界遗产——毛越寺，这里有展现了佛教世界的“净土庭园”。在占据了庭园大半部分的池塘中有勾玉、玉石、枯山水假山等布置，好一片极乐净土的观念得以在其中体现。",
+        "link": "https://visitiwate.com/zh-cn/article/4784?redir",
+        "map": "https://j.map.baidu.com/36/-el",
+        "TripAdvisor": "https://www.tripadvisor.cn/Attraction_Review-g1120431-d325855-Reviews-Motsu_ji_Temple-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html"
+      }
+    },
+    "literals": {
+      "001": "",
+      "002m": "",
+      "002i": "",
+      "003mm": "",
+      "003mz": "",
+      "003mo": "",
+      "003ij": "",
+      "003ig": "",
+      "003im": "",
+      "004": "",
+      "L005M": "宫城、岩手2县有世界遗产及国家公园，找出您的完美景色，探险一番吧。",
+      "L005I": "岩手、宫城2县有世界遗产及国家公园，找出您的完美景色，探险一番吧。",
+      "006": "",
+      "L007": "绝佳美景",
+      "L008": "极致美景游览",
+      "009m": "",
+      "009i": "",
+      "010": "",
+      "011": "",
+      "012m": "",
+      "012i": "",
+      "L013M": "宫城县魅力满满。通过官方网站发现其魅力吧。",
+      "L013I": "岩手县魅力满满。通过官方网站发现其魅力吧。",
+      "L014": ""
+    }
+  },
+  "tw": {
+    "pref": {
+      "miyagi": {
+        "description": "東北地方最大的都市「仙台市」正坐落於此，兼具繁華的都市區與豐沃的大自然。沿岸地帶得天獨厚，擁有種類繁多的大量海產，境內更有名列日本三景之一的「松島」等眾多風景名勝。",
+        "visitLink": "https://tw.visitmiyagi.com/"
+      },
+      "iwate": {
+        "description": "幅員遼闊，是本州最大的縣，壯美的海岸線延伸至無邊無際。在世界遺產「平泉」，於平安末期興盛一時、華麗莊嚴的佛教文化至今仍完好保留著，令無數人為之著迷。岩手也擁有豐富的傳統文化，如南部鐵器及秀衡塗等等。",
+        "visitLink": "https://visitiwate.com/zh-tw/?redir"
+      }
+    },
+    "spot": {
+      "a": {
+        "title": "松島",
+        "description": "名列日本三景之一，坐擁東北第一寶座的風景名勝。松島灣一共散布著約260座島嶼，排布成一幅複雜而優美的景觀。此外，松島也是著名的賞月名勝，籠罩在陰影後的夕陽景色絕美動人。",
+        "link": "https://tw.visitmiyagi.com/areas/matsushima-bay/",
+        "map": "https://goo.gl/maps/e78AWCFKvXCVzssn8",
+        "TripAdvisor": "https://www.tripadvisor.com.tw/Attraction_Review-g319095-d1386254-Reviews-Matsushima_Bay-Matsushima_machi_Miyagi_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "b": {
+        "title": "瑞鳳殿",
+        "description": "祭祀以獨眼龍政宗的名號為世人所熟知的仙台藩祖伊達正宗的宗廟。本殿佇立於蓊鬱的杉木林中，造訪此處的遊客都會被帶有強烈桃山文化的絢爛豪華風格的設計所震撼。",
+        "link": "https://tw.visitmiyagi.com/articles/zuihoden-mausoleum/",
+        "map": "https://goo.gl/maps/9v4QLy6nW1LVV2eA7",
+        "TripAdvisor": "https://www.tripadvisor.com.tw/Attraction_Review-g298249-d1386303-Reviews-Zuihoden-Sendai_Miyagi_Prefecture_Tohoku.html"
+      },
+      "c": {
+        "title": "御釜",
+        "description": "位於藏王連峰最高海拔地區的火口湖，湖水呈現翡翠綠色，帶有一種神秘氣息。湖水的色澤時時刻刻都在細微地變化，奪人眼目，動人心弦。",
+        "link": "https://tw.visitmiyagi.com/contents/mt-zao/",
+        "map": "https://goo.gl/maps/frdtg19Po35YmaHr9",
+        "TripAdvisor": "https://www.tripadvisor.com.tw/Attraction_Review-g1104107-d1397280-Reviews-Okama_Crater-Zao_machi_Katta_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "d": {
+        "title": "淨土之濱",
+        "description": "代表三陸海岸的名勝地。翠綠的松樹、白色岩石、琉璃色的大海景觀交相輝映，形成猶如極樂淨土般的美景。乘坐小舟可抵達宛如寶石的美麗的鈷藍色「青之洞窟」。",
+        "link": "https://visitiwate.com/zh-tw/article/4697?redir",
+        "map": "https://goo.gl/maps/uFRsFFRKABDkWuXRA",
+        "TripAdvisor": "https://www.tripadvisor.com.tw/Attraction_Review-g1022873-d1379009-Reviews-Jodogahama_Beach-Miyako_Iwate_Prefecture_Tohoku.html"
+      },
+      "e": {
+        "title": "嚴美溪 ",
+        "description": "受磐井川侵蝕鏤刻而成的溪谷、瀑布、壺穴、奇岩、深淵，在此可欣賞到千變萬化、生氣盎然的景色。這裡還有一項名產「飛天糰子」，店家會利用滑索從對岸將糰子送到顧客手上，非常值得體驗看看。",
+        "link": "https://visitiwate.com/zh-tw/article/4707?redir",
+        "map": "https://goo.gl/maps/VPDZ4e6AGQzmJYMCA",
+        "TripAdvisor": "https://www.tripadvisor.com.tw/Attraction_Review-g1022875-d1170683-Reviews-Gembi_Valley-Ichinoseki_Iwate_Prefecture_Tohoku.html"
+      },
+      "f": {
+        "title": "毛越寺",
+        "description": "世界遺產・毛越寺建立於平安時代，重現佛之世界的「淨土庭園」。涵蓋了庭園大部分區域的水池中有著勾玉、玉石、枯山水等造景，營造出宛若極樂淨土的景致。",
+        "link": "https://visitiwate.com/zh-tw/article/4784?redir",
+        "map": "https://goo.gl/maps/SWPtdSRdqNU2m7Pv8",
+        "TripAdvisor": "https://www.tripadvisor.com.tw/Attraction_Review-g1120431-d325855-Reviews-Motsu_ji_Temple-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html"
+      }
+    },
+    "literals": {
+      "001": "",
+      "002m": "",
+      "002i": "",
+      "003mm": "",
+      "003mz": "",
+      "003mo": "",
+      "003ij": "",
+      "003ig": "",
+      "003im": "",
+      "004": "",
+      "L005M": "宮城、岩手2縣有世界遺產及國家公園，找出您的完美景色，探險一番吧。",
+      "L005I": "岩手、宮城2縣有世界遺產及國家公園，找出您的完美景色，探險一番吧。",
+      "006": "",
+      "L007": "絕佳美景",
+      "L008": "極致美景遊覽",
+      "009m": "",
+      "009i": "",
+      "010": "",
+      "011": "",
+      "012m": "",
+      "012i": "",
+      "L013M": "宮城縣魅力滿滿。透過官方網站發現其魅力吧。",
+      "L013I": "岩手縣魅力滿滿。透過官方網站發現其魅力吧。",
+      "L014": ""
+    }
+  },
+  "kr": {
+    "pref": {
+      "miyagi": {
+        "description": "도호쿠지방최대의도시,센다이시가있으며,도시와풍부한자연의매력을동시에갖추고있다.연안은다양한해산물이풍부하고,일본삼경중하나인\"마쓰시마\"등관광지도많다.",
+        "visitLink": "https://kr.visitmiyagi.com/"
+      },
+      "iwate": {
+        "description": "아름다운 해안선이 끝없이 펼쳐지는 혼슈 최대의 현. 세계유산 \"히라이즈미\"는 헤이안 시대 말기에 번성했던 화려한 불교 문화가 남아있어, 사람들을 매료시킨다. 남부 철기, 히데히라누리 등 전통문화도 풍부하다.",
+        "visitLink": "https://visitiwate.com/ko/?redir"
+      }
+    },
+    "spot": {
+      "a": {
+        "title": "마쓰시마",
+        "description": "일본삼경중하나로도호쿠에서으뜸가는경승지.마쓰시마만에는약260개의섬이흩어져있어,복잡하고우아한경관을만들어낸다.달의명소로도알려져있어,음영에찬석양도아름답다.",
+        "link": "https://kr.visitmiyagi.com/areas/matsushima-bay/",
+        "map": "https://goo.gl/maps/e78AWCFKvXCVzssn8",
+        "TripAdvisor": "https://www.tripadvisor.co.kr/Attraction_Review-g319095-d1386254-Reviews-Matsushima_Bay-Matsushima_machi_Miyagi_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "b": {
+        "title": "즈이호덴",
+        "description": "독안룡 마사무네로 알려진 센다이의 번주 다테 마사무네를 모신 영묘. 울창한 삼나무 사이에 나타나는 모모야마 문화를 강하게 반영하는 휘황찬란한 영묘에 압도된다. ",
+        "link": "https://kr.visitmiyagi.com/articles/zuihoden-mausoleum/",
+        "map": "https://goo.gl/maps/9v4QLy6nW1LVV2eA7",
+        "TripAdvisor": "https://www.tripadvisor.co.kr/Attraction_Review-g298249-d1386303-Reviews-Zuihoden-Sendai_Miyagi_Prefecture_Tohoku.html"
+      },
+      "c": {
+        "title": "오카마",
+        "description": "자오산맥에서해발이가장높은지역에있는분화호로에메랄드그린색깔을띤호수가신비하다.물은시시각각미묘하게색깔을바꾸며,보는것만으로도빠져들듯하다.",
+        "link": "https://kr.visitmiyagi.com/contents/mt-zao/",
+        "map": "https://goo.gl/maps/frdtg19Po35YmaHr9",
+        "TripAdvisor": "https://www.tripadvisor.co.kr/Attraction_Review-g1104107-d1397280-Reviews-Okama_Crater-Zao_machi_Katta_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "d": {
+        "title": "조도가하마",
+        "description": "산리쿠 해안을 대표하는 경승지. 푸른 소나무에 하얀 바위, 청보석빛 바다가 함께 만들어 낸 경치는 그야말로 극락정토. 삿파선을 타고 가다 보면 보석같이 아름다운 코발트블루의 '청색 동굴'에 다다릅니다.",
+        "link": "https://visitiwate.com/ko/article/4697?redir",
+        "map": "https://goo.gl/maps/uFRsFFRKABDkWuXRA",
+        "TripAdvisor": "https://www.tripadvisor.co.kr/Attraction_Review-g1022873-d1379009-Reviews-Jodogahama_Beach-Miyako_Iwate_Prefecture_Tohoku.html"
+      },
+      "e": {
+        "title": "겐비계곡",
+        "description": "이와이가와강의침식으로생긴계곡에서폭포와돌개구멍,기암,깊은못등변화무쌍하고역동적인경치를즐길수있다.건너편에서로프를타고내려보내는명물\"하늘을나는단고(경단)\"도체험해보자.",
+        "link": "https://visitiwate.com/ko/article/4707?redir",
+        "map": "https://goo.gl/maps/VPDZ4e6AGQzmJYMCA",
+        "TripAdvisor": "https://www.tripadvisor.co.kr/Attraction_Review-g1022875-d1170683-Reviews-Gembi_Valley-Ichinoseki_Iwate_Prefecture_Tohoku.html"
+      },
+      "f": {
+        "title": "모쓰지",
+        "description": "헤이안 시대에 건립된 세계 유산 모쓰지, 이곳에 부처의 세계를 나타낸 \"정토 정원\"이 있다. 정원 대부분을 차지하는 연못에는 곡옥, 옥석, 고산수의 석가산 등 극락정토가 표현되어 있다.",
+        "link": "https://visitiwate.com/ko/article/4784?redir",
+        "map": "https://goo.gl/maps/SWPtdSRdqNU2m7Pv8",
+        "TripAdvisor": "https://www.tripadvisor.co.kr/Attraction_Review-g1120431-d325855-Reviews-Motsu_ji_Temple-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html"
+      }
+    },
+    "literals": {
+      "001": "",
+      "002m": "",
+      "002i": "",
+      "003mm": "",
+      "003mz": "",
+      "003mo": "",
+      "003ij": "",
+      "003ig": "",
+      "003im": "",
+      "004": "",
+      "L005M": "미야기현과 이와테현에는 세계유산과 국립공원이 있습니다. 여러분만의 완벽한 경치를 찾아 탐험해 보십시오.",
+      "L005I": "이와테현과 미야기현에는 세계유산과 국립공원이 있습니다. 여러분만의 완벽한 경치를 찾아 탐험해 보십시오.",
+      "006": "",
+      "L007": "멋진 절경",
+      "L008": "완벽한 경관 투어",
+      "009m": "",
+      "009i": "",
+      "010": "",
+      "011": "",
+      "012m": "",
+      "012i": "",
+      "L013M": "미야기현에는 매력이 가득합니다. 공식 사이트에서 매력을 발견해요.",
+      "L013I": "이와테현에는 매력이 가득합니다. 공식 사이트에서 매력을 발견해요.",
+      "L014": ""
+    }
+  },
+  "th": {
+    "pref": {
+      "miyagi": {
+        "description": "จังหวัดที่ตั้งของเซนได เมืองที่ใหญ่ที่สุดในภูมิภาคโทโฮคุ มีเสน่ห์ในเรื่องของเมืองใหญ่และธรรมชาติที่อยู่ร่วมกันอย่างลงตัว ที่แนวชายฝั่งนั้นนอกจากจะอุดมไปด้วยผลผลิตจากทะเลหลากหลายชนิดแล้ว ยังมีทิวทัศน์ที่สวยงามมากมายอย่างเช่นเกาะ \"มัตสึชิมะ\" ที่เป็นหนึ่งในวิวที่ว่ากันว่าสวยงามที่สุดในประเทศญี่ปุ่น",
+        "visitLink": "https://th.visitmiyagi.com/"
+      },
+      "iwate": {
+        "description": "จังหวัดที่ใหญ่ที่สุดในเกาะฮอนชูที่มีชายฝั่งอันสวยงามทอดยาวออกไป ที่ฮิราอิซึมิซึ่งเป็นมรดกโลกนั้น ในอดีตเป็นศูนย์กลางของพุทธศาสนานิกายสุขาวดีที่เคยรุ่งเรืองในสมัยเฮอันตอนปลาย ซึ่งทำให้ผู้เลื่อมใสมากมายเดินทางมาไม่ขาดสาย และยังมีวัฒนธรรมพื้นบ้านที่เพื่องฟู อย่างเช่นเครื่องโลหะนัมบุและเครื่องเขินฮิเดฮิระนุริอีกด้วย",
+        "visitLink": "https://visitiwate.com/th/?redir"
+      }
+    },
+    "spot": {
+      "a": {
+        "title": "มัตสึชิมะ",
+        "description": "แหล่งสุดยอดทิวทัศน์แห่งโทโฮคุที่เป็นหนึ่งในสามทิวทัศน์ดังของญี่ปุ่น ที่อ่าวมัตสึชิมะมีเกาะต่างๆกว่า 260 เกาะ รวมกันเป็นภูมิทัศน์ที่สลับซับซ้อนและงดงาม นอกจากนี้ยังเป็นที่รู้จักในฐานะสถานที่ชมจันทร์ที่มีชื่อเสียง และทิวทัศน์ยามเย็นที่มีเงาแดดปกคลุมก็งดงามไม่แพ้กัน",
+        "link": "https://th.visitmiyagi.com/areas/matsushima-bay/",
+        "map": "https://goo.gl/maps/e78AWCFKvXCVzssn8",
+        "TripAdvisor": "https://th.tripadvisor.com/Attraction_Review-g319095-d1386254-Reviews-Matsushima_Bay-Matsushima_machi_Miyagi_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "b": {
+        "title": "สุสานซุยโฮเด็น",
+        "description": "สุสานฝังศพของท่านดาเตะมาสะมุเนะ (Date Masamune) เจ้าผู้ครองเมืองเซนไดคนแรก ผู้ซึ่งเป็นที่รู้จักในอีกฉายาว่ามาสะมุเนะมังกรตาเดียว   สุสานอันงดงามตระการตาที่สะท้อนให้เห็นถึงวัฒนธรรมโมโมะยามะ (Momoyama) ซึ่งตั้งอยู่ท่ามกลางป่าสนซีดาร์อันหนาทึบ จะทำให้ท่านตกตะลึงและประทับใจไม่มีวันลืม",
+        "link": "https://visitmiyagi.com/articles/zuihoden-mausoleum/",
+        "map": "https://goo.gl/maps/9v4QLy6nW1LVV2eA7",
+        "TripAdvisor": "https://th.tripadvisor.com/Attraction_Review-g298249-d1386303-Reviews-Zuihoden-Sendai_Miyagi_Prefecture_Tohoku.html"
+      },
+      "c": {
+        "title": "ทะเลสาบโอคามะ",
+        "description": "ทะเลสาบภูเขาไฟแห่งนี้ตั้งอยู่ในพื้นที่ที่สูงที่สุดของเทือกเขาซาโอ ความลึกลับอยู่ที่น้ำในทะเลสาบที่มีสีเขียวมรกต ซึ่งน้ำที่ว่านี้จะค่อยๆเปลี่ยนสีทุกๆชั่วโมง เพียงแค่ได้เห็นได้ชมก็เหมือนจะถูกกลืนเข้าไป",
+        "link": "https://th.visitmiyagi.com/feature/mt-zao-okama-crater/",
+        "map": "https://goo.gl/maps/frdtg19Po35YmaHr9",
+        "TripAdvisor": "https://th.tripadvisor.com/Attraction_Review-g1104107-d1397280-Reviews-Okama_Crater-Zao_machi_Katta_gun_Miyagi_Prefecture_Tohoku.html"
+      },
+      "d": {
+        "title": "โจโดะงะฮามะ",
+        "description": "จุดชมวิวซึ่งเป็นสัญลักษณ์ของชายฝั่งทะเลซังริคุ  ได้ชื่อว่าเป็นดินแดนแห่งสวรรค์จากทิวทัศน์อันงดงามของทะเลสีน้ำเงินซึ่งตัดกับสีขาวของพื้นผิวหินและสีเขียวของต้นสน สามารถล่องเรือขนาดเล็กชื่อเรือซัปปาไปชม \"ถ้ำสีน้ำเงิน\" ซึ่งมีสีโคบอลต์บลูอันงดงามราวกับอัญมณี",
+        "link": "https://visitiwate.com/th/article/4697?redir",
+        "map": "https://goo.gl/maps/uFRsFFRKABDkWuXRA",
+        "TripAdvisor": "https://th.tripadvisor.com/Attraction_Review-g1022873-d1379009-Reviews-Jodogahama_Beach-Miyako_Iwate_Prefecture_Tohoku.html"
+      },
+      "e": {
+        "title": "หุบเขาเก็มบิเค",
+        "description": "หุบเขาที่เกิดจากการกัดเซาะของแม่น้ำอิวาอิ มีบรรยากาศแบบไดนามิกที่เต็มไปด้วยสรรพสิ่งให้ได้เพลิดเพลินทั้งน้ำตก, กุมภลักษณ์, หินทรงประหลาด และหุบเหว และอย่าลืมมารับประทาน \"ดังโกะลอยฟ้า\" ของกินชื่อดังที่จะส่งมาจากร้านที่อยู่อีกฝั่งของเหว โดยปล่อยตะกร้าใส่ขนมให้ไหลมาตามเชือกที่ขึงอยู่",
+        "link": "https://visitiwate.com/th/article/4707?redir",
+        "map": "https://goo.gl/maps/VPDZ4e6AGQzmJYMCA",
+        "TripAdvisor": "https://th.tripadvisor.com/Attraction_Review-g1022875-d1170683-Reviews-Gembi_Valley-Ichinoseki_Iwate_Prefecture_Tohoku.html"
+      },
+      "f": {
+        "title": "วัดโมซือจิ",
+        "description": "ที่วัดโมซือจิอันเป็นมรดกโลกซึ่งสร้างขึ้นในยุคเฮอันแห่งนี้มี\"สวนโจโดะ\"ที่เป็นสวนที่จำลองภพภูมิในพุทธศาสนาอยู่ภายในสระน้ำของสวนจะมีหินมากาตามะหินกรวดและภูเขาจำลองในสวนหินซึ่งล้วนแต่แสดงถึงดินแดนสุขาวดี",
+        "link": "https://visitiwate.com/th/article/4784?redir",
+        "map": "https://goo.gl/maps/SWPtdSRdqNU2m7Pv8",
+        "TripAdvisor": "https://th.tripadvisor.com/Attraction_Review-g1120431-d325855-Reviews-Motsu_ji_Temple-Hiraizumi_cho_Nishiiwai_gun_Iwate_Prefecture_Tohoku.html"
+      }
+    },
+    "literals": {
+      "001": "",
+      "002m": "",
+      "002i": "",
+      "003mm": "",
+      "003mz": "",
+      "003mo": "",
+      "003ij": "",
+      "003ig": "",
+      "003im": "",
+      "004": "",
+      "L005M": "สำรวจและค้นหาทิวทัศน์ที่สมบูรณ์แบบสำหรับคุณ ที่จังหวัดมิยางิและอิวาเตะ ซึ่งเป็นที่ตั้งของแหล่งมรดกโลกและอุทยานแห่งชาติ",
+      "L005I": "สำรวจและค้นหาทิวทัศน์ที่สมบูรณ์แบบสำหรับคุณ ที่จังหวัดอิวาเตะและมิยางิ ซึ่งเป็นที่ตั้งของแหล่งมรดกโลกและอุทยานแห่งชาติ",
+      "006": "",
+      "L007": "ทิวทัศน์ที่งดงาม",
+      "L008": "ทัวร์ชมทิวทิศน์ที่สมบูรณ์แบบ",
+      "009m": "",
+      "009i": "",
+      "010": "",
+      "011": "",
+      "012m": "",
+      "012i": "",
+      "L013M": "จังหวัดมิยางิมีสถานที่ท่องเที่ยวที่มีเสน่ห์มากมาย มาค้นหาเสน่ห์เหล่านั้นที่เว็บไซต์ทางการกันเถอะ",
+      "L013I": "จังหวัดอิวาเตะมีสถานที่ท่องเที่ยวที่มีเสน่ห์มากมาย มาค้นหาเสน่ห์เหล่านั้นที่เว็บไซต์ทางการกันเถอะ",
+      "L014": ""
+    }
+  }
+}

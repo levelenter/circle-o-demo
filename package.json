@@ -1,0 +1,50 @@
+{
+  "name": "circle-o",
+  "version": "1.0.0",
+  "description": "circle-o",
+  "author": "9232",
+  "private": true,
+  "project": "circle-o",
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "pm2-dev": "pm2 start npm --name dev.circle-o -- run dev && pm2 save",
+    "pm2-dev-restart": "pm2 delete dev.circle-o && npm run clear-cache && npm run pm2-dev",
+    "pm2-start": "pm2 start npm --name prod.dev.circle-o -- run start && pm2 save",
+    "precommit": "npm run lint",
+    "clear-cache": "rimraf ./node_modules/.cache/hard-source",
+    "cc": "npm run clear-cache",
+    "clear-dist": "rimraf ./dist"
+  },
+  "browserslist": [
+    "last 2 version",
+    "android >= 4.4",
+    "IE 11"
+  ],
+  "devDependencies": {
+    "@nuxt/types": "^2.14.6",
+    "@nuxt/typescript-build": "^2.0.3",
+    "@types/node": "^14.11.8"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/pro-light-svg-icons": "^5.15.1",
+    "@fortawesome/pro-regular-svg-icons": "^5.15.1",
+    "@fortawesome/pro-solid-svg-icons": "^5.15.1",
+    "@fortawesome/vue-fontawesome": "^2.0.0",
+    "@nuxt/typescript-runtime": "^2.0.0",
+    "@nuxtjs/google-tag-manager": "^2.3.2",
+    "@nuxtjs/sitemap": "^2.4.0",
+    "@splidejs/vue-splide": "^0.3.5",
+    "@vue/composition-api": "^1.0.0-beta.16",
+    "animejs": "^3.2.1",
+    "lazysizes": "^5.2.2",
+    "nuxt": "^2.14.6",
+    "vue-scrollto": "^2.19.1",
+    "vueinview": "^1.0.7"
+  }
+}
