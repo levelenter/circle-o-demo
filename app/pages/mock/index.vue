@@ -1,200 +1,193 @@
 <template>
-  <main>
-    <div class="px-4 px-md-5 px-lg-9">
-      <div class="row align-items-end mt-405 mb-7">
-        <div class="col-12">
-          <ul class="row align-items-center mt-405">
-            <ul class="col-auto">
-              <img class="w-10rem lazyload lazypreload" data-src="/img/global/logo.svg" alt="CIRCLE-O">
-            </ul>
-            <li class="col-auto">
-              <button class="d-block w-11rem px-4 py-1 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
-                <div class="h-100 d-flex flex-wrap align-items-center">
-                  <div class="font-weight-700 ls-0 fz-xs">先生を探す</div>
-                  <div class="ml-auto"><font-awesome-icon class="clr-wht small mb-025" :icon="['fas', 'search']" /></div>
-                </div>
-              </button>
-            </li>
-            <li class="col-auto ml-auto">
-              <nuxt-link to="/" class="clr-blk font-weight-700 fz-2xs">よくある質問</nuxt-link>
-            </li>
-            <li class="col-auto">
-              <nuxt-link to="/" class="clr-blk font-weight-700 fz-2xs">お問い合わせ</nuxt-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <form action="">
-        <div class="form-group">
-          <div class="row low-gutters">
-            <div class="col-auto">
-              <div class="inlineSelect font-RyoGothic-B">
-                <div class="form-row align-items-center">
-                  <div class="col-auto">
-                    <div class="pb-1 bbsd bw-02r bc-blk">
-                      <select class="form-control clr-blk" id="exampleFormControlSelect1"><option value="[object Object]">学年を選択してください</option><option value="[object Object]">小学校1年生</option><option value="[object Object]">小学校2年生</option><option value="[object Object]">小学校3年生</option><option value="[object Object]">小学校4年生</option><option value="[object Object]">小学校5年生</option><option value="[object Object]">小学校6年生</option><option value="[object Object]">中学校1年生</option><option value="[object Object]">中学校2年生</option><option value="[object Object]">中学校3年生</option><option value="[object Object]">特に高校受験に向けた中学生の受験生</option><option value="[object Object]">高校1年生</option><option value="[object Object]">高校2年生</option><option value="[object Object]">高校3年生</option><option value="[object Object]">特に大学受験に向けた高校生の受験生</option></select>
-                    </div>
+  <main :class="constants.pxMain">
+    <header class="pb-1" :class="constants.mySec">
+      <ul class="row low-gutters row-md align-items-center">
+        <li class="col-auto">
+          <img class="w-6rem w-sm-10rem lazyload lazypreload" data-src="/img/global/logo.svg" alt="CIRCLE-O">
+        </li>
+        <li class="col-auto">
+          <button class="d-block w-9rem w-sm-11rem px-3 px-sm-4 py-1 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
+            <div class="h-100 d-flex flex-wrap align-items-center">
+              <div class="font-weight-700 ls-0 fz-xs">先生を探す</div>
+              <div class="ml-auto"><font-awesome-icon class="clr-wht small mb-025" :icon="['fas', 'search']" /></div>
+            </div>
+          </button>
+        </li>
+        <li class="col-auto ml-auto">
+          <nuxt-link to="/" class="clr-blk font-weight-700 fz-2xs">よくある質問</nuxt-link>
+        </li>
+        <li class="col-auto">
+          <nuxt-link to="/" class="clr-blk font-weight-700 fz-2xs">お問い合わせ</nuxt-link>
+        </li>
+      </ul>
+    </header>
+    <form :class="[constants.mySec]" class="btsd bbsd bw-03r bc-wht d-block bg-wht-op07 rounded-sm-sm py-405 px-3 p-sm-405 p-md-4 px-lg-3 p-xl-405 mx-n3 mx-sm-0" action="">
+      <div class="form-group mb-0">
+        <div class="row low-gutters">
+          <div class="col-auto">
+            <div class="inlineSelect font-RyoGothic-B">
+              <div class="form-row align-items-center">
+                <div class="col-auto">
+                  <div class="pb-1 bbsd bw-02r bc-blk">
+                    <select class="form-control clr-blk ls-n004 fz-sm-sm fz-xl-md" id="exampleFormControlSelect1"><option value="[object Object]">学年を選択してください</option><option value="[object Object]">小学校1年生</option><option value="[object Object]">小学校2年生</option><option value="[object Object]">小学校3年生</option><option value="[object Object]">小学校4年生</option><option value="[object Object]">小学校5年生</option><option value="[object Object]">小学校6年生</option><option value="[object Object]">中学校1年生</option><option value="[object Object]">中学校2年生</option><option value="[object Object]">中学校3年生</option><option value="[object Object]">特に高校受験に向けた中学生の受験生</option><option value="[object Object]">高校1年生</option><option value="[object Object]">高校2年生</option><option value="[object Object]">高校3年生</option><option value="[object Object]">特に大学受験に向けた高校生の受験生</option></select>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col-auto">
-              <h2 class="fz-sm fz-md-md fz-lg-lg clr-blk lh-101">の先生を探す</h2>
+          </div>
+          <div class="col-auto">
+            <h2 class="clr-blk lh-101 ls-n002 fz-sm-sm fz-xl-md">の先生を探す</h2>
+          </div>
+        </div>
+        <div class="form-row add-xl-gutters pt-1 pt-sm-3 pl-1 pl-sm-0">
+          <div class="col-auto">
+            <div class="row no-gutters mt-3 mt-sm-2 mt-md-0 align-items-center">
+              <div class="col-sm-auto">
+                <h4 class="clr-blk fz-2xs fz-xl-xs lh-108">教科</h4>
+              </div>
+              <div class="col-auto d-none d-sm-block">：</div>
+              <div class="col-auto">
+                <ul class="row low-gutters">
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="customCheck1">国語</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck2">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="customCheck2">算数/数学</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck3">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="customCheck3">理科</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck4">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="customCheck4">社会</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck5">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="customCheck5">英語</label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
-          <div class="row add-gutters">
-            <div class="col-auto">
-              <div class="row no-gutters mt-3" align-items-center>
-                <div class="col-auto">
-                  <h4 class="clr-blk fz-2xs lh-108">教科</h4>
-                </div>
-                <div class="col-auto">
-                  ：
-                </div>
-                <div class="col-auto">
-                  <ul class="row low-gutters">
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck1">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="customCheck1">国語</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck2">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="customCheck2">算数/数学</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck3">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="customCheck3">理科</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck4">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="customCheck4">社会</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="customCheck5">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="customCheck5">英語</label>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
+          <div class="col-auto">
+            <div class="row no-gutters mt-3 mt-sm-2 mt-md-0 align-items-center">
+              <div class="col-sm-auto">
+                <h4 class="clr-blk fz-2xs fz-xl-xs lh-108">曜日</h4>
+              </div>
+              <div class="col-auto d-none d-sm-block">：</div>
+              <div class="col-auto">
+                <ul class="row low-gutters">
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="day1">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="day1">月</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="day2">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="day2">火</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="day3">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="day3">水</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="day4">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="day4">木</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="day5">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="day5">金</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="day6">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="day6">土</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="day7">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="day7">日</label>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
-            <div class="col-auto">
-              <div class="row no-gutters mt-3" align-items-center>
-                <div class="col-auto">
-                  <h4 class="clr-blk fz-2xs lh-108">曜日</h4>
-                </div>
-                <div class="col-auto">
-                  ：
-                </div>
-                <div class="col-auto">
-                  <ul class="row low-gutters">
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="day1">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="day1">月</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="day2">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="day2">火</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="day3">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="day3">水</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="day4">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="day4">木</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="day5">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="day5">金</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="day6">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="day6">土</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="day7">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="day7">日</label>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
+          </div>
+          <div class="col-auto">
+            <div class="row no-gutters mt-3 mt-sm-2 mt-md-0 align-items-center">
+              <div class="col-sm-auto">
+                <h4 class="clr-blk fz-2xs fz-xl-xs lh-108">タイプ</h4>
               </div>
-            </div>
-            <div class="col-auto">
-              <div class="row no-gutters mt-3" align-items-center>
-                <div class="col-auto">
-                  <h4 class="clr-blk fz-2xs lh-108">タイプ</h4>
-                </div>
-                <div class="col-auto">
-                  ：
-                </div>
-                <div class="col-auto">
-                  <ul class="row low-gutters">
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="type1">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="type1">聴者</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="type2">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="type2">難聴者</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="type3">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="type3">ろう者</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="type4">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="type4">日本手話</label>
-                      </div>
-                    </li>
-                    <li class="col-auto">
-                      <div class="custom-control custom-checkbox">
-                        <input type="checkbox" class="custom-control-input" id="type5">
-                        <label class="custom-control-label font-RyoGothic-B fz-2xs lh-109" for="type5">日本語手話</label>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
+              <div class="col-auto d-none d-sm-block">：</div>
+              <div class="col-auto">
+                <ul class="row low-gutters">
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="type1">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="type1">聴者</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="type2">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="type2">難聴者</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="type3">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="type3">ろう者</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="type4">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="type4">日本手話</label>
+                    </div>
+                  </li>
+                  <li class="col-auto">
+                    <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="type5">
+                      <label class="custom-control-label font-RyoGothic-B fz-2xs fz-xl-xs lh-109" for="type5">日本語手話</label>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
-      </form>
-      <ul class="row add3x-gutters">
-        <li class="col-4 mt-7">
+      </div>
+    </form>
+    <section :class="[constants.mtSec]">
+      <h1 class="font-RyoGothic-B clr-blk lh-1 ls-0 pt-1" :class="constants.fzSm"><span class="bigger">👨‍🏫</span> <strong class="bigger">40</strong>人の該当する先生がいます <span class="bigger">👩‍🏫</span></h1>
+      <ul class="form-row add2x-xl-gutters add3x-4xl-gutters">
+        <li class="col-sm-6 col-lg-4" :class="constants.mtListTeacher">
           <div class="form-row align-items-end">
             <div class="col-6">
-              <div class="mx-n405 mx-md-0 ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
+              <div class="ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
                 <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
@@ -210,29 +203,29 @@
                 </picture>
               </div>
               <h1 class="fz-xsm lh-104 clr-blk mt-3">haztr | snaq me hattori</h1>
-              <p class="fz-2xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
+              <p class="fz-2xs fz-2xl-xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
               <ul class="row low-gutters">
                 <li class="col-12">
-                  <button class="d-block px-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
+                  <button class="d-block px-2 px-xl-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r my-3 mb-md-0">
                     <div class="h-100 d-flex flex-wrap align-items-center">
                       <div class="font-weight-700 ls-0 fz-sm">習いたい</div>
                       <div class="ml-auto"><font-awesome-icon class="clr-gray-light" :icon="['fas', 'chalkboard-teacher']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">プロフィール</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">プロフィール</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">お気に入りへ</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">お気に入りへ</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
                     </div>
                   </button>
                 </li>
@@ -240,10 +233,10 @@
             </div>
           </div>
         </li>
-        <li class="col-4 mt-7">
+        <li class="col-sm-6 col-lg-4" :class="constants.mtListTeacher">
           <div class="form-row align-items-end">
             <div class="col-6">
-              <div class="mx-n405 mx-md-0 ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
+              <div class="ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
                 <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
@@ -259,29 +252,29 @@
                 </picture>
               </div>
               <h1 class="fz-xsm lh-104 clr-blk mt-3">haztr | snaq me hattori</h1>
-              <p class="fz-2xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
+              <p class="fz-2xs fz-2xl-xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
               <ul class="row low-gutters">
                 <li class="col-12">
-                  <button class="d-block px-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
+                  <button class="d-block px-2 px-xl-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r my-3 mb-md-0">
                     <div class="h-100 d-flex flex-wrap align-items-center">
                       <div class="font-weight-700 ls-0 fz-sm">習いたい</div>
                       <div class="ml-auto"><font-awesome-icon class="clr-gray-light" :icon="['fas', 'chalkboard-teacher']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">プロフィール</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">プロフィール</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">お気に入りへ</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">お気に入りへ</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
                     </div>
                   </button>
                 </li>
@@ -289,10 +282,10 @@
             </div>
           </div>
         </li>
-        <li class="col-4 mt-7">
+        <li class="col-sm-6 col-lg-4" :class="constants.mtListTeacher">
           <div class="form-row align-items-end">
             <div class="col-6">
-              <div class="mx-n405 mx-md-0 ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
+              <div class="ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
                 <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
@@ -308,29 +301,29 @@
                 </picture>
               </div>
               <h1 class="fz-xsm lh-104 clr-blk mt-3">haztr | snaq me hattori</h1>
-              <p class="fz-2xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
+              <p class="fz-2xs fz-2xl-xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
               <ul class="row low-gutters">
                 <li class="col-12">
-                  <button class="d-block px-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
+                  <button class="d-block px-2 px-xl-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r my-3 mb-md-0">
                     <div class="h-100 d-flex flex-wrap align-items-center">
                       <div class="font-weight-700 ls-0 fz-sm">習いたい</div>
                       <div class="ml-auto"><font-awesome-icon class="clr-gray-light" :icon="['fas', 'chalkboard-teacher']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">プロフィール</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">プロフィール</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">お気に入りへ</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">お気に入りへ</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
                     </div>
                   </button>
                 </li>
@@ -338,10 +331,10 @@
             </div>
           </div>
         </li>
-        <li class="col-4 mt-7">
+        <li class="col-sm-6 col-lg-4" :class="constants.mtListTeacher">
           <div class="form-row align-items-end">
             <div class="col-6">
-              <div class="mx-n405 mx-md-0 ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
+              <div class="ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
                 <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
@@ -357,29 +350,29 @@
                 </picture>
               </div>
               <h1 class="fz-xsm lh-104 clr-blk mt-3">haztr | snaq me hattori</h1>
-              <p class="fz-2xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
+              <p class="fz-2xs fz-2xl-xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
               <ul class="row low-gutters">
                 <li class="col-12">
-                  <button class="d-block px-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
+                  <button class="d-block px-2 px-xl-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r my-3 mb-md-0">
                     <div class="h-100 d-flex flex-wrap align-items-center">
                       <div class="font-weight-700 ls-0 fz-sm">習いたい</div>
                       <div class="ml-auto"><font-awesome-icon class="clr-gray-light" :icon="['fas', 'chalkboard-teacher']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">プロフィール</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">プロフィール</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">お気に入りへ</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">お気に入りへ</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
                     </div>
                   </button>
                 </li>
@@ -387,10 +380,10 @@
             </div>
           </div>
         </li>
-        <li class="col-4 mt-7">
+        <li class="col-sm-6 col-lg-4" :class="constants.mtListTeacher">
           <div class="form-row align-items-end">
             <div class="col-6">
-              <div class="mx-n405 mx-md-0 ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
+              <div class="ovh h-vt-moive rounded position-relative embed-responsive embed-responsive-1by1 btn-neumo">
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
                 <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
                 <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
@@ -406,29 +399,29 @@
                 </picture>
               </div>
               <h1 class="fz-xsm lh-104 clr-blk mt-3">haztr | snaq me hattori</h1>
-              <p class="fz-2xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
+              <p class="fz-2xs fz-2xl-xs mt-2">hattori。食のスタートアップ「スナックミー」代表。コンサル→VC→スタートアップ起業。</p>
               <ul class="row low-gutters">
                 <li class="col-12">
-                  <button class="d-block px-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
+                  <button class="d-block px-2 px-xl-3 py-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r my-3 mb-md-0">
                     <div class="h-100 d-flex flex-wrap align-items-center">
                       <div class="font-weight-700 ls-0 fz-sm">習いたい</div>
                       <div class="ml-auto"><font-awesome-icon class="clr-gray-light" :icon="['fas', 'chalkboard-teacher']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">プロフィール</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">プロフィール</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
                     </div>
                   </button>
                 </li>
-                <li class="col-6">
-                  <button class="d-block p-2 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-3">
-                    <div class="h-100 d-flex flex-wrap align-items-center">
-                      <div class="font-weight-700 ls-0 small-xs">お気に入りへ</div>
-                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
+                <li class="col-md-6">
+                  <button class="d-block p-2 px-md-0 px-2xl-205 w-100 bg-wht hvr-bg-red hvr-clr-red rounded btn-neumo bsd bc-wht bw-02r mt-205 mt-md-3">
+                    <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
+                      <div class="font-weight-700 ls-n005 small-2xs">お気に入りへ</div>
+                      <div class="ml-auto d-md-none d-2xl-block"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'bookmark']" /></div>
                     </div>
                   </button>
                 </li>
@@ -437,7 +430,7 @@
           </div>
         </li>
       </ul>
-    </div>
+    </section>
   </main>
 </template>
 
