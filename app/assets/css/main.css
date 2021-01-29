@@ -10,7 +10,7 @@ Base
 /* iPhone6 plus 414px 1.29375 */
 @media only screen and (min-width:412px){html{font-size: 87.3%;}}
 /* sm */
-@media(min-width: 576px){html{font-size: 64%;}}
+@media(min-width: 576px){html{font-size: 80%;}}
 /* md */
 @media(min-width: 768px){html{font-size: 80%;}}
 /* lg */
@@ -26,12 +26,17 @@ html{position: relative; background: #f0f0f0;}
 body{color: #444;font-family:"font-RyoGothic-R",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;letter-spacing: .02em;font-weight: 400;background: #f0f0f0;}
 
 .font-RyoGothic-R,.font-RyoGothic-B,.font-RyoGothic-H,h1,h2,h3,h4,h5,h6{font-family: ryo-gothic-plusn;font-style: normal;}
+
+.font-V7MG-B,.font-V7MG-EB{font-family: vdl-v7marugothic, sans-serif;}
+
+
 .font-weight-200{font-weight: 200 !important}
 .font-weight-300{font-weight: 300 !important}
 .font-weight-400,.font-RyoGothic-R{font-weight: 400 !important}
 .font-weight-600,a{font-weight: 600 !important}
-.font-weight-700,.font-RyoGothic-B,button{font-weight: 700 !important}
-.font-weight-800,.font-RyoGothic-H{font-weight: 800 !important}
+.font-weight-700,.font-RyoGothic-B,.font-V7MG-B,button{font-weight: 700 !important}
+.font-weight-800,.font-RyoGothic-H,.font-V7MG-EB{font-weight: 800 !important}
+.bigger-lg{font-size: 1.75em;}
 .bigger{font-size: 1.5em;}
 .ls-n004{letter-spacing: -.04em;}
 
@@ -43,20 +48,37 @@ body{color: #444;font-family:"font-RyoGothic-R",-apple-system,system-ui,BlinkMac
 .btn-neumo-co{background: linear-gradient(145deg, #53b8ea, #328ab6);}
   .btn-neumo-co:hover{color:#fff !important;background: linear-gradient(145deg, #333, #000);}
 
+
+.effect-neumo{background: linear-gradient(145deg, #fff, #f5f5f5);box-shadow:  .15rem .15rem .3rem #ddd,-.2rem -.2rem .4rem #fff;}
+.shadow-light {-webkit-filter: drop-shadow(2rem .75rem 1.5rem rgba(0,0,0,.1));filter: drop-shadow(2rem .75rem 1.5rem rgba(0,0,0,.1));}
+
+
 p{line-height: 1.6;}
 h1,h2,h3,h4,h5,h6{line-height: 1.6;font-weight: 600;}
 a:hover,a:focus {color: #999; text-decoration: none;}
 .nuxt-link-active:not(#h1-head).nuxt-link-exact-active{opacity: .45;}
 .nuxt-link-active.nuxt-link-exact-active.btn-lang{opacity:1 !important;color: #545454 !important;}
 
+.of-cover{object-fit: cover;}
+
 /*  ((100vw - 2*一番外の左右Pd - 2*colの間Pd)*レスポンシブ)/半分/9*16   */
 .h-vt-moive{height: calc(((100vw - 2*1rem - 2*.5rem)*1)/2/9*16);}
+/*lp*/
+.ovyh .h-vt-moive{height: calc((((100vw - 2*1rem - 2*.5rem)*0.83333333)/2)/9*16);}
+
+.fz-tl{font-size: 2.45rem !important;}
+
 .w-705rem{width:7.5rem;}
 .w-805rem{width:8.5rem;}
 .w-2805rem{width:28.5rem;}
 .maw-20rem{max-width: 20rem;}
 .maw-30rem{max-width: 30rem;}
 
+.t-n02{top: -.2rem;}
+.t-n01{top: -.1rem;}
+.t-n1{top: -.5rem;}
+
+.mt-4075{margin-top: 2.75rem;}
 .mb-022{margin-bottom: .22rem;}
 
 .p-2075{padding: .875rem;}
@@ -74,9 +96,12 @@ a:hover,a:focus {color: #999; text-decoration: none;}
 .bg-wht-op06{background-color: rgba(255,255,255,.6);}
 .bg-red{background-color: red !important;}
 .bg-co{background-color: #328ab6 !important;}
+.bg-sv{background-color: #002045!important;}
 
+.clr-line{color: #00c300 !important;}
+.clr-sv{color: #002045!important;}
 .clr-co{color: #328ab6 !important;}
-.clr-red{color: #e60012;}
+.clr-red{color: #de4c23 !important;}
 .clr-gray{color: #949494;}
 .clr-gray-light{color: #bdbdbd !important;}
 
@@ -113,6 +138,12 @@ input:checked ~ .custom-control-label::before {border-color: #333 !important;bac
 .custom-control-label::after {top: 0.28rem !important;left: -1.48rem !important;}
 
 
+
+.box-tl-q{counter-reset:faqlist;}
+  .tl-q{position: relative;padding-top: 1em;}
+    .tl-q:before {position: absolute;top: -.15em;left:0;color: #328ab6;font-size: .9em;counter-increment:faqlist;content:"Q"counter(faqlist)".";letter-spacing: -.1rem;}
+
+
 /* ==========================================================================
 Responsive
 ========================================================================== */
@@ -120,9 +151,14 @@ Responsive
 @media(min-width: 576px){
   /*  ((100vw - 2*一番外の左右Pd - 2*一番外の左右Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
   .h-vt-moive{height: calc(((100vw - 2*3rem - 2*.5rem)*0.5 - .5rem*2)/2/9*16);}
+  /*lp*/
+  .ovyh .h-vt-moive{height: calc((((100vw - 2*1rem - 2*.5rem)*0.41666667)/2)/9*16);}
+  .fz-tl{font-size: 3.5rem !important;}
 }
 /* md */
 @media(min-width: 768px){
+  /*lp*/
+  .ovyh .h-vt-moive{height: calc(((100vw - 2*3rem - 2*.5rem)*0.5 - .25rem*2)/2/9*16);}
 }
 /* lg */
 @media(min-width: 920px){

@@ -7,16 +7,16 @@ const meta = [
   },
   {
     name: 'copyright',
-    content: 'Copyright © IWATE MIYAGI Prefecture All rights reserved.'
+    content: 'Copyright © CIRCLE O All rights reserved.'
   },
-  { name: 'Author', content: 'TOHOKU JAPAN' },
+  { name: 'Author', content: 'CIRCLE O' },
   { name: 'format-detection', content: 'telephone=no' },
   { hid: 'og:locale', property: 'og:locale', content: 'ja_JP' },
   { hid: 'og:type', property: 'og:type', content: 'website' },
   {
     hid: 'og:site_name',
     property: 'og:site_name',
-    content: 'TOHOKU JAPAN'
+    content: 'CIRCLE O'
   },
   { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' }
 ]
@@ -27,7 +27,7 @@ module.exports = {
     { src: 'https://use.typekit.net/arj7eql.js' }
   ],
   link: [
-    { hid: 'favicon', rel: 'shortcut icon', href: `/img/global/favicon.png` },
+    { hid: 'favicon', rel: 'shortcut icon',type: 'image/svg+xml', href: `/img/global/favicon.svg` },
     { hid: 'apple-touch-icon-precomposed', rel: 'apple-touch-icon-precomposed', href: `/img/global/webclip.png` },
     { hid: 'apple-touch-icon', rel: 'apple-touch-icon', href: `/img/global/webclip.png` }
   ],

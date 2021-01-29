@@ -7,8 +7,28 @@
     @after-leave="afterLeave"
     @leave-cancelled="leaveCancelled"
   >
-    <div v-show="isShow" id="scroll-to-page-top" v-scroll="handleScroll" class="page-scroll bottomRight mr-4 mb-7">
-      <a v-scroll-to="'#page-top'" href="#page-top" class="fz-2xl fz-lg-3xl clr-gray-light"><font-awesome-icon :icon="['fal', 'angle-up']"/></a>
+    <div v-show="isShow" id="scroll-to-page-top" v-scroll="handleScroll" class="page-scroll w-100 bottomRight pl-3 pr-4 pb-4">
+      <div class="row no-gutters row-md align-items-center">
+        <div class="col-auto">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_MpLUgaoXjWf9_5nS2mu-A0Hf9_xu66E2lQuMUx-h075h3g/viewform" target="_blank" class="d-block w-11rem w-sm-13rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
+            <div class="h-100 d-flex flex-wrap align-items-center">
+              <div class="font-V7MG-EB fz-xs">無料お申し込み</div>
+              <div class="ml-auto"><font-awesome-icon class="clr-wht small" :icon="['fas', 'hands-helping']" /></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-auto ml-2">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB6e9nSS-JI3TyrDNTLsUDkVujJSDQ2l2O9Cu5YiG4ewYY_w/viewform" target="_blank" class="d-block w-9rem w-sm-13rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
+            <div class="h-100 d-flex flex-wrap align-items-center">
+              <div class="font-V7MG-EB fz-xs">先生になる</div>
+              <div class="ml-auto"><font-awesome-icon class="clr-wht small" :icon="['fas', 'user-edit']" /></div>
+            </div>
+          </a>
+        </div>
+        <div class="col-auto ml-auto">
+          <a v-scroll-to="'#page-top'" href="#page-top" class="fz-2xl fz-lg-3xl clr-blk"><font-awesome-icon :icon="['fal', 'angle-up']"/></a>
+        </div>
+      </div>
     </div>
   </transition>
 </template>
