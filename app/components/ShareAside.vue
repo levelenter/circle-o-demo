@@ -28,7 +28,7 @@ export default {
     hashTags: { type: Array, default: () => [] }
   },
   data() {
-    let hashTagString = 'tohoku,japan'
+    let hashTagString = 'circle-o'
     if (this.hashTags.length > 0) {
       hashTagString += ',' + this.hashTags.join(',')
     }
