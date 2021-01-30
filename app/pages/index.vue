@@ -1319,7 +1319,7 @@ export default {
       bodyClasses: ['page-home'],
       title: 'ろう児・難聴児のオンライン対話学習コミュニティ「Circle O - サークルオー｣',
       description: 'コロナ禍における「新しい生活様式」の普及によって生活にマスクは必需品となりました。この「口が見えない」マスクを多くの人が着用することで、話しかけられていることにも気づくことができず、先生やお友達とのコミュニケーションが取りにくい状況になった子どもたちがいます。オンライン対話コミュニティcircle O（サークルオー）が、そんな状況にある、ろう児・難聴児のご家庭へオンライン授業の無償提供を行います。子どもたちの「学びを止めない」ために、ぜひご活用ください。',
-      ogImage: '/img/teaser/teaser.jpg'
+      ogImage: 'img/teaser/teaser.jpg'
     }
     return head(props, this.$store)
   }
