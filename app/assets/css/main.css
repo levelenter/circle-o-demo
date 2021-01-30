@@ -143,6 +143,16 @@ input:checked ~ .custom-control-label::before {border-color: #333 !important;bac
   .tl-q{position: relative;padding-top: 1em;}
     .tl-q:before {position: absolute;top: -.15em;left:0;color: #328ab6;font-size: .9em;counter-increment:faqlist;content:"Q"counter(faqlist)".";letter-spacing: -.1rem;}
 
+.rotate-15{transform: rotate(15deg);}
+.rotate-n15{transform: rotate(-15deg);}
+.rotate-8{transform: rotate(8deg);}
+.rotate-n8{transform: rotate(-8deg);}
+#ils-5{top:23rem;left:0rem;}
+#ils-6{top:20rem;left:2rem;}
+#ils-7{top:24rem;right:0rem;}
+#ils-8{top:20rem;right:3rem;}
+#ils-9{top:37rem;right:2rem;}
+
 
 /* ==========================================================================
 Responsive
@@ -154,18 +164,33 @@ Responsive
   /*lp*/
   .ovyh .h-vt-moive{height: calc((((100vw - 2*1rem - 2*.5rem)*0.41666667)/2)/9*16);}
   .fz-tl{font-size: 3.5rem !important;}
+  #ils-5{top:30rem;left:5rem;}
+  #ils-6{top:24rem;left:8rem;}
+  #ils-7{top:27rem;right:5rem;}
+  #ils-8{top:24rem;right:10rem;}
+  #ils-9{top:30rem;right:2rem;}
 }
 /* md */
 @media(min-width: 768px){
   /*lp*/
   .pr-md-12,.px-md-12{padding-right: 10rem !important;}
   .pl-md-12,.px-md-12{padding-left: 10rem !important;}
+  #ils-5{top:33rem;left:5rem;}
+  #ils-6{top:27rem;left:8rem;}
+  #ils-7{top:30rem;right:5rem;}
+  #ils-8{top:27rem;right:10rem;}
+  #ils-9{top:34rem;right:2rem;}
 }
 /* lg */
 @media(min-width: 920px){
   .fz-tl{font-size: 4.5rem !important;}
   /*  ((100vw - 2*一番外の左右Pd - 4*colの間Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
   .h-vt-moive,.ovyh .h-vt-moive{height: calc(((100vw - 2*3rem - 4*.5rem)*0.33333333 - .5rem*2)/2/9*16);}
+  #ils-5{top:37rem;left:12rem;}
+  #ils-6{top:25rem;left:5rem;}
+  #ils-7{top:24rem;right:4rem;}
+  #ils-8{top:31rem;right:13rem;}
+  #ils-9{top:35rem;right:5rem;}
 }
 /* iPad landscape iPad Pro */
 @media(min-width:1024px) and (max-width : 1366px) {
@@ -181,6 +206,11 @@ Responsive
   /*  ((100vw - 2*一番外の左右Pd - 4*colの間Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
   .h-vt-moive{height: calc(((100vw - 2*3rem - 4*2rem)*0.33333333 - .5rem*2)/2/9*16);}
   .ovyh .h-vt-moive{height: calc(((100vw - 2*3rem - 6*.5rem)*0.25 - .5rem*2)/2/9*16);}
+  #ils-5{top:33rem;left:12rem;}
+  #ils-6{top:13rem;left:3rem;}
+  #ils-7{top:11rem;right:2rem;}
+  #ils-8{top:24rem;right:13rem;}
+  #ils-9{top:36rem;right:8rem;}
 }
 /*2xl*/
 @media(min-width:1366px){
@@ -195,6 +225,11 @@ Responsive
   .mr-2xl-10,.mx-2xl-10{margin-right: 8rem !important}
   /*  ((100vw - 2*一番外の左右Pd - 4*colの間Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
   .h-vt-moive{height: calc(((100vw - 2*4rem - 4*2rem)*0.33333333 - .5rem*2)/2/9*16);}
+  #ils-5{top:27rem;left:12rem;}
+  #ils-6{top:7rem;left:5rem;}
+  #ils-7{top:5rem;right:0rem;}
+  #ils-8{top:18rem;right:13rem;}
+  #ils-9{top:30rem;right:8rem;}
 }
 /*3xl*/
 @media(min-width:1600px){
@@ -205,6 +240,11 @@ Responsive
   .mb-3xl-505,.my-3xl-505{margin-bottom: 3.5rem !important;}
   .mr-3xl-505,.mx-3xl-505{margin-right: 3.5rem !important;}
   .ml-3xl-505,.mx-3xl-505{margin-left: 3.5rem !important;}
+  #ils-5{top:29rem;left:18rem;}
+  #ils-6{top:9rem;left:6rem;}
+  #ils-7{top:7rem;right:3rem;}
+  #ils-8{top:20rem;right:14rem;}
+  #ils-9{top:33rem;right:13rem;}
 }
 /*4xl*/
 @media(min-width:1800px){

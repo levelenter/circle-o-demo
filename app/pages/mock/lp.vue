@@ -6,31 +6,40 @@
           <img class="w-7rem w-md-10rem lazyload lazypreload" data-src="/img/global/logo.svg" alt="CIRCLE-O">
         </li>
         <li class="col-auto ml-auto">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_MpLUgaoXjWf9_5nS2mu-A0Hf9_xu66E2lQuMUx-h075h3g/viewform" target="_blank" class="d-block w-11rem w-sm-13rem w-lg-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_MpLUgaoXjWf9_5nS2mu-A0Hf9_xu66E2lQuMUx-h075h3g/viewform" target="_blank" class="d-block w-11rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
             <div class="h-100 d-flex flex-wrap align-items-center">
-              <div class="font-V7MG-EB fz-xs fz-md-sm fz-lg-md">無料お申し込み</div>
+              <div class="font-V7MG-EB fz-xs fz-md-md">無料お申し込み</div>
               <div class="ml-auto"><font-awesome-icon class="clr-wht small" :icon="['fas', 'hands-helping']" /></div>
             </div>
           </a>
         </li>
         <li class="col-auto ml-2">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB6e9nSS-JI3TyrDNTLsUDkVujJSDQ2l2O9Cu5YiG4ewYY_w/viewform" target="_blank" class="d-block w-9rem w-sm-13rem w-lg-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB6e9nSS-JI3TyrDNTLsUDkVujJSDQ2l2O9Cu5YiG4ewYY_w/viewform" target="_blank" class="d-block w-9rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
             <div class="h-100 d-flex flex-wrap align-items-center">
-              <div class="font-V7MG-EB fz-xs fz-md-sm fz-lg-md">先生になる</div>
+              <div class="font-V7MG-EB fz-xs fz-md-md">先生になる</div>
               <div class="ml-auto"><font-awesome-icon class="clr-wht small" :icon="['fas', 'user-edit']" /></div>
             </div>
           </a>
         </li>
       </ul>
     </header>
-    <h1 class="text-center clr-blk fz-tl font-V7MG-EB lh-1 pt-3 pb-405">
-      <span class="ls-n0105 bigger-lg strong ml-n2 mb-2 d-block clr-co">
-        <span class="mr-2">話</span>そう<span class="ml-1">､</span><span class="mr-2">学</span>ぼう!
-      </span>
-      <span class="d-block my-3 my-md-4"><span class="ls-n01 mr-1">オンライン</span>対話授業</span>
-      <strong class="d-block ls-n01">｢サークルオー｣<span class="ls-n01">スタート👨‍💻</span></strong>
-    </h1>
-    <div class="mx-n2">
+    <div class="position-relative">
+      <figure>
+        <img id="ils-5" data-src="/img/global/illust/5.svg" alt="" class="w-2rem w-sm-3rem w-lg-5rem w-xl-6rem w-2xl-7rem rotate-15 position-absolute z-1 lazyload lazypreload">
+        <img id="ils-6" data-src="/img/global/illust/6.svg" alt="" class="w-3rem w-sm-5rem w-lg-9rem w-xl-12rem w-2xl-14rem rotate-n15 position-absolute z-1 lazyload lazypreload">
+        <img id="ils-9" data-src="/img/global/illust/9.svg" alt="" class="w-5rem w-sm-9rem w-lg-15rem w-xl-17rem w-2xl-18rem rotate-8 position-absolute z-1 lazyload lazypreload">
+        <img id="ils-8" data-src="/img/global/illust/8.svg" alt="" class="w-2rem w-sm-3rem w-lg-5rem w-xl-7rem w-2xl-8rem rotate-n8 position-absolute z-1 lazyload lazypreload">
+        <img id="ils-7" data-src="/img/global/illust/7.svg" alt="" class="w-3rem w-sm-5rem w-lg-8rem w-xl-12rem w-2xl-13rem rotate-n8 position-absolute z-1 lazyload lazypreload">
+      </figure>
+      <h1 class="text-center clr-blk fz-tl font-V7MG-EB lh-1 pt-3 pb-405">
+        <span class="ls-n0105 ls- bigger-lg strong ml-n2 mb-2 d-block clr-co">
+          <span class="mr-2">話</span>そう<span class="ml-1">､</span><span class="mr-2 mr-xl-3">学</span>ぼう!
+        </span>
+        <span class="d-block my-3 my-md-4"><span class="ls-n01 mr-1">オンライン</span>対話授業</span>
+        <strong class="d-block ls-n01">｢サークルオー｣<span class="ls-n01">スタート👨‍💻</span></strong>
+      </h1>
+    </div>
+    <div class="mx-n2 position-relative">
       <ul class="row no-gutters form-sm-row justify-content-between justify-content-sm-center">
         <li class="col-auto">
           <div class="row no-gutters justify-content-center align-items-center">
@@ -64,7 +73,7 @@
               <img class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem lazyload" data-src="/img/global/win-l.svg">
             </div>
             <div class="col-auto">
-              <h2 class="clr-blk font-V7MG-EB text-center lh-1 lh-md-102" :class="constants.fzLg"><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">有料継続<br>希望度</span>94.7<small class="font-V7MG-B fz-xs">%</small></h2>
+              <h2 class="clr-blk font-V7MG-EB text-center lh-1 lh-md-102" :class="constants.fzLg"><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">継続<br>希望度</span>94.7<small class="font-V7MG-B fz-xs">%</small></h2>
             </div>
             <div class="col-auto">
               <img class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem lazyload" data-src="/img/global/win-r.svg">
@@ -74,9 +83,9 @@
       </ul>
     </div>
     <div class="row justify-content-center" :class="constants.mbLg">
-      <div class="col-10 col-sm-6 col-md-7 col-lg-5 col-xl-4 mt-5">
+      <div class="col-10 col-sm-6 col-md-7 col-lg-5 col-2xl-4 mt-5">
         <img data-src="/img/global/illust/4-2.svg" alt="" class="w-100 pr-3 lazyload lazypreload">
-        <h3 class="font-V7MG-EB text-center lh-104 clr-co fz-md-sm mt-n5 mt-md-n6 pl-2">ろう･難聴児に双方向型<br>｢<strong class="clr-red">オンライン対話授業</strong>｣を</h3>
+        <h3 class="font-V7MG-EB text-center lh-104 clr-co fz-md-sm fz-xl-md mt-n5 mt-md-n6 pl-2">ろう･難聴児に双方向型<br>｢<strong class="clr-red">オンライン対話授業</strong>｣を</h3>
       </div>
       <div class="col-11 col-sm-10">
         <h2 :class="constants.mtLg" class="text-center clr-blk font-V7MG-EB lh-1">
@@ -653,21 +662,31 @@
         <div :class="[constants.mtP,constants.mxNmain]">
           <div :class="[constants.mtLg]" class="row no-gutters">
             <picture class="col-6 h-14rem h-sm-18rem h-md-26rem h-xl-30rem h-2xl-40rem">
-              <img data-src="/img/example/4.webp" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+              <source data-srcset="/img/lp/scene/1@0.75x.jpg" media="--xl" />
+              <source data-srcset="/img/lp/scene/1@0.5x.jpg" media="--sm" />
+              <img data-src="/img/lp/scene/1@0.33x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
             </picture>
             <div class="col-6">
               <div class="row no-gutters">
                 <picture class="col-6 h-7rem h-sm-9rem h-md-13rem h-xl-15rem h-2xl-20rem">
-                  <img data-src="/img/example/5.webp" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                  <source data-srcset="/img/lp/scene/2@0.5x.jpg" media="--xl" />
+                  <source data-srcset="/img/lp/scene/2@0.33x.jpg" media="--sm" />
+                  <img data-src="/img/lp/scene/2@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
                 <picture class="col-6 h-7rem h-sm-9rem h-md-13rem h-xl-15rem h-2xl-20rem"">
-                  <img data-src="/img/example/6.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                  <source data-srcset="/img/lp/scene/3@0.5x.jpg" media="--xl" />
+                  <source data-srcset="/img/lp/scene/3@0.33x.jpg" media="--sm" />
+                  <img data-src="/img/lp/scene/3@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
                 <picture class="col-6 h-7rem h-sm-9rem h-md-13rem h-xl-15rem h-2xl-20rem"">
-                  <img data-src="/img/example/7.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                  <source data-srcset="/img/lp/scene/4@0.5x.jpg" media="--xl" />
+                  <source data-srcset="/img/lp/scene/4@0.33x.jpg" media="--sm" />
+                  <img data-src="/img/lp/scene/4@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
                 <picture class="col-6 h-7rem h-sm-9rem h-md-13rem h-xl-15rem h-2xl-20rem"">
-                  <img data-src="/img/example/8.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                  <source data-srcset="/img/lp/scene/5@0.5x.jpg" media="--xl" />
+                  <source data-srcset="/img/lp/scene/5@0.33x.jpg" media="--sm" />
+                  <img data-src="/img/lp/scene/5@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
               </div>
             </div>
@@ -689,9 +708,10 @@
               <li class="col-9 col-sm-12 col-lg-4" :class="constants.mtListTeacher">
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-lg-100">
                   <div class="row no-gutters justify-content-center">
-                    <div class="col-12 col-sm-5 col-lg-12 pt-4 h-14rem bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
-                      <picture class="d-block h-11rem ovh">
-                        <img data-src="/img/example/l.jpg" alt="" class="h-100 ml-n9 img-aign-center lazyload lazypreload">
+                    <div class="col-12 col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
+                      <picture class="d-block h-14rem ovh">
+                        <source data-srcset="/img/lp/curriculum/1@0.75x.jpg" media="--xl" />
+                        <img data-src="/img/lp/curriculum/1@0.5x.jpg" alt="ことばの授業" class="h-100 w-100 of-cover lazyload lazypreload">
                       </picture>
                     </div>
                     <div class="col-10 col-sm py-4 px-sm-5 p-lg-405">
@@ -708,9 +728,10 @@
               <li class="col-9 col-sm-12 col-lg-4" :class="constants.mtListTeacher">
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-lg-100">
                   <div class="row no-gutters justify-content-center">
-                    <div class="col-12 col-sm-5 col-lg-12 h-14rem bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
+                    <div class="col-12 col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
-                        <img data-src="/img/example/c.jpg" alt="" class="w-100 mt-n3 img-aign-center lazyload lazypreload">
+                        <source data-srcset="/img/lp/curriculum/2@0.75x.jpg" media="--xl" />
+                        <img data-src="/img/lp/curriculum/2@0.5x.jpg" alt="教科学習授業" class="h-100 w-100 of-cover lazyload lazypreload">
                       </picture>
                     </div>
                     <div class="col-10 col-sm py-4 px-sm-5 p-lg-405">
@@ -727,9 +748,10 @@
               <li class="col-9 col-sm-12 col-lg-4" :class="constants.mtListTeacher">
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-lg-100">
                   <div class="row no-gutters justify-content-center">
-                    <div class="col-12 col-sm-5 col-lg-12 pt-405 h-14rem bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
-                      <picture class="d-block h-11rem ovh text-right">
-                        <img data-src="/img/example/r.jpg" alt="" class="h-100 d-inine-block img-aign-center lazyload lazypreload">
+                    <div class="col-12 col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
+                      <picture class="d-block h-14rem ovh">
+                        <source data-srcset="/img/lp/curriculum/3@0.75x.jpg" media="--xl" />
+                        <img data-src="/img/lp/curriculum/3@0.5x.jpg" alt="ロールモデル教育授業" class="h-100 w-100 of-cover lazyload lazypreload">
                       </picture>
                     </div>
                     <div class="col-10 col-sm py-4 px-sm-5 p-lg-405">
@@ -1295,9 +1317,9 @@ export default {
   head() {
     const props = {
       bodyClasses: ['page-home'],
-      title: 'LESSON / CIRCLE-O',
-      description: 'LESSON / CIRCLE-O',
-      ogImage: '/img/global/ogi/a.jpg'
+      title: 'ろう児・難聴児のオンライン対話学習コミュニティ「Circle O - サークルオー｣',
+      description: 'コロナ禍における「新しい生活様式」の普及によって生活にマスクは必需品となりました。この「口が見えない」マスクを多くの人が着用することで、話しかけられていることにも気づくことができず、先生やお友達とのコミュニケーションが取りにくい状況になった子どもたちがいます。オンライン対話コミュニティcircle O（サークルオー）が、そんな状況にある、ろう児・難聴児のご家庭へオンライン授業の無償提供を行います。子どもたちの「学びを止めない」ために、ぜひご活用ください。',
+      ogImage: '/img/teaser/teaser.jpg'
     }
     return head(props, this.$store)
   }
