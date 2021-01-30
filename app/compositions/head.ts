@@ -43,24 +43,6 @@ export default (props: HeadProps, $store: any) => {
   const og = getOg(props, title, description, baseUrl)
   const { bodyClasses, htmlClasses } = getClasses(props, $store)
 
-  const ALL_COUNTRIES = ['en', 'fr', 'de', 'cn', 'tw', 'kr', 'th']
-  const ALL_LANGUAGES = ['en-US', 'fr-FR', 'de-DE', 'zh-CN', 'zh-TW', 'ko-KR', 'th-TH']
-  const COUNTRY_LANGUAGE_MAP: { [key: string]: string } = ALL_COUNTRIES.reduce((acc: { [key: string]: string }, cur, idx) => {
-    acc[cur] = ALL_LANGUAGES[idx]
-    return acc
-  }, {})
-  const LANGUAGE_COUNTRY_MAP: { [key: string]: string } = ALL_LANGUAGES.reduce((acc: { [key: string]: string }, cur, idx) => {
-    acc[cur] = ALL_COUNTRIES[idx]
-    return acc
-  }, {})
-
-  const country = props.lang || 'en'
-  const language = COUNTRY_LANGUAGE_MAP[country]
-  let alternateLanguages: string[] = []
-  if (props.lang) {
-    alternateLanguages = ALL_LANGUAGES.filter(lang => lang !== language)
-  }
-
   const meta = [
     { hid: 'description', name: 'description', content: description },
     { hid: 'og:url', property: 'og:url', content: url },
@@ -71,23 +53,15 @@ export default (props: HeadProps, $store: any) => {
       content: og.description
     },
     { hid: 'og:image', property: 'og:image', content: og.image },
-    { hid: 'og:locale', property: 'og:locale', content: getOgLocale(language) }
   ]
   const link = [
     { hid: 'rel:canonical', rel: 'canonical', href: canonicalUrl },
-    { hid: 'rel:alternate', rel: 'alternate', href: url, hreflang: language}
   ]
-  alternateLanguages.forEach(alternateLang => {
-    const ogAltLocale = getOgLocale(alternateLang)
-    meta.push({ hid: `og:locale:alternate:${ogAltLocale}`, property: 'og:locale:alternate', content: ogAltLocale })
-    const href = `${baseUrl}` + getAlternatePath(country, LANGUAGE_COUNTRY_MAP[alternateLang], path)
-    link.push({ hid: `rel:alternate:${alternateLang}`, rel: 'alternate', href, hreflang: alternateLang})
-  })
 
   const head: any = {
     title: title,
     htmlAttrs: {
-      lang: language
+      lang: 'ja-JP'
     },
     meta,
     script: [],
