@@ -858,7 +858,7 @@
                 <div class="col-4 col-sm-3 col-lg-2">
                   <div class="px-lg-4">
                     <picture class="d-block ovh rounded-circle position-relative z-1">
-                      <img data-src="/img/example/9.png" alt="" class="w-100 lazyload lazypreload">
+                      <img data-src="/img/prof/co-1.webp" alt="" class="w-100 lazyload lazypreload">
                     </picture>
                   </div>
                   <h3 class="fz-xsm text-center"><span class="d-inline-block text-left small-xs lh-101 font-RyoGothic-B mt-205">サークルオー事業責任者 / NPO法人Silent Voice 理事</span><strong class="mt-2 mt-sm-0 d-block">岡松 有香</strong><small class="clr-blk d-block">- 言語聴覚士</small></h3>
@@ -899,7 +899,7 @@
                       <img data-src="/img/prof/itoda.webp" alt="" class="w-100 lazyload lazypreload">
                     </picture>
                   </div>
-                  <h3 class="fz-xsm text-center"><span class="d-inline-block text-left small-xs lh-101 font-RyoGothic-B mt-205">サークルオー事業責任者 </span><strong class="mt-2 mt-sm-0 d-block">井戸上勝一</strong></h3>
+                  <h3 class="fz-xsm text-center"><span class="d-inline-block text-left small-xs lh-101 font-RyoGothic-B mt-205">サークルオー<br>事業責任者 </span><strong class="mt-2 mt-sm-0 d-block">井戸上勝一</strong></h3>
                 </div>
                 <div class="col">
                   <h4 class="fz-xs">子どもたちの世界を拓く機会を</h4>
@@ -1327,5 +1327,3 @@ export default {
 </script>
 
 <style></style>
-
-
