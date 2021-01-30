@@ -6,7 +6,7 @@
           <img class="w-10rem lazyload lazypreload" data-src="/img/global/logo.svg" alt="CIRCLE-O">
         </li>
         <li class="col-auto">
-          <h2 class="fz-xs clr-blk text-center lh-103 ls-0">竹中半兵衛<small class="font-weight-700">さん</small> <small class="font-weight-700">こんにちは</small>😄</h2>
+          <h2 class="fz-xs clr-blk text-center lh-103 ls-0">Circle<small class="font-weight-700">さん</small> <small class="font-weight-700">こんにちは</small>😄</h2>
           <small class="d-block small-2xs mt-1 lh-103 ls-0">レッスンのためにプロフを100%に</small>
         </li>
         <li class="col-auto">
@@ -44,7 +44,7 @@
         </div>
         <div class="toast-body">
           <nuxt-link to="/" class="d-block font-weight-700 fz-xsm">
-            アンダーソン 先生より2020年12月10日(木)19時からの算数レッスンの振替希望がきています🙇💦
+            なほこ 先生より2020年12月10日(木)19時からの算数レッスンの振替希望がきています🙇💦
           </nuxt-link>
         </div>
       </li>
@@ -58,7 +58,7 @@
         </div>
         <div class="toast-body">
           <nuxt-link to="/" class="d-block font-weight-700 fz-xsm">
-            伊能忠敬 先生より2020年12月08日(水)15時からの国語レッスンの振替希望がきています🙇💦
+            ゆうこ 先生より2020年12月08日(水)15時からの国語レッスンの振替希望がきています🙇💦
           </nuxt-link>
         </div>
       </li>
@@ -76,7 +76,7 @@
             </button>
             <div class="row align-items-end">
               <div class="col-auto">
-                <h1 class='fz-xs clr-blk'>アンダーソン<small class="font-weight-700">先生</small><br><strong class="fz-xl">算数 19:00−20:00 (5/12回)</strong></h1>
+                <h1 class='fz-xs clr-blk'>なほこ<small class="font-weight-700">先生</small><br><strong class="fz-xl">算数 19:00−20:00 (5/12回)</strong></h1>
               </div>
               <div class="col-auto mb-2">
                 <button class="d-block px-3 py-1 w-1105rem clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
@@ -91,8 +91,8 @@
               <div class="col-auto mb-025">
                 <div class="w-2rem w-md-105rem d-block">
                   <picture class="d-block rounded-circle ovh bsd bw-1px">
-                    <source data-srcset="/img/prof/kuri@0.25x.jpg" media="--sm" />
-                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/kuri@0.25x.jpg" alt="元木 哲三">
+                    <source data-srcset="/img/prof/1@0.25x.jpg" media="--sm" />
+                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/1@0.25x.jpg" alt="元木 哲三">
                   </picture>
                 </div>
               </div>
@@ -108,13 +108,13 @@
               <div class="col-auto mb-2">
                 <div class="w-2rem w-md-3rem d-block">
                   <picture class="d-block rounded-circle ovh bsd bw-1px">
-                    <source data-srcset="/img/prof/motoki@0.25x.jpg" media="--sm" />
-                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/motoki@0.25x.jpg" alt="元木 哲三">
+                    <source data-srcset="/img/prof/7@0.25x.jpg" media="--sm" />
+                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/7@0.25x.jpg" alt="元木 哲三">
                   </picture>
                 </div>
               </div>
               <div class="col mt-3 mt-md-0">
-                <h1 class="fz-xsm lh-103 clr-blk pl-1">伊能忠敬<small class="font-weight-700 ml-1">先生</small></h1>
+                <h1 class="fz-xsm lh-103 clr-blk pl-1">ゆうこ<small class="font-weight-700 ml-1">先生</small></h1>
                 <ul class="form-row align-items-center">
                   <li class="col-auto">
                     <p class="fz-2xs ls-0 lh-1">サッカーが好きです^^</p>
@@ -245,7 +245,7 @@
             </button>
             <div class="row align-items-end">
               <div class="col-auto">
-                <h1 class='fz-xs clr-blk'>伊能忠敬<small class="font-weight-700">先生</small><br><strong class="fz-xl">国語 15:00−16:00 (0/12回)</strong></h1>
+                <h1 class='fz-xs clr-blk'>ゆうこ<small class="font-weight-700">先生</small><br><strong class="fz-xl">国語 15:00−16:00 (0/12回)</strong></h1>
               </div>
               <div class="col-auto mb-2">
                 <button class="d-block px-3 py-1 w-1105rem clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
@@ -260,8 +260,8 @@
               <div class="col-auto mb-025">
                 <div class="w-2rem w-md-105rem d-block">
                   <picture class="d-block rounded-circle ovh bsd bw-1px">
-                    <source data-srcset="/img/prof/motoki@0.25x.jpg" media="--sm" />
-                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/motoki@0.25x.jpg" alt="元木 哲三">
+                    <source data-srcset="/img/prof/7@0.25x.jpg" media="--sm" />
+                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/7@0.25x.jpg" alt="元木 哲三">
                   </picture>
                 </div>
               </div>
@@ -277,13 +277,13 @@
               <div class="col-auto mb-2">
                 <div class="w-2rem w-md-3rem d-block">
                   <picture class="d-block rounded-circle ovh bsd bw-1px">
-                    <source data-srcset="/img/prof/motoki@0.25x.jpg" media="--sm" />
-                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/motoki@0.25x.jpg" alt="元木 哲三">
+                    <source data-srcset="/img/prof/7@0.25x.jpg" media="--sm" />
+                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/7@0.25x.jpg" alt="元木 哲三">
                   </picture>
                 </div>
               </div>
               <div class="col mt-3 mt-md-0">
-                <h1 class="fz-xsm lh-103 clr-blk pl-1">伊能忠敬<small class="font-weight-700 ml-1">先生</small></h1>
+                <h1 class="fz-xsm lh-103 clr-blk pl-1">ゆうこ<small class="font-weight-700 ml-1">先生</small></h1>
                 <ul class="form-row align-items-center">
                   <li class="col-auto">
                     <p class="fz-2xs ls-0 lh-1">サッカーが好きです^^</p>

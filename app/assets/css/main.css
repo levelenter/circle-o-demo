@@ -14,9 +14,9 @@ Base
 /* md */
 @media(min-width: 768px){html{font-size: 80%;}}
 /* lg */
-@media(min-width: 769px){html{font-size: 72%;}}
+@media(min-width: 769px){html{font-size: 75%;}}
 /* xl */
-@media(min-width: 1200px){html{font-size: 73%;}}
+@media(min-width: 1200px){html{font-size: 78%;}}
 /*2xl*/
 @media(min-width:1366px){html{font-size: 80%;}}
 /*3xl*/
@@ -158,12 +158,14 @@ Responsive
 /* md */
 @media(min-width: 768px){
   /*lp*/
-  .ovyh .h-vt-moive{height: calc(((100vw - 2*3rem - 2*.5rem)*0.5 - .25rem*2)/2/9*16);}
+  .pr-md-12,.px-md-12{padding-right: 10rem !important;}
+  .pl-md-12,.px-md-12{padding-left: 10rem !important;}
 }
 /* lg */
 @media(min-width: 920px){
+  .fz-tl{font-size: 4.5rem !important;}
   /*  ((100vw - 2*一番外の左右Pd - 4*colの間Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
-  .h-vt-moive{height: calc(((100vw - 2*3rem - 4*.5rem)*0.33333333 - .5rem*2)/2/9*16);}
+  .h-vt-moive,.ovyh .h-vt-moive{height: calc(((100vw - 2*3rem - 4*.5rem)*0.33333333 - .5rem*2)/2/9*16);}
 }
 /* iPad landscape iPad Pro */
 @media(min-width:1024px) and (max-width : 1366px) {
@@ -175,8 +177,10 @@ Responsive
   .mb-xl-505,.my-xl-505{margin-bottom: 3.5rem !important;}
   .mr-xl-505,.mx-xl-505{margin-right: 3.5rem !important;}
   .ml-xl-505,.mx-xl-505{margin-left: 3.5rem !important;}
+  .fz-tl{font-size: 5rem !important;}
   /*  ((100vw - 2*一番外の左右Pd - 4*colの間Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
   .h-vt-moive{height: calc(((100vw - 2*3rem - 4*2rem)*0.33333333 - .5rem*2)/2/9*16);}
+  .ovyh .h-vt-moive{height: calc(((100vw - 2*3rem - 6*.5rem)*0.25 - .5rem*2)/2/9*16);}
 }
 /*2xl*/
 @media(min-width:1366px){
