@@ -7,9 +7,9 @@
   "project": "circle-o",
   "scripts": {
     "dev": "nuxt-ts",
-    "build": "nuxt-ts build",
+    "build": "cp prod.nuxtignore app/.nuxtignore && nuxt-ts build && rm app/.nuxtignore",
     "start": "nuxt-ts start",
-    "generate": "nuxt-ts generate",
+    "generate": "cp prod.nuxtignore app/.nuxtignore && nuxt-ts generate && rm app/.nuxtignore",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "pm2-dev": "pm2 start npm --name dev.circle-o -- run dev && pm2 save",
     "pm2-dev-restart": "pm2 delete dev.circle-o && npm run clear-cache && npm run pm2-dev",

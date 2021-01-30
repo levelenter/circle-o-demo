@@ -9,6 +9,7 @@ const sitemap = require('./app/config/sitemap.ts')
 const generate = require('./app/config/generate.ts')
 
 const nuxtConfig: NuxtConfig = {
+  target: 'static',
   srcDir: 'app',
   telemetry: false,
   env: {
