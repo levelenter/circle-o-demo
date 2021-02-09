@@ -369,25 +369,31 @@
           </li>
         </ul>
       </div>
-      <!-- <div class="col-md-auto mt-405 mt-md-0">
+      <div class="col-md-auto mt-405 mt-md-0">
         <div class="w-25rem">
           <section class="mb-7">
             <h1 class="fz-xsm lh-1 clr-co pl-025"><font-awesome-icon :icon="['fas', 'dot-circle']" /> ニュース</h1>
             <ul class="row low-gutters">
               <li class="col-6 mt-405">
                 <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
-                  <picture class="h-5rem d-block ovh">
+                  <!-- <picture class="h-5rem d-block ovh">
                     <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/safe_image.jpg" alt="">
-                  </picture>
-                  <h2 class="fz-2xs px-3 py-3 lh-103">2020年12月04日(火)、爆音コンビニ 東京都板橋区某所にオープン！...</h2>
+                  </picture> -->
+                  <div class="px-3 py-3">
+                    <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
+                    <h2 class="fz-2xs lh-103">2020年12月04日(火)、爆音コンビニ 東京都板橋区某所にオープン！...</h2>
+                  </div>
                 </a>
               </li>
               <li class="col-6 mt-405">
                 <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
-                  <picture class="h-5rem d-block ovh">
+                  <!-- <picture class="h-5rem d-block ovh">
                     <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/Co_catch.png" alt="">
-                  </picture>
-                  <h2 class="fz-2xs px-3 py-3 lh-103">2021年01月03日(金)、ZOOMで大集合！ろう難聴児のことばの学びを...</h2>
+                  </picture> -->
+                  <div class="px-3 py-3">
+                    <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
+                    <h2 class="fz-2xs lh-103">2021年01月03日(金)、ZOOMで大集合！ろう難聴児のことばの学びを...</h2>
+                  </div>
                 </a>
               </li>
             </ul>
@@ -397,24 +403,30 @@
             <ul class="row low-gutters">
               <li class="col-6 mt-405">
                 <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
-                  <picture class="h-5rem d-block ovh">
+                  <!-- <picture class="h-5rem d-block ovh">
                     <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/safe_image.jpg" alt="">
-                  </picture>
-                  <h2 class="fz-2xs px-3 py-3 lh-103">2020年12月04日(火)、爆音コンビニ 東京都板橋区某所にオープン！...</h2>
+                  </picture> -->
+                  <div class="px-3 py-3">
+                    <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
+                    <h2 class="fz-2xs lh-103">2020年12月04日(火)、爆音コンビニ 東京都板橋区某所にオープン！...</h2>
+                  </div>
                 </a>
               </li>
               <li class="col-6 mt-405">
                 <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
-                  <picture class="h-5rem d-block ovh">
+                  <!-- <picture class="h-5rem d-block ovh">
                     <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/Co_catch.png" alt="">
-                  </picture>
-                  <h2 class="fz-2xs px-3 py-3 lh-103">2021年01月03日(金)、ZOOMで大集合！ろう難聴児のことばの学びを...</h2>
+                  </picture> -->
+                  <div class="px-3 py-3">
+                    <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
+                    <h2 class="fz-2xs lh-103">2021年01月03日(金)、ZOOMで大集合！ろう難聴児のことばの学びを...</h2>
+                  </div>
                 </a>
               </li>
             </ul>
           </section>
         </div>
-      </div> -->
+      </div>
     </div>
   </main>
 </template>

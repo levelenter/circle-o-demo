@@ -488,7 +488,7 @@
                       </picture>
                     </div>
                     <h2 class="fz-xsm lh-104 clr-blk mt-1">えみ <small class="ml-1">先生</small></h2>
-                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">学生の勉強や受験､学校生活など私自身の経験を元に一人一人に合ったサポートが出来るように頑張ります！</p>
+                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">学生の勉強や受験､学校生活など私自身の経験を元に一人一人に合ったサポートが出来るように頑張ります!</p>
                     <!-- <ul>
                       <li class="row no-gutters mt-025">
                         <div class="col-auto w-205rem">
@@ -547,7 +547,7 @@
                       </picture>
                     </div>
                     <h2 class="fz-xsm lh-104 clr-blk mt-1">まいか<small class="ml-1">先生</small></h2>
-                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">日本手話､韓国手話､挨拶程度に中国手話ができます。よろしくお願いします！</p>
+                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">日本手話､韓国手話､挨拶程度に中国手話ができます。よろしくお願いします!</p>
                     <!-- <ul>
                       <li class="row no-gutters mt-025">
                         <div class="col-auto w-205rem">
@@ -587,6 +587,383 @@
                   </div>
                 </div>
               </li>
+              <li class="col-10 col-sm-5 col-lg-4 col-xl-3" :class="constants.mtListTeacher">
+                <div class="form-row align-items-end">
+                  <div class="col-6">
+                    <div class="ovh z-1 position-relative h-vt-moive rounded position-relative bsd bg-co bw-04r bc-co embed-responsive embed-responsive-1by1 effect-neumo">
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-bottom position-absolute bottomRight op-05"></div>
+                      <iframe class="embed-responsive-item lazyload lazypreload" data-src="https://www.youtube-nocookie.com/embed/mi1vR0_ejew" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="w-2rem w-md-205rem d-block">
+                      <picture class="d-block rounded-circle ovh bsd bw-1px">
+                        <source data-srcset="/img/prof/9@0.25x.jpg" media="--sm" />
+                        <img class="w-100 lazyload lazypreload" data-src="/img/prof/9@0.25x.jpg" alt="なほこ先生">
+                      </picture>
+                    </div>
+                    <h2 class="fz-xsm lh-104 clr-blk mt-1">にし<small class="ml-1">先生</small></h2>
+                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">ギャロデット大学大学院のろう教育専攻を卒業し､アメリカのメリーランドろう学校での勤務経験があります!</p>
+                    <!-- <ul>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">教科</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>国語</li>
+                            <li>数学</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">曜日</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>月</li>
+                            <li>金</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">タイプ</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>難聴者</li>
+                            <li>日本手話</li>
+                            <li>日本語手話</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul> -->
+                  </div>
+                </div>
+              </li>
+              <li class="col-10 col-sm-5 col-lg-4 col-xl-3" :class="constants.mtListTeacher">
+                <div class="form-row align-items-end">
+                  <div class="col-6">
+                    <div class="ovh z-1 position-relative h-vt-moive rounded position-relative bsd bg-co bw-04r bc-co embed-responsive embed-responsive-1by1 effect-neumo">
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-bottom position-absolute bottomRight op-05"></div>
+                      <iframe class="embed-responsive-item lazyload lazypreload" data-src="https://www.youtube-nocookie.com/embed/gORhiFWjKlw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="w-2rem w-md-205rem d-block">
+                      <picture class="d-block rounded-circle ovh bsd bw-1px">
+                        <source data-srcset="/img/prof/10@0.25x.jpg" media="--sm" />
+                        <img class="w-100 lazyload lazypreload" data-src="/img/prof/10@0.25x.jpg" alt="なほこ先生">
+                      </picture>
+                    </div>
+                    <h2 class="fz-xsm lh-104 clr-blk mt-1">２B<small class="ml-1">先生</small></h2>
+                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">2018年にガーナ北部の聾学校で2年間､ICT(パソコン)の授業をボランティアとして教えていました。</p>
+                    <!-- <ul>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">教科</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>国語</li>
+                            <li>数学</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">曜日</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>月</li>
+                            <li>金</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">タイプ</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>難聴者</li>
+                            <li>日本手話</li>
+                            <li>日本語手話</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul> -->
+                  </div>
+                </div>
+              </li>
+              <li class="col-10 col-sm-5 col-lg-4 col-xl-3" :class="constants.mtListTeacher">
+                <div class="form-row align-items-end">
+                  <div class="col-6">
+                    <div class="ovh z-1 position-relative h-vt-moive rounded position-relative bsd bg-co bw-04r bc-co embed-responsive embed-responsive-1by1 effect-neumo">
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-bottom position-absolute bottomRight op-05"></div>
+                      <iframe class="embed-responsive-item lazyload lazypreload" data-src="https://www.youtube-nocookie.com/embed/Va9igOYCh9A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="w-2rem w-md-205rem d-block">
+                      <picture class="d-block rounded-circle ovh bsd bw-1px">
+                        <source data-srcset="/img/prof/11@0.25x.jpg" media="--sm" />
+                        <img class="w-100 lazyload lazypreload" data-src="/img/prof/11@0.25x.jpg" alt="なほこ先生">
+                      </picture>
+                    </div>
+                    <h2 class="fz-xsm lh-104 clr-blk mt-1">ふにゃこ<small class="ml-1">先生</small></h2>
+                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">                      みなさんが､本からたくさんのことを学べるよう､お手伝いしたいと思っています! NZの手話を日本の手話で教えています♪</p>
+                    <!-- <ul>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">教科</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>国語</li>
+                            <li>数学</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">曜日</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>月</li>
+                            <li>金</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">タイプ</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>難聴者</li>
+                            <li>日本手話</li>
+                            <li>日本語手話</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul> -->
+                  </div>
+                </div>
+              </li>
+              <li class="col-10 col-sm-5 col-lg-4 col-xl-3" :class="constants.mtListTeacher">
+                <div class="form-row align-items-end">
+                  <div class="col-6">
+                    <div class="ovh z-1 position-relative h-vt-moive rounded position-relative bsd bg-co bw-04r bc-co embed-responsive embed-responsive-1by1 effect-neumo">
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-bottom position-absolute bottomRight op-05"></div>
+                      <iframe class="embed-responsive-item lazyload lazypreload" data-src="https://www.youtube-nocookie.com/embed/sEQn9h3pzjU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="w-2rem w-md-205rem d-block">
+                      <picture class="d-block rounded-circle ovh bsd bw-1px">
+                        <source data-srcset="/img/prof/12@0.25x.jpg" media="--sm" />
+                        <img class="w-100 lazyload lazypreload" data-src="/img/prof/12@0.25x.jpg" alt="なほこ先生">
+                      </picture>
+                    </div>
+                    <h2 class="fz-xsm lh-104 clr-blk mt-1">ワカ<small class="ml-1">先生</small></h2>
+                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">趣味は旅行とバドミントンです。最近は絵を描くことが大好きです。お喋りすることが好きなので､みなさんと楽しくお話しできれば嬉しいです。</p>
+                    <!-- <ul>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">教科</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>国語</li>
+                            <li>数学</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">曜日</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>月</li>
+                            <li>金</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">タイプ</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>難聴者</li>
+                            <li>日本手話</li>
+                            <li>日本語手話</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul> -->
+                  </div>
+                </div>
+              </li>
+              <li class="col-10 col-sm-5 col-lg-4 col-xl-3" :class="constants.mtListTeacher">
+                <div class="form-row align-items-end">
+                  <div class="col-6">
+                    <div class="ovh z-1 position-relative h-vt-moive rounded position-relative bsd bg-co bw-04r bc-co embed-responsive embed-responsive-1by1 effect-neumo">
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-bottom position-absolute bottomRight op-05"></div>
+                      <iframe class="embed-responsive-item lazyload lazypreload" data-src="https://www.youtube-nocookie.com/embed/4W0Hzb7yUHY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="w-2rem w-md-205rem d-block">
+                      <picture class="d-block rounded-circle ovh bsd bw-1px">
+                        <source data-srcset="/img/prof/13@0.25x.jpg" media="--sm" />
+                        <img class="w-100 lazyload lazypreload" data-src="/img/prof/13@0.25x.jpg" alt="なほこ先生">
+                      </picture>
+                    </div>
+                    <h2 class="fz-xsm lh-104 clr-blk mt-1">みゆう<small class="ml-1">先生</small></h2>
+                      <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">私は小学まで聾学校に通っていましたが､中高は一般校に通っていました(インテグレーション)。なので､その経験談なども気になったら気軽に聞いてください。</p>
+                    <!-- <ul>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">教科</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>国語</li>
+                            <li>数学</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">曜日</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>月</li>
+                            <li>金</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">タイプ</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>難聴者</li>
+                            <li>日本手話</li>
+                            <li>日本語手話</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul> -->
+                  </div>
+                </h2>
+              </div>
+              <li class="col-10 col-sm-5 col-lg-4 col-xl-3" :class="constants.mtListTeacher">
+                <div class="form-row align-items-end">
+                  <div class="col-6">
+                    <div class="ovh z-1 position-relative h-vt-moive rounded position-relative bsd bg-co bw-04r bc-co embed-responsive embed-responsive-1by1 effect-neumo">
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-bottom position-absolute bottomRight op-05"></div>
+                      <iframe class="embed-responsive-item lazyload lazypreload" data-src="https://www.youtube-nocookie.com/embed/dQ6UteX6Nb4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="w-2rem w-md-205rem d-block">
+                      <picture class="d-block rounded-circle ovh bsd bw-1px">
+                        <source data-srcset="/img/prof/14@0.25x.jpg" media="--sm" />
+                        <img class="w-100 lazyload lazypreload" data-src="/img/prof/14@0.25x.jpg" alt="なほこ先生">
+                      </picture>
+                    </div>
+                    <h2 class="fz-xsm lh-104 clr-blk mt-1">しほ<small class="ml-1">先生</small></h2>
+                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">趣味は読書と走ることです! フルマラソン完走したこともあります! 生徒さんに寄り添って､明るく楽しく授業を行っていきます。</p>
+                    <!-- <ul>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">教科</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>国語</li>
+                            <li>数学</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">曜日</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>月</li>
+                            <li>金</li>
+                          </ul>
+                        </div>
+                      </li>
+                      <li class="row no-gutters mt-025">
+                        <div class="col-auto w-205rem">
+                          <h3 class="font-RyoGothic-B small-xs">タイプ</h3>
+                        </div>
+                        <div class="col">
+                          <ul class="liDi fz-2xs lh-102">
+                            <li>難聴者</li>
+                            <li>日本手話</li>
+                            <li>日本語手話</li>
+                          </ul>
+                        </div>
+                      </li>
+                    </ul> -->
+                  </div>
+                </div>
+              </li>
+              <li class="col-10 col-sm-5 col-lg-4 col-xl-3" :class="constants.mtListTeacher">
+                <div class="form-row align-items-end">
+                  <div class="col-6">
+                    <div class="ovh z-1 position-relative h-vt-moive rounded position-relative bsd bg-co bw-04r bc-co embed-responsive embed-responsive-1by1 effect-neumo">
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-right position-absolute topRight op-05"></div>
+                      <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
+                      <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-bottom position-absolute bottomRight op-05"></div>
+                      <iframe class="embed-responsive-item lazyload lazypreload" data-src="https://www.youtube-nocookie.com/embed/KnNw_wbXC6A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="w-2rem w-md-205rem d-block">
+                      <picture class="d-block rounded-circle ovh bsd bw-1px">
+                        <source data-srcset="/img/prof/15@0.25x.jpg" media="--sm" />
+                        <img class="w-100 lazyload lazypreload" data-src="/img/prof/15@0.25x.jpg" alt="なほこ先生">
+                      </picture>
+                    </div>
+                    <h2 class="fz-xsm lh-104 clr-blk mt-1">タカ<small class="ml-1">先生</small></h2>
+                    <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4">学ぶことをやめたら､教えることをやめなければならない。子どもとともに学びあい成長していきましょう!</p>
+                  </div>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
@@ -603,7 +980,7 @@
                 <span class="d-block mb-2 mb-xl-3 fz-tl clr-co">手軽に授業を予約!</span>
                 <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-0">🙆‍♂️授業サポートの充実🙆</strong></span>
               </h2>
-              <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">先生の予約から実施内容の確認まで予約管理システムで完結！困った時のサポート体制も充実｡<small>(Zoomに対応したパソコンWindows Mac と タブレットに対応)</small></p>
+              <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">先生の予約から実施内容の確認まで予約管理システムで完結! 困った時のサポート体制も充実｡<small>(Zoomに対応したパソコンWindows Mac と タブレットに対応)</small></p>
             </div>
           </div>
           <div class="row">
@@ -763,7 +1140,7 @@
                       <div class="h-100 d-flex align-items-center">
                         <div>
                           <h2 :class="constants.fzLg" class="ls-0 lh-1 clr-blk font-V7MG-EB">ロールモデル教育授業</h2>
-                          <p class="lh-105" :class="constants.mtFormRow">全国各地で活躍するデフの先輩との交流を通して生きる知恵を学びます。先輩の切り拓いてきた道が、そこから得た学びが、子どもたちの学びとなり世界を拓くきっかけになります｡</p>
+                          <p class="lh-105" :class="constants.mtFormRow">全国各地で活躍するデフの先輩との交流を通して生きる知恵を学びます。先輩の切り拓いてきた道が､そこから得た学びが､子どもたちの学びとなり世界を拓くきっかけになります｡</p>
                         </div>
                       </div>
                     </div>
@@ -810,7 +1187,7 @@
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                   <div class="px-3 py-4">
                     <h2 class="fz-xs fz-lg-2xs ls-n001 lh-103 clr-blk font-V7MG-EB">👨‍👩‍👧‍👦 愛知県･小学校1年生の保護者さま</h2>
-                    <p class="lh-105 mt-2">本当にこの様な良い機会を与えて頂き感謝しております。先生は本人に合わせてくれてとても優しいですし、ASLなども楽しく教えていただきました。ここに出会わなければ､今の息子はなかったのでは？というぐらい楽しんでくれました。無償で続けれていることが大変ありがたいです。</p>
+                    <p class="lh-105 mt-2">本当にこの様な良い機会を与えて頂き感謝しております。先生は本人に合わせてくれてとても優しいですし､ASLなども楽しく教えていただきました。ここに出会わなければ､今の息子はなかったのでは？というぐらい楽しんでくれました。無償で続けれていることが大変ありがたいです。</p>
                   </div>
                 </div>
               </li>
@@ -1033,7 +1410,7 @@
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                   <div class="px-3 py-4">
                     <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">先生とはどのように連絡しますか？</h2>
-                    <p class="lh-105 mt-2 fz-2xs fz-xl-xs">本サービス登録後､会員ページ内で担当の先生と連絡ができます。｡</p>
+                    <p class="lh-105 mt-2 fz-2xs fz-xl-xs">本サービス登録後､会員ページ内で担当の先生と連絡ができます｡</p>
                   </div>
                 </div>
               </li>
@@ -1057,7 +1434,7 @@
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                   <div class="px-3 py-4">
                     <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">先生を変えることはできますか？</h2>
-                    <p class="lh-105 mt-2 fz-2xs fz-xl-xs">お子さまに合わせて変更して頂くことは可能です｡運営にご相談ください｡</p>
+                    <p class="lh-105 mt-2 fz-2xs fz-xl-xs">お子さまに合わせて変更して頂くことは可能です｡</p>
                   </div>
                 </div>
               </li>
@@ -1089,7 +1466,7 @@
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                   <div class="px-3 py-4">
                     <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">知り合いに紹介することは可能ですか？</h2>
-                    <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ご紹介頂いて構いません｡</p>
+                    <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ぜひご紹介ください!!</p>
                   </div>
                 </div>
               </li>
@@ -1231,7 +1608,7 @@
                 <div class="col-md col-lg-5">
                   <dl class="row low-gutters form-lg-row flex-nowrap mt-2 fz-2xs fz-lg-xsm">
                     <dt class="col-auto font-V7MG-EB lh-102 mt-1">運営<br>会社</dt>
-                    <dd class="col">NPO法人<br>Silent Voice（サイレントヴォイス）</dd>
+                    <dd class="col">NPO法人<br>Silent Voice(サイレントヴォイス)</dd>
                   </dl>
                   <dl class="row low-gutters flex-nowrap mt-2 fz-2xs fz-lg-xsm">
                     <dt class="col-auto font-V7MG-EB">本部</dt>
@@ -1337,7 +1714,7 @@ export default {
     const props = {
       bodyClasses: ['page-home'],
       title: 'ろう児・難聴児のオンライン対話学習コミュニティ｢Circle O - サークルオー｣',
-      description: 'コロナ禍における｢新しい生活様式｣の普及によって生活にマスクは必需品となりました。この｢口が見えない｣マスクを多くの人が着用することで､話しかけられていることにも気づくことができず､先生やお友達とのコミュニケーションが取りにくい状況になった子どもたちがいます。オンライン対話コミュニティcircle O（サークルオー）が､そんな状況にある､ろう児・難聴児のご家庭へオンライン授業の無償提供を行います。子どもたちの｢学びを止めない｣ために､ぜひご活用ください。',
+      description: 'コロナ禍における｢新しい生活様式｣の普及によって生活にマスクは必需品となりました。この｢口が見えない｣マスクを多くの人が着用することで､話しかけられていることにも気づくことができず､先生やお友達とのコミュニケーションが取りにくい状況になった子どもたちがいます。オンライン対話コミュニティcircle O(サークルオー)が､そんな状況にある､ろう児・難聴児のご家庭へオンライン授業の無償提供を行います。子どもたちの｢学びを止めない｣ために､ぜひご活用ください。',
       ogImage: 'img/teaser/teaser.jpg'
     }
     return head(props, this.$store)
