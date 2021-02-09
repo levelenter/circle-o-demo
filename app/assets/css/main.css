@@ -25,10 +25,11 @@ Base
 html{position: relative; background: #f0f0f0;}
 body{color: #444;font-family:"font-RyoGothic-R",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;letter-spacing: .02em;font-weight: 400;background: #f0f0f0;}
 
-.font-RyoGothic-R,.font-RyoGothic-B,.font-RyoGothic-H,h1,h2,h3,h4,h5,h6{font-family: ryo-gothic-plusn;font-style: normal;}
+.font-RyoGothic-R,.font-RyoGothic-B,.font-RyoGothic-H,h1,h2,h3,h4,h5,h6,strong{font-family: ryo-gothic-plusn;font-style: normal;}
 
 .font-V7MG-B,.font-V7MG-EB{font-family: vdl-v7marugothic, sans-serif;}
 
+.font-weight-bolder{font-weight: bolder !important;}
 
 .font-weight-200{font-weight: 200 !important}
 .font-weight-300{font-weight: 300 !important}
@@ -169,6 +170,7 @@ Responsive
   #ils-7{top:27rem;right:5rem;}
   #ils-8{top:24rem;right:10rem;}
   #ils-9{top:30rem;right:2rem;}
+  .fz-sm-1em{font-size: 1em !important;}
 }
 /* md */
 @media(min-width: 768px){

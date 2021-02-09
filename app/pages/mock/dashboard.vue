@@ -1,35 +1,45 @@
 <template>
   <main class="d-none-alert" :class="constants.pxMain">
-    <header class="pb-1" :class="constants.mySec">
-      <ul class="row align-items-center">
-        <li class="col-auto">
-          <img class="w-10rem lazyload lazypreload" data-src="/img/global/logo.svg" alt="CIRCLE-O">
-        </li>
-        <li class="col-auto">
-          <h2 class="fz-xs clr-blk text-center lh-103 ls-0">Circle<small class="font-weight-700">さん</small> <small class="font-weight-700">こんにちは</small>😄</h2>
-          <small class="d-block small-2xs mt-1 lh-103 ls-0">レッスンのためにプロフを100%に</small>
-        </li>
-        <li class="col-auto">
-          <button class="d-block py-2 px-3 w-13rem bg-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r mt-1">
-            <div class="h-100 d-flex flex-wrap align-items-center">
-              <div class="font-weight-700 ls-0 small">プロフィール編集(35%)</div>
-              <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
-            </div>
-          </button>
-        </li>
-        <li class="col-auto">
-          <button class="d-block w-11rem px-4 py-1 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
-            <div class="h-100 d-flex flex-wrap align-items-center">
-              <div class="font-weight-700 ls-0 fz-xs">先生を探す</div>
-              <div class="ml-auto"><font-awesome-icon class="clr-wht small mb-025" :icon="['fas', 'search']" /></div>
-            </div>
-          </button>
-        </li>
+    <header class="pb-1" :class="constants.mbSec">
+      <ul class="form-row align-items-center mt-2">
         <li class="col-auto ml-auto">
-          <nuxt-link to="/" class="clr-blk font-weight-700 fz-2xs">よくある質問</nuxt-link>
+          <nuxt-link to="/" class="clr-blk font-weight-700 small-xs fz-md-2xs">よくある質問</nuxt-link>
         </li>
         <li class="col-auto">
-          <nuxt-link to="/" class="clr-blk font-weight-700 fz-2xs">お問い合わせ</nuxt-link>
+          <nuxt-link to="/" class="clr-blk font-weight-700 small-xs fz-md-2xs">お問い合わせ</nuxt-link>
+        </li>
+      </ul>
+      <ul class="row low-gutters row-sm align-items-center flex-nowrap mt-405 mt-sm-3">
+        <li class="col-auto">
+          <img class="w-5rem w-sm-7rem w-md-9rem lazyload lazypreload" data-src="/img/global/logo.svg" alt="CIRCLE-O">
+        </li>
+        <li class="col">
+          <ul class="row low-gutters row-sm flex-nowrap align-items-center">
+            <li class="col-auto">
+              <div class="form-row row-md">
+                <div class="col-sm-auto">
+                  <h2 class="fz-xs clr-blk text-md-center lh-103 ls-0">Circle<small class="font-weight-700">さん</small> <small class="font-weight-700">こんにちは</small>😄</h2>
+                  <small class="d-block small-2xs mt-sm-1 lh-103 ls-0">レッスンのためにプロフを100%に</small>
+                </div>
+                <div class="col-sm-auto">
+                  <button class="d-block py-1 px-2 py-sm-2 px-sm-3 w-12rem w-md-13rem bg-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r mt-sm-1">
+                    <div class="h-100 d-flex flex-wrap align-items-center">
+                      <div class="font-weight-700 ls-0 small">プロフィール編集(35%)</div>
+                      <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'user']" /></div>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </li>
+            <li class="col">
+              <button class="d-block w-9rem w-md-10rem py-2 px-4 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
+                <div class="h-100 form-row flex-wrap align-items-center">
+                  <div class="font-weight-700 ls-0 fz-xs">先生を探す</div>
+                  <div class="ml-auto"><font-awesome-icon class="clr-wht small mb-025" :icon="['fas', 'search']" /></div>
+                </div>
+              </button>
+            </li>
+          </ul>
         </li>
       </ul>
     </header>
@@ -67,41 +77,37 @@
       <div class="col-md">
         <h1 class="fz-xsm lh-1 clr-co pl-025"><font-awesome-icon :icon="['fas', 'dot-circle']" /> 受講中のレッスン</h1>
         <ul class="ml-md-2">
-          <li :class="constants.whtBoard" class="mt-6 position-relative">
-            <button class="position-absolute z-10 topRight mt-n4 mr-n3 d-block px-3 py-1 w-1105rem clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
+          <li :class="[constants.whtBoard,constants.mtSec]" class="position-relative">
+            <button class="position-absolute z-10 topRight mt-n4 mr-n3 d-block px-3 py-1 py-md-2 w-1105rem w-md-14rem clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
               <div class="h-100 d-flex flex-wrap align-items-center">
-                <div class="font-weight-700 ls-0 fz-2xs">このレッスンを予約</div>
+                <div class="font-weight-700 ls-0 fz-2xs fz-md-xs">このレッスンを予約</div>
                 <div class="ml-auto"><font-awesome-icon class="clr-wht" :icon="['fas', 'plus']" /></div>
               </div>
             </button>
-            <div class="row align-items-end">
-              <div class="col-auto">
-                <h1 class='fz-xs clr-blk'>なほこ<small class="font-weight-700">先生</small><br><strong class="fz-xl">算数 19:00−20:00 (5/12回)</strong></h1>
+            <div class="row no-gutters row-sm align-items-sm-center flex-nowrap">
+              <div class="col col-sm-auto">
+                <h1 class='fz-xs clr-blk'>なほこ<small class="font-weight-700">先生</small><strong class="fz-lg fz-md-xl d-block">算数 <span class="fz-xsm fz-sm-1em d-block d-sm-inline font-weight-bolder font-RyoGothic-B">19:00−20:00 (5/12回)</span></strong></h1>
               </div>
-              <div class="col-auto mb-2">
+              <div class="col-auto mt-4 mt-sm-405 mb-2">
                 <button class="d-block px-3 py-1 w-1105rem clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
                   <div class="h-100 d-flex flex-wrap align-items-center">
-                    <div class="font-weight-700 ls-0 fz-2xs">レッスン状況を見る</div>
+                    <div class="font-weight-700 ls-0 fz-2xs ls-n001">レッスン状況を見る</div>
                     <div class="ml-auto"><font-awesome-icon class="" :icon="['fas', 'ballot-check']" /></div>
                   </div>
                 </button>
               </div>
             </div>
-            <div class="row no-gutters align-items-center">
-              <div class="col-auto mb-025">
-                <div class="w-2rem w-md-105rem d-block">
+            <div class="row no-gutters flex-nowrap mt-3 mt-sm-2">
+              <div class="col-auto mb-md-025">
+                <div class="w-2rem h-2rem d-block">
                   <picture class="d-block rounded-circle ovh bsd bw-1px">
                     <source data-srcset="/img/prof/1@0.25x.jpg" media="--sm" />
-                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/1@0.25x.jpg" alt="元木 哲三">
+                    <img class="w-100 h-100 of-cover lazyload lazypreload" data-src="/img/prof/1@0.25x.jpg" alt="元木 哲三">
                   </picture>
                 </div>
               </div>
-              <div class="col-auto mt-3 mt-md-0">
-                <div class="row low-gutters align-items-center">
-                  <div class="col-auto">
-                    <p class="fz-xs lh-103 clr-blk pl-1">｢もう少しで半分ですね！単語の記憶力すごいです！｣<!-- <small class="font-weight-700 ml-1">先生</small> --></p>
-                  </div>
-                </div>
+              <div class="col">
+                <p class="fz-lg-xsm lh-103 clr-blk pl-3 pl-md-2 mt-sm-2">｢もう少しで半分ですね！単語の記憶力すごいです！｣</p>
               </div>
             </div>
             <!-- <div class="form-row align-items-center mt-4">
@@ -131,11 +137,11 @@
             <h3 class="clr-gray-dark small-xs mb-3 lh-1">最近の状況</h3>
             <ul class="liDisc fz-md pl-2">
               <li class="mt-3 font-weight-700">
-                <div class="form-row align-items-center">
+                <div class="form-row flex-nowrap align-items-sm-center">
                   <div class="col-auto">
                     <ul class="form-row">
                       <li class="col-auto">
-                        <button class="d-block py-0 w-705rem ls-0 font-weight-700 bg-red hvr-bg-red clr-co hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
+                        <button class="d-block py-0 w-605rem w-md-7rem ls-0 font-weight-700 bg-red hvr-bg-red clr-co hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
                           <div class="h-100 d-flex flex-wrap align-items-center">
                             <div class="font-weight-700 ls-0 fz-2xs">日報を見る</div>
                             <div class="ml-auto"><font-awesome-icon class="fz-2xs mb-022" :icon="['fas', 'comment-alt-edit']" /></div>
@@ -144,17 +150,17 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="col-auto">
-                    <h4 class="fz-xsm clr-gray">2020年11月26日(木) 19:00−20:00</h4>
+                  <div class="col">
+                    <h4 class="fz-xsm clr-gray lh-102">2021年02月19日(木) <small class="font-weight-700">19:00−20:00</small></h4>
                   </div>
                 </div>
               </li>
               <li class="mt-3 font-weight-700">
-                <div class="form-row align-items-center">
+                <div class="form-row flex-nowrap align-items-sm-center">
                   <div class="col-auto">
                     <ul class="form-row">
                       <li class="col-auto">
-                        <button class="d-block py-0 w-705rem ls-0 font-weight-700 bg-red hvr-bg-red clr-co hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
+                        <button class="d-block py-0 w-605rem w-md-7rem ls-0 font-weight-700 bg-red hvr-bg-red clr-co hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
                           <div class="h-100 d-flex flex-wrap align-items-center">
                             <div class="font-weight-700 ls-0 fz-2xs">日報を見る</div>
                             <div class="ml-auto"><font-awesome-icon class="fz-2xs mb-022" :icon="['fas', 'comment-alt-edit']" /></div>
@@ -163,15 +169,15 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="col-auto">
-                    <h4 class="fz-xsm clr-gray">2020年12月03日(木) 19:00−20:00</h4>
+                  <div class="col">
+                    <h4 class="fz-xsm clr-gray lh-102">2021年02月12日(木) <small class="font-weight-700">19:00−20:00</small></h4>
                   </div>
                 </div>
               </li>
-              <li class="mt-2 font-weight-700 clr-co">
+              <li class="mt-3 font-weight-700 clr-co">
                 <div class="form-row align-items-center">
                   <div class="col">
-                    <h4 class="mt-2">2020年12月10日(木) 19:00−20:00</h4>
+                    <h4 class="mt-2 lh-102">2020年12月10日(木) <small class="font-weight-700">19:00−20:00</small></h4>
                   </div>
                   <div class="col-auto">
                     <ul class="form-row">
@@ -198,7 +204,7 @@
               <li class="mt-3 font-weight-700">
                 <div class="form-row align-items-center">
                   <div class="col">
-                    <h4 class="fz-xsm">2020年12月17日(木) 19:00−20:00</h4>
+                    <h4 class="fz-xsm lh-103">2020年12月17日(木) <small class="font-weight-700">19:00−20:00</small></h4>
                   </div>
                   <div class="col-auto">
                     <ul class="form-row">
@@ -217,7 +223,7 @@
               <li class="mt-3 font-weight-700">
                 <div class="form-row align-items-center">
                   <div class="col">
-                    <h4 class="fz-xsm">2020年12月24日(木) 19:00−20:00</h4>
+                    <h4 class="fz-xsm lh-103">2020年12月24日(木) <small class="font-weight-700">19:00−20:00</small></h4>
                   </div>
                   <div class="col-auto">
                     <ul class="form-row">
@@ -234,43 +240,38 @@
                 </div>
               </li>
             </ul>
-            <!-- <nuxt-link to="/" class="mt-405 mb-n3 fz-2xs clr-co d-block">このレッスン状況を見る<font-awesome-icon class="ml-1" :icon="['fas', 'plus']" /></nuxt-link> -->
           </li>
-          <li class="mt-6 bsd bc-wht bw-02r bg-wht-op06 px-5 pt-405 pb-5 rounded-lg position-relative">
-            <button class="position-absolute z-10 topRight mt-n4 mr-n3 d-block px-3 py-1 w-1105rem clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
+          <li :class="[constants.whtBoard,constants.mtSec]" class="position-relative">
+            <button class="position-absolute z-10 topRight mt-n4 mr-n3 d-block px-3 py-1 py-md-2 w-1105rem w-md-14rem clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
               <div class="h-100 d-flex flex-wrap align-items-center">
-                <div class="font-weight-700 ls-0 fz-2xs">このレッスンを予約</div>
+                <div class="font-weight-700 ls-0 fz-2xs fz-md-xs">このレッスンを予約</div>
                 <div class="ml-auto"><font-awesome-icon class="clr-wht" :icon="['fas', 'plus']" /></div>
               </div>
             </button>
-            <div class="row align-items-end">
-              <div class="col-auto">
-                <h1 class='fz-xs clr-blk'>ゆうこ<small class="font-weight-700">先生</small><br><strong class="fz-xl">国語 15:00−16:00 (0/12回)</strong></h1>
+            <div class="row no-gutters row-sm align-items-sm-center flex-nowrap">
+              <div class="col col-sm-auto">
+                <h1 class='fz-xs clr-blk'>ゆうこ<small class="font-weight-700">先生</small><strong class="fz-lg fz-md-xl d-block">国語 <span class="fz-xsm fz-sm-1em d-block d-sm-inline font-weight-bolder font-RyoGothic-B">15:00−16:00 (0/12回)</span></strong></h1>
               </div>
-              <div class="col-auto mb-2">
+              <div class="col-auto mt-4 mt-sm-405 mb-2">
                 <button class="d-block px-3 py-1 w-1105rem clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
                   <div class="h-100 d-flex flex-wrap align-items-center">
-                    <div class="font-weight-700 ls-0 fz-2xs">レッスン状況を見る</div>
+                    <div class="font-weight-700 ls-0 fz-2xs ls-n001">レッスン状況を見る</div>
                     <div class="ml-auto"><font-awesome-icon class="" :icon="['fas', 'ballot-check']" /></div>
                   </div>
                 </button>
               </div>
             </div>
-            <div class="row no-gutters align-items-center">
-              <div class="col-auto mb-025">
-                <div class="w-2rem w-md-105rem d-block">
+            <div class="row no-gutters flex-nowrap mt-3 mt-sm-2">
+              <div class="col-auto mb-md-025">
+                <div class="w-2rem h-2rem d-block">
                   <picture class="d-block rounded-circle ovh bsd bw-1px">
-                    <source data-srcset="/img/prof/7@0.25x.jpg" media="--sm" />
-                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/7@0.25x.jpg" alt="元木 哲三">
+                    <source data-srcset="/img/prof/1@0.25x.jpg" media="--sm" />
+                    <img class="w-100 h-100 of-cover lazyload lazypreload" data-src="/img/prof/1@0.25x.jpg" alt="元木 哲三">
                   </picture>
                 </div>
               </div>
-              <div class="col-auto mt-3 mt-md-0">
-                <div class="row low-gutters align-items-center">
-                  <div class="col-auto">
-                    <p class="fz-xs lh-103 clr-blk pl-1">｢初回は、ぜひリラックスして！がんばりましょう！｣<!-- <small class="font-weight-700 ml-1">先生</small> --></p>
-                  </div>
-                </div>
+              <div class="col">
+                <p class="fz-lg-xsm lh-103 clr-blk pl-3 pl-md-2 mt-sm-2">｢初回は、ぜひリラックスして！がクスして！がクスして！がクスして！がんばりましょう！｣</p>
               </div>
             </div>
             <!-- <div class="form-row align-items-center mt-4">
@@ -299,10 +300,37 @@
             <hr class="btda pt-405 mt-405">
             <h3 class="clr-gray-dark small-xs mb-3 lh-1">最近の状況</h3>
             <ul class="liDisc fz-md pl-2">
-              <li class="mt-2 font-weight-700 clr-co">
+              <li class="mt-3 font-weight-700 clr-co">
                 <div class="form-row align-items-center">
                   <div class="col">
-                    <h4 class="mt-2">2020年12月08日(火) 15:00−16:00</h4>
+                    <h4 class="mt-2 lh-102">2021年02月24日(木) <small class="font-weight-700">15:00−16:00</small></h4>
+                  </div>
+                  <div class="col-auto">
+                    <ul class="form-row">
+                      <li class="col-auto dna">
+                        <button class="d-block px-2 py-0 w-805rem ls-0 font-weight-700 bg-red hvr-bg-red clr-wht hvr-clr-red rounded-xl btn-neumo btn-neumo-red bsd bc-wht bw-02r">
+                          <div class="h-100 d-flex flex-wrap align-items-center">
+                            <div class="font-weight-700 ls-0 fz-2xs">振替に応じる</div>
+                            <div class="ml-auto"><font-awesome-icon class="clr-wht fz-2xs mb-022" :icon="['fas', 'sync-alt']" /></div>
+                          </div>
+                        </button>
+                      </li>
+                      <li class="col-auto">
+                        <button class="d-block py-0 px-205 w-7rem ls-0 bg-gray-light hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
+                          <div class="h-100 d-flex flex-wrap align-items-center">
+                            <div class="font-weight-700 ls-0 small-xs">キャンセル</div>
+                            <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'times']" /></div>
+                          </div>
+                        </button>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="mt-3 font-weight-700">
+                <div class="form-row align-items-center">
+                  <div class="col">
+                    <h4 class="fz-xsm lh-103">2021年03月17日(木) <small class="font-weight-700">15:00−16:00</small></h4>
                   </div>
                   <div class="col-auto">
                     <ul class="form-row">
@@ -321,26 +349,7 @@
               <li class="mt-3 font-weight-700">
                 <div class="form-row align-items-center">
                   <div class="col">
-                    <h4 class="fz-xsm">2020年12月15日(木) 15:00−16:00</h4>
-                  </div>
-                  <div class="col-auto">
-                    <ul class="form-row">
-                      <li class="col-auto">
-                        <button class="d-block py-0 px-205 w-7rem ls-0 bg-gray-light hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r">
-                          <div class="h-100 d-flex flex-wrap align-items-center">
-                            <div class="font-weight-700 ls-0 small-xs">キャンセル</div>
-                            <div class="ml-auto"><font-awesome-icon class="clr-gray-light small mb-025" :icon="['fas', 'times']" /></div>
-                          </div>
-                        </button>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="mt-3 font-weight-700">
-                <div class="form-row align-items-center">
-                  <div class="col">
-                    <h4 class="fz-xsm">2020年12月22日(木) 15:00−16:00</h4>
+                    <h4 class="fz-xsm lh-103">2021年03月24日(木) <small class="font-weight-700">15:00−16:00</small></h4>
                   </div>
                   <div class="col-auto">
                     <ul class="form-row">
@@ -357,7 +366,6 @@
                 </div>
               </li>
             </ul>
-            <!-- <nuxt-link to="/" class="mt-405 mb-n3 fz-2xs clr-co d-block">このレッスン状況を見る<font-awesome-icon class="ml-1" :icon="['fas', 'plus']" /></nuxt-link> -->
           </li>
         </ul>
       </div>

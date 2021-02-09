@@ -2,18 +2,17 @@
   <div class="position-relative">
     <!-- <app-loading /> -->
     <nuxt />
-    <app-footer />
+    <app-footer-app />
   </div>
 </template>
 
 <script>
 import { mapGetters } from 'vuex'
 // import AppLoading from '@/components/AppLoading'
-import AppFooter from '@/components/AppFooter'
+import AppFooterApp from '@/components/AppFooterApp'
 export default {
   components: {
-    // AppLoading,
-    AppFooter
+    AppFooterApp
   },
   data() {
     return {

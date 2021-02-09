@@ -603,7 +603,7 @@
                 <span class="d-block mb-2 mb-xl-3 fz-tl clr-co">手軽に授業を予約!</span>
                 <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-0">🙆‍♂️授業サポートの充実🙆</strong></span>
               </h2>
-              <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">先生の予約･連絡や実施内容の確認まで予約管理システムで完結！困った時のサポート体制も充実｡<small>(Zoomに対応したパソコンWin Mac と タブレットに対応)</small></p>
+              <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">先生の予約から実施内容の確認まで予約管理システムで完結！困った時のサポート体制も充実｡<small>(Zoomに対応したパソコンWindows Mac と タブレットに対応)</small></p>
             </div>
           </div>
           <div class="row">
@@ -661,35 +661,40 @@
       <div class="col-12">
         <div :class="[constants.mtP,constants.mxNmain]">
           <div :class="[constants.mtLg]" class="row no-gutters">
-            <picture class="col-6 h-14rem h-sm-18rem h-md-26rem h-xl-30rem h-2xl-40rem">
-              <source data-srcset="/img/lp/scene/1@0.75x.jpg" media="--xl" />
-              <source data-srcset="/img/lp/scene/1@0.5x.jpg" media="--sm" />
-              <img data-src="/img/lp/scene/1@0.33x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+            <picture class="col-12 col-lg-4 h-14rem h-sm-22rem h-md-25rem h-lg-20rem h-xl-26rem h-2xl-30rem">
+              <source data-srcset="/img/lp/scene/8@0.75x.jpg" media="--xl" />
+              <source data-srcset="/img/lp/scene/8@0.5x.jpg" media="--sm" />
+              <img data-src="/img/lp/scene/8@0.33x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
             </picture>
-            <div class="col-6">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="row no-gutters">
-                <picture class="col-6 h-7rem h-sm-9rem h-md-13rem h-xl-15rem h-2xl-20rem">
-                  <source data-srcset="/img/lp/scene/2@0.5x.jpg" media="--xl" />
-                  <source data-srcset="/img/lp/scene/2@0.33x.jpg" media="--sm" />
-                  <img data-src="/img/lp/scene/2@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem">
+                  <source data-srcset="/img/lp/scene/9@0.5x.jpg" media="--xl" />
+                  <source data-srcset="/img/lp/scene/9@0.33x.jpg" media="--sm" />
+                  <img data-src="/img/lp/scene/9@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
-                <picture class="col-6 h-7rem h-sm-9rem h-md-13rem h-xl-15rem h-2xl-20rem"">
+                <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem"">
                   <source data-srcset="/img/lp/scene/3@0.5x.jpg" media="--xl" />
                   <source data-srcset="/img/lp/scene/3@0.33x.jpg" media="--sm" />
                   <img data-src="/img/lp/scene/3@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
-                <picture class="col-6 h-7rem h-sm-9rem h-md-13rem h-xl-15rem h-2xl-20rem"">
-                  <source data-srcset="/img/lp/scene/4@0.5x.jpg" media="--xl" />
-                  <source data-srcset="/img/lp/scene/4@0.33x.jpg" media="--sm" />
-                  <img data-src="/img/lp/scene/4@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
-                </picture>
-                <picture class="col-6 h-7rem h-sm-9rem h-md-13rem h-xl-15rem h-2xl-20rem"">
+                <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem"">
                   <source data-srcset="/img/lp/scene/5@0.5x.jpg" media="--xl" />
                   <source data-srcset="/img/lp/scene/5@0.33x.jpg" media="--sm" />
                   <img data-src="/img/lp/scene/5@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
+                <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem"">
+                  <source data-srcset="/img/lp/scene/4@0.5x.jpg" media="--xl" />
+                  <source data-srcset="/img/lp/scene/4@0.33x.jpg" media="--sm" />
+                  <img data-src="/img/lp/scene/4@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                </picture>
               </div>
             </div>
+            <picture class="col-12 col-md-6 col-lg-4 h-14rem h-sm-22rem h-md-20rem h-xl-26rem h-2xl-30rem">
+              <source data-srcset="/img/lp/scene/1@0.75x.jpg" media="--xl" />
+              <source data-srcset="/img/lp/scene/1@0.5x.jpg" media="--sm" />
+              <img data-src="/img/lp/scene/1@0.33x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+            </picture>
           </div>
         </div>
       </div>
@@ -702,11 +707,11 @@
         </div>
       </div>
       <div class="col-12">
-        <div class="ovyh h-28rem h-sm-auto mt-2 mx-n3 mx-sm-0">
+        <div class="ovyh h-30rem h-sm-auto mt-2 mx-n3 mx-sm-0">
           <div class="ovxs ovh-sm">
-            <ul class="form-row row-md flex-nowrap flex-sm-wrap align-items-lg-stretch pl-3 pl-md-0 pb-5 pb-sm-0">
+            <ul class="form-row row-md flex-nowrap flex-sm-wrap align-items-stretch pl-3 pl-md-0 pb-5 pb-sm-0">
               <li class="col-9 col-sm-12 col-lg-4" :class="constants.mtListTeacher">
-                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-lg-100">
+                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                   <div class="row no-gutters justify-content-center">
                     <div class="col-12 col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
@@ -726,7 +731,7 @@
                 </div>
               </li>
               <li class="col-9 col-sm-12 col-lg-4" :class="constants.mtListTeacher">
-                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-lg-100">
+                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                   <div class="row no-gutters justify-content-center">
                     <div class="col-12 col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
@@ -738,7 +743,7 @@
                       <div class="h-100 d-flex align-items-center">
                         <div>
                           <h2 :class="constants.fzLg" class="ls-0 lh-1 clr-blk font-V7MG-EB">教科学習授業</h2>
-                          <p class="lh-105" :class="constants.mtFormRow">学校の宿題や分からない所を中心に手話などの情報保障付きで学びます。教えるのではなく一緒にコーチのような存在で子どもの学びをサポートしています｡</p>
+                          <p class="lh-105" :class="constants.mtFormRow">学校の宿題や分からない所を中心に手話などの情報保障付きで学びます。教えるのではなく一緒に考えるコーチのような存在で子どもの学びをサポートしています｡</p>
                         </div>
                       </div>
                     </div>
@@ -746,7 +751,7 @@
                 </div>
               </li>
               <li class="col-9 col-sm-12 col-lg-4" :class="constants.mtListTeacher">
-                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-lg-100">
+                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                   <div class="row no-gutters justify-content-center">
                     <div class="col-12 col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
@@ -758,7 +763,7 @@
                       <div class="h-100 d-flex align-items-center">
                         <div>
                           <h2 :class="constants.fzLg" class="ls-0 lh-1 clr-blk font-V7MG-EB">ロールモデル教育授業</h2>
-                          <p class="lh-105" :class="constants.mtFormRow">全国各地で活躍するデフの先輩との交流を通して生きる知恵を学びます。先輩との出会いが子どもの世界を拓くきっかけになることを期待しています｡</p>
+                          <p class="lh-105" :class="constants.mtFormRow">全国各地で活躍するデフの先輩との交流を通して生きる知恵を学びます。先輩の切り拓いてきた道が、そこから得た学びが、子どもたちの学びとなり世界を拓くきっかけになります｡</p>
                         </div>
                       </div>
                     </div>
@@ -780,52 +785,74 @@
             <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n004 ml-n1">ご利用者さまの声 😊 <span class="position-relative t-n1">💬</span></strong></span>
           </h2>
         </div>
-        <ul class="form-row row-lg flex-sm-wrap align-items-stretch">
-          <li class="col-11 col-lg-8 col-xl-4" :class="constants.mtListTeacher">
-            <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-xl-100">
-              <div class="px-3 py-4">
-                <h2 :class="constants.fzXs" class="ls-0 lh-103 clr-blk font-V7MG-EB">👪 北海道･小学校3年生の保護者さま</h2>
-                <p class="lh-105 mt-2">我が家は札幌在住です。この度､東京の聾のおともだちに､オンラインで無償の授業がうけられるんだよと教えてもらい､大阪と札幌､だめ元で応募しました。この1ヶ月､先生との時間を心待ちにしていた子どもの姿を見てきました。担当していただいたハリー先生がアメリカ在住ということも､インターネットって､オンラインってすごいを子どもと一緒に私も実感しました｡</p>
-              </div>
-            </div>
-          </li>
-          <li class="col-11 col-lg col-xl-2 ml-auto ml-xl-0" :class="constants.mtListTeacher">
-            <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-xl-100">
-              <div class="px-3 py-4">
-                <h2 :class="constants.fzXs" class="ls-0 lh-103 clr-blk font-V7MG-EB">👨‍👩‍👧‍👦 愛知県･小学校1年生の保護者</h2>
-                <p class="lh-105 mt-2">本当にこの様な良い機会を与えて頂き感謝しております。ここに出会わなければ､今の息子はなかったのでは？というぐらい楽しんでくれました。ありがとうございました｡</p>
-              </div>
-            </div>
-          </li>
-          <li class="col-12 col-xl-6" :class="constants.mtListTeacher">
-            <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-xl-100">
-              <div class="row no-gutters align-items-stretch">
-                <div class="col-md-5 col-xl-4">
-                  <picture class="h-12rem h-md-16rem h-xl-17rem d-block">
-                    <img data-src="/img/lp/voice.webp" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
-                  </picture>
-                </div>
-                <div class="col-md">
-                  <div class="px-3 py-4 p-sm-405 py-md-0 px-md-5 px-xl-4 d-flex align-items-center h-100">
-                    <div>
-                      <h2 :class="constants.fzXs" class="ls-0 lh-103 clr-blk font-V7MG-EB">📃🖋 対話授業無償提供の報告と今後の展開</h2>
-                      <p class="lh-105 mt-2">4月11日の呼びかけから5月31日までに､日本全国･タイ･アメリカから手話のできるろう者･難聴者･聴者の「先生」約30名が､日本全国の約60名のろう･難聴児の「生徒」へ向けて､それぞれ週2~3回､合計750回のオンライン授業の無償提供を行いました</p>
-                      <a href="https://silentvoice.co.jp/blog/1979/" target="_blank" class="d-block w-100 px-3 px-sm-4 py-2 mt-2 clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-co bw-02r">
-                        <div class="h-100 d-flex flex-wrap align-items-center">
-                          <div class="font-V7MG-EB fz-xs">サークルオーの一次報告書を読む</div>
-                          <div class="ml-auto"><font-awesome-icon class="small" :icon="['fas', 'external-link']" /></div>
-                        </div>
-                      </a>
-                    </div>
+      </div>
+      <div class="col-12">
+        <div class="ovyh h-23rem h-sm-24rem h-md-22rem h-lg-auto mt-2 mx-n3 mx-md-n5 mx-lg-0">
+          <div class="ovxs ovh-lg">
+            <ul class="form-row row-md flex-nowrap flex-lg-wrap align-items-stretch pl-3 pl-md-5 pl-lg-0 pb-5 pb-lg-0">
+              <li class="col-8 col-sm-5 col-lg-3" :class="constants.mtListTeacher">
+                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
+                  <div class="px-3 py-4">
+                    <h2 class="fz-xs fz-lg-2xs ls-n001 lh-103 clr-blk font-V7MG-EB">👪 北海道･小学校3年生の保護者さま</h2>
+                    <p class="lh-105 mt-2">我が家は札幌在住です。この度､東京の聾のおともだちに､オンラインで無償の授業がうけられるんだよと教えてもらい､大阪と札幌､だめ元で応募しました。この1ヶ月､先生との時間を心待ちにしていた子どもの姿を見てきました。担当していただいたハリー先生がアメリカ在住ということも､インターネットって､オンラインってすごいを子どもと一緒に私も実感しました｡</p>
                   </div>
                 </div>
-              </div>
-            </div>
-          </li>
-        </ul>
+              </li>
+              <li class="col-8 col-sm-5 col-lg-3" :class="constants.mtListTeacher">
+                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
+                  <div class="px-3 py-4">
+                    <h2 class="fz-xs fz-lg-2xs ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・6歳保護者さま</h2>
+                    <p class="lh-105 mt-2">おうちにいながら先生がすぐそこにいるような感覚で授業を受けています。自分のランドセルの紹介をしたり､おもちゃの自慢をしたり､クリスマスにはサンタクロースの話など､おうちにいるからこそ｢生きた生活のことば｣に触れることができています。手話ができる先生が一生懸命話をしてくださるので､子どもの話したいという気持ちが強くなった気がします｡</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-8 col-sm-5 col-lg-3" :class="constants.mtListTeacher">
+                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
+                  <div class="px-3 py-4">
+                    <h2 class="fz-xs fz-lg-2xs ls-n001 lh-103 clr-blk font-V7MG-EB">👨‍👩‍👧‍👦 愛知県･小学校1年生の保護者さま</h2>
+                    <p class="lh-105 mt-2">本当にこの様な良い機会を与えて頂き感謝しております。先生は本人に合わせてくれてとても優しいですし、ASLなども楽しく教えていただきました。ここに出会わなければ､今の息子はなかったのでは？というぐらい楽しんでくれました。無償で続けれていることが大変ありがたいです。</p>
+                  </div>
+                </div>
+              </li>
+              <li class="col-8 col-sm-5 col-lg-3" :class="constants.mtListTeacher">
+                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
+                  <div class="px-3 py-4">
+                    <h2 class="fz-xs fz-lg-2xs ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・6歳保護者さま</h2>
+                    <p class="lh-105 mt-2">無料でのオンライン授業本当にありがとうございます。私や家族では気付かなかった言葉がけや語彙をどんどん扱ってもらい､娘もどんどん語彙や知識が増えていきます。また､わからない事を今まで曖昧にすることがありましたが､｢わからない｣や｢もう一回言って｣としっかり言えるようになってます。難聴児にとって身近な存在で活用しやすい今の環境を続けてほしいと思います｡</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
         <div class="d-lg-none mt-3 ml-3 text-center">
           <p class="fz-2xs d-inline-block clr-gray-dark font-RyoGothic-B">横スワイプで続きをご覧ください</p>
           <img data-src="/img/global/icons/finger-swipe.svg" alt="" aria-hidden="true" class="w-105rem ml-1 d-inline-block lazyload lazypreload">
+        </div>
+      </div>
+      <div class="col-11 col-sm-9 col-md-12 col-lg-8">
+        <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo" :class="constants.mtListTeacher">
+          <div class="row no-gutters align-items-stretch">
+            <div class="col-md-5 col-lg-5">
+              <picture class="h-12rem h-md-16rem h-lg-20rem d-block">
+                <img data-src="/img/lp/voice.webp" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+              </picture>
+            </div>
+            <div class="col-md">
+              <div class="p-405 p-sm-405 py-md-0 px-md-5 d-flex align-items-center h-100">
+                <div>
+                  <h2 :class="constants.fzXs" class="ls-0 lh-103 clr-blk font-V7MG-EB">📃🖋 対話授業無償提供の報告と今後の展開</h2>
+                  <p class="lh-105 mt-2">4月11日の呼びかけから5月31日までに､日本全国･タイ･アメリカから手話のできるろう者･難聴者･聴者の｢先生｣約30名が､日本全国の約60名のろう･難聴児の｢生徒｣へ向けて､それぞれ週2~3回､合計750回のオンライン授業の無償提供を行いました</p>
+                  <a href="https://silentvoice.co.jp/blog/1979/" target="_blank" class="d-block w-100 px-3 px-sm-4 py-2 mt-2 clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-co bw-02r">
+                    <div class="h-100 d-flex flex-wrap align-items-center">
+                      <div class="font-V7MG-EB fz-xs">サークルオーの一次報告書を読む</div>
+                      <div class="ml-auto"><font-awesome-icon class="small" :icon="['fas', 'external-link']" /></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-12">
@@ -846,7 +873,7 @@
                   <img class="w-5rem w-sm-8rem w-xl-10rem lazyload lazypreload" data-src="/img/global/illust/3-3.svg" alt="CIRCLE-O">
                 </div>
               </div>
-              <h1 class="clr-blk font-V7MG-EB fz-xsm text-center"><strong class="clr-co mb-1 fz-tl ls-n005 d-block">📛 生徒さん20名募集 🐣</strong>お気軽にお問い合わせ&お申し込みください</h1>
+              <h1 class="clr-blk font-V7MG-EB fz-xsm text-center"><strong class="clr-co mb-1 fz-tl ls-n005 d-block">📛 生徒さん募集 🐣</strong>お気軽にお問い合わせ&お申し込みください</h1>
               <p class="mt-3 fz-xsm fz-lg-md">全国の手話のできる､ろう者､難聴者､聴者の先生が多数在籍しております。現在､ことば､教科指導､ロールモデル教育ともに無償提供を行っております。全国の皆様からのご応募お待ちしております｡</p>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_MpLUgaoXjWf9_5nS2mu-A0Hf9_xu66E2lQuMUx-h075h3g/viewform" target="_blank"  :class="constants.mySm" class="d-block w-100 fz-xl fz-md-3xl fz-xl-4xl px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
                 <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
@@ -861,7 +888,7 @@
                       <img data-src="/img/prof/co-1.webp" alt="" class="w-100 lazyload lazypreload">
                     </picture>
                   </div>
-                  <h3 class="fz-xsm text-center"><span class="d-inline-block text-left small-xs lh-101 font-RyoGothic-B mt-205">サークルオー事業責任者 / NPO法人Silent Voice 理事</span><strong class="mt-2 mt-sm-0 d-block">岡松 有香</strong><small class="clr-blk d-block">- 言語聴覚士</small></h3>
+                  <h3 class="fz-xsm text-center"><span class="d-inline-block text-left small-xs lh-101 font-RyoGothic-B mt-205">NPO法人<br>Silent Voice 理事</span><strong class="mt-2 mt-sm-0 d-block">岡松 有香</strong><small class="clr-blk d-block">- 言語聴覚士</small></h3>
                 </div>
                 <div class="col">
                   <h4 class="fz-xs">一人ひとりに合わせた"授業"で</h4>
@@ -884,7 +911,7 @@
                 </div>
               </div>
               <h1 class="clr-blk font-V7MG-EB fz-xsm text-center mx-n5"><strong class="clr-co mb-1 fz-tl ls-n005 d-block">👩‍🏫手話のできる先生募集👨‍💻</strong>お気軽にお問い合わせ&お申し込みください</h1>
-              <p class="mt-3 fz-xsm fz-lg-md">サークルオーは､子どもたちの世界を広げるために､そのきっかけとなる出会いと学びの場をつくっています｡先生自身の今までの学び方､工夫のひとつひとつが､より多くの子どもたちにとっての学びであり工夫になっていくと思います｡心ある先生の応募をお待ちしております｡</p>
+              <p class="mt-3 fz-xsm fz-lg-md">先生自身の今までの学び方､工夫のひとつひとつが､より多くの子どもたちにとっての学びであり工夫になっていきます｡心ある先生のご応募をお待ちしております｡</p>
               <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB6e9nSS-JI3TyrDNTLsUDkVujJSDQ2l2O9Cu5YiG4ewYY_w/viewform" target="_blank" :class="constants.mySm" class="d-block w-100 fz-xl fz-md-3xl fz-xl-4xl px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
                 <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
                   <div class="font-V7MG-EB">先生になる</div>
@@ -899,11 +926,11 @@
                       <img data-src="/img/prof/itoda.webp" alt="" class="w-100 lazyload lazypreload">
                     </picture>
                   </div>
-                  <h3 class="fz-xsm text-center"><span class="d-inline-block text-left small-xs lh-101 font-RyoGothic-B mt-205">サークルオー<br>事業責任者 </span><strong class="mt-2 mt-sm-0 d-block">井戸上勝一</strong></h3>
+                  <h3 class="fz-xsm text-center"><span class="d-inline-block text-left small-xs lh-101 font-RyoGothic-B mt-205">サークルオー<br>事業責任者 </span><strong class="mt-2 mt-sm-0 d-block">井戸上 勝一</strong></h3>
                 </div>
                 <div class="col">
                   <h4 class="fz-xs">子どもたちの世界を拓く機会を</h4>
-                  <p class="fz-2xs fz-2xl-xs mt-2">サークルオーでは一人ひとりに合わせた"授業"で初回アセスメントでお子様の状態や保護者のニーズを伺い一人ひとりに合わせた"授業"を行います。ひとと人との繋がりが､新しい可能性をうみ､そこからまた､点がひろがる。結びついて､拓かれていく。サークルオーは子どもたちの世界が拓く機会を作っていきます｡</p>
+                  <p class="fz-2xs fz-2xl-xs mt-2">聴覚障害者である私の両親の幼少期は､人と"繋がる"ことが簡単ではありませんでした。しかし今は違います。オンラインで人と繋がり､ことばに触れ､学ぶことができる。サークルオーは子どもたちの世界が拓くような機会をこれからも作っていきます｡</p>
                 </div>
               </div>
             </div>
@@ -926,14 +953,6 @@
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                   <div class="px-3 py-4">
                     <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">未就学でも受講可能でしょうか？</h2>
-                    <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ことばの獲得に対する課題感が高い場合､対象年齢外(未就学)でもを授業提供を行う場合があります｡</p>
-                  </div>
-                </div>
-              </li>
-              <li class="col-8 col-sm-5 col-md-5 col-lg-3" :class="constants.mtListTeacher">
-                <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
-                  <div class="px-3 py-4">
-                    <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">未就学でも受講可能ですか？</h2>
                     <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ことばの獲得に対する課題感が高い場合､対象年齢外(未就学)でもを授業提供を行う場合があります｡</p>
                   </div>
                 </div>
@@ -1013,8 +1032,8 @@
               <li class="col-8 col-sm-5 col-md-5 col-lg-3" :class="constants.mtListTeacher">
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                   <div class="px-3 py-4">
-                    <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">先生とはどのようなコミュニケーション手段で？</h2>
-                    <p class="lh-105 mt-2 fz-2xs fz-xl-xs">基本的に手話も行いますが､子どものニーズに合わせて授業を進めています｡</p>
+                    <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">先生とはどのように連絡しますか？</h2>
+                    <p class="lh-105 mt-2 fz-2xs fz-xl-xs">本サービス登録後､会員ページ内で担当の先生と連絡ができます。｡</p>
                   </div>
                 </div>
               </li>
@@ -1111,9 +1130,9 @@
                 <span class="d-block mb-2 mb-xl-3 fz-tl ls-n01 clr-co">サポーターのご紹介</span>
                 <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">💝 皆さまの寄付で無償に ✍</strong>
               </h2>
-              <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">無償提供は､これまでNPO法人Silent Voiceへ集まった寄付金を先生の授業報酬に充てております｡</p>
               <div class="row justify-content-center" :class="constants.mtP">
                 <div class="col-11 col-sm-9 col-lg-7">
+                  <p :class="[constants.mbP]" class="fz-xsm font-RyoGothic-B">無償提供は､これまでNPO法人Silent Voiceへ集まった寄付金を先生の授業報酬に充てております｡</p>
                   <img data-src="/img/global/logo-nf-land.svg" alt="公益財団法人日本財団" class="w-100 lazyload lazypreload">
                   <a :class="constants.mtP" href="https://www.nippon-foundation.or.jp/journal/2020/44203" target="_blank" class="d-block w-100 px-3 px-sm-4 py-2 clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-co bw-02r">
                     <div class="h-100 d-flex flex-wrap align-items-center">
@@ -1126,9 +1145,9 @@
               <hr class="bc-wht effect-neumo bw-02r" :class="constants.mySec">
               <h3 class="font-V7MG-EB clr-co fz-xsm pb-205">📣 メディア掲載(一部)</h3>
               <ul class="liSlash ls-0 fz-2xs fz-xl-xs font-V7MG-B">
-                <li>NHK「ろうを生きる難聴を生きる」</li><li>NHK「おはよう関西」</li><li>日本テレビ「the SOCIAL」</li><li>毎日放送「VOICE」</li><li>朝日放送 ドキュメンタリー</li><li>読売新聞 毎日新聞 産経新聞</li><li>致知「致知随想」</li><li>TEDxKOBE</li><li>another life.</li><li>WORMO by KOKUYO</li>
+                <li>NHK｢ろうを生きる難聴を生きる｣</li><li>NHK｢おはよう関西｣</li><li>日本テレビ｢the SOCIAL｣</li><li>毎日放送｢VOICE｣</li><li>朝日放送 ドキュメンタリー</li><li>読売新聞 毎日新聞 産経新聞</li><li>致知｢致知随想｣</li><li>TEDxKOBE</li><li>another life.</li><li>WORMO by KOKUYO</li>
               </ul>
-              <hr class="bc-wht effect-neumo bw-02r" :class="constants.mySec">
+              <!-- <hr class="bc-wht effect-neumo bw-02r" :class="constants.mySec">
               <h3 class="font-V7MG-EB clr-co fz-xsm pb-205">💳 単発寄付で応援ください</h3>
               <p>オンライン授業の無償提供における先生への謝礼の補填､教材の拡充に充てさせて頂きます｡</p>
               <ul class="row low-gutters">
@@ -1183,9 +1202,9 @@
               </ul>
               <ul class="liKome fz-2xs mt-3">
                 <li>クレジットカードで寄付いただけます</li>
-                <li>決済会社「アナザーレーン」のシステムを利用します</li>
+                <li>決済会社｢アナザーレーン｣のシステムを利用します</li>
                 <li>ボタンを押すとの決済画面に移行します</li>
-              </ul>
+              </ul> -->
             </div>
           </div>
         </section>
@@ -1220,7 +1239,7 @@
                   </dl>
                   <dl class="row low-gutters flex-nowrap mt-2 fz-2xs fz-lg-xsm">
                     <dt class="col-auto font-V7MG-EB">設立</dt>
-                    <dd class="col">2018年1月19日</dd>
+                    <dd class="col">2017年1月19日</dd>
                   </dl>
                   <dl class="row low-gutters flex-nowrap mt-2 fz-2xs fz-lg-xsm">
                     <dt class="col-auto font-V7MG-EB">目的</dt>
@@ -1258,7 +1277,7 @@ import { mapGetters } from 'vuex'
 export default {
   name: 'MockLp',
   components: { SpTel },
-  layout: 'app',
+  layout: 'web',
   data() {
     return {
       videoSrc: null,
@@ -1317,8 +1336,8 @@ export default {
   head() {
     const props = {
       bodyClasses: ['page-home'],
-      title: 'ろう児・難聴児のオンライン対話学習コミュニティ「Circle O - サークルオー｣',
-      description: 'コロナ禍における「新しい生活様式」の普及によって生活にマスクは必需品となりました。この「口が見えない」マスクを多くの人が着用することで、話しかけられていることにも気づくことができず、先生やお友達とのコミュニケーションが取りにくい状況になった子どもたちがいます。オンライン対話コミュニティcircle O（サークルオー）が、そんな状況にある、ろう児・難聴児のご家庭へオンライン授業の無償提供を行います。子どもたちの「学びを止めない」ために、ぜひご活用ください。',
+      title: 'ろう児・難聴児のオンライン対話学習コミュニティ｢Circle O - サークルオー｣',
+      description: 'コロナ禍における｢新しい生活様式｣の普及によって生活にマスクは必需品となりました。この｢口が見えない｣マスクを多くの人が着用することで､話しかけられていることにも気づくことができず､先生やお友達とのコミュニケーションが取りにくい状況になった子どもたちがいます。オンライン対話コミュニティcircle O（サークルオー）が､そんな状況にある､ろう児・難聴児のご家庭へオンライン授業の無償提供を行います。子どもたちの｢学びを止めない｣ために､ぜひご活用ください。',
       ogImage: 'img/teaser/teaser.jpg'
     }
     return head(props, this.$store)
