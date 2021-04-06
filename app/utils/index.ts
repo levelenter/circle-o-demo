@@ -64,7 +64,7 @@ export function decodeValue(val: any) {
 
 export function nl2br(str: string) {
   if (!str) str = ''
-  return str.replace(/\r\n/g, '<br>').replace(/([\n\r])/g, '<br>')
+  return str.replace(/\r\n/g, '<br>').replace(/([\n\r])/g, '<br>').replace(/¥n/g, '<br>')
 }
 
 export function srcSize(src: string, size: string) {
@@ -110,3 +110,5 @@ export function toUpperCase(s: string) {
     return s.toUpperCase()
   }
 }
+
+export const timeout = (ms: number) => new Promise(resolve => setTimeout(resolve, ms))

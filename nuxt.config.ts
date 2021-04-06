@@ -1,8 +1,6 @@
 import { parseBoolean } from './app/utils'
 import { NuxtConfig } from '@nuxt/types'
 
-require('dotenv').config()
-
 const head = require('./app/config/head')
 const router = require('./app/config/router')
 const sitemap = require('./app/config/sitemap.ts')
@@ -14,6 +12,7 @@ const nuxtConfig: NuxtConfig = {
   telemetry: false,
   env: {
     metaRobotsNoIndexNoFollow: process.env.META_ROBOTS_NO_INDEX_NO_FOLLOW || '',
+    apiTeachers: process.env.API_TEACHERS || ''
   },
   buildModules: ['@nuxt/typescript-build'],
   /*
@@ -65,6 +64,8 @@ const nuxtConfig: NuxtConfig = {
     '@/plugins/font-awesome',
     { src: '@/plugins/lazysizes', mode: 'client' },
     '@/plugins/directive/add-hover-class',
+    '@/plugins/ua.client',
+    '@/plugins/vue/loading-template.client',
   ],
 
   /*
@@ -72,9 +73,19 @@ const nuxtConfig: NuxtConfig = {
    */
   modules: [
     // '@nuxtjs/pwa',
+    '@nuxt/http',
     '@nuxtjs/sitemap',
     ['@nuxtjs/google-tag-manager', { id: process.env.GTM_ID, pageTracking: true, dev: false }],
   ],
+  http: {
+    proxy: true
+  },
+  proxy: {
+    '/api': {
+      target: 'https://circle-o.jp',
+      pathRewrite: {'^/api/': ''}
+    },
+  },
 
   /*
    ** Build configuration
