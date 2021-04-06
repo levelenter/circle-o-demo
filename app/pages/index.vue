@@ -872,11 +872,12 @@ export default {
     this.teachers.splice(0)
     const result = await this.$http.$get(process.env.apiTeachers)
     if (result?.status === 200) {
-      this.teachers.push(...result.data.map(d => {
-        const youtubeId = (d?.appeal_movie_url) ? d?.appeal_movie_url.split('/').pop() : ''
+      this.teachers.push(...result.data.map(t => {
+        const youtubeId = (t?.appeal_movie_url) ? t?.appeal_movie_url.split('/').pop() : ''
         return {
-          ...d,
-          youtubeId
+          ...t,
+          youtubeId,
+          image_url: 'https://circle-o.jp' + t.image_url
         }
       }))
     }
