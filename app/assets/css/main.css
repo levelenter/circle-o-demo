@@ -57,7 +57,7 @@ body{color: #444;font-family:"font-RyoGothic-R",-apple-system,system-ui,BlinkMac
 p{line-height: 1.6;}
 h1,h2,h3,h4,h5,h6{line-height: 1.6;font-weight: 600;}
 a:hover,a:focus {color: #999; text-decoration: none;}
-.nuxt-link-active:not(#h1-head).nuxt-link-exact-active{opacity: .45;}
+.nuxt-link-active:not(.hvr-no).nuxt-link-exact-active{opacity: .45;}
 .nuxt-link-active.nuxt-link-exact-active.btn-lang{opacity:1 !important;color: #545454 !important;}
 
 .of-cover{object-fit: cover;}
@@ -154,7 +154,10 @@ input:checked ~ .custom-control-label::before {border-color: #333 !important;bac
 #ils-8{top:20rem;right:3rem;}
 #ils-9{top:37rem;right:2rem;}
 
+.bf-clr-co ::marker{font-size: 1.2em;color: #328ab6 !important}
 
+
+main{min-height: calc(100vh - 6rem - 5rem);}
 /* ==========================================================================
 Responsive
 ========================================================================== */

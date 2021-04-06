@@ -3,7 +3,7 @@
     <header class="pt-2 pt-lg-0" :class="constants.mySec">
       <ul class="row no-gutters low-md-gutters align-items-center">
         <li class="col-auto">
-          <img class="w-7rem w-md-10rem lazyload lazypreload" data-src="/img/global/logo.svg" alt="CIRCLE-O">
+          <img class="w-7rem w-md-10rem" src="/img/global/logo.svg" alt="CIRCLE-O">
         </li>
         <li class="col-auto ml-auto">
           <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_MpLUgaoXjWf9_5nS2mu-A0Hf9_xu66E2lQuMUx-h075h3g/viewform" target="_blank" class="d-block w-11rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
@@ -1715,7 +1715,7 @@ export default {
       bodyClasses: ['page-home'],
       title: 'ろう児・難聴児のオンライン対話学習コミュニティ｢Circle O - サークルオー｣',
       description: 'コロナ禍における｢新しい生活様式｣の普及によって生活にマスクは必需品となりました。この｢口が見えない｣マスクを多くの人が着用することで､話しかけられていることにも気づくことができず､先生やお友達とのコミュニケーションが取りにくい状況になった子どもたちがいます。オンライン対話コミュニティcircle O(サークルオー)が､そんな状況にある､ろう児・難聴児のご家庭へオンライン授業の無償提供を行います。子どもたちの｢学びを止めない｣ために､ぜひご活用ください。',
-      ogImage: 'img/teaser/teaser.jpg'
+      ogImage: 'img/global/ogi/default.jpg'
     }
     return head(props, this.$store)
   }

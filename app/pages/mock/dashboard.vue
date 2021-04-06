@@ -2,6 +2,9 @@
   <main class="d-none-alert" :class="constants.pxMain">
     <header class="pb-1" :class="constants.mbSec">
       <ul class="form-row align-items-center mt-2">
+        <li class="col-auto">
+          <nuxt-link to="/mock/dashboard/" class="clr-blk font-weight-700 small-xs fz-md-2xs hvr-no">🏠 HOME</nuxt-link>
+        </li>
         <li class="col-auto ml-auto">
           <nuxt-link to="/" class="clr-blk font-weight-700 small-xs fz-md-2xs">よくある質問</nuxt-link>
         </li>
@@ -11,15 +14,17 @@
       </ul>
       <ul class="row low-gutters row-sm align-items-center flex-nowrap mt-405 mt-sm-3">
         <li class="col-auto">
-          <img class="w-5rem w-sm-7rem w-md-9rem lazyload lazypreload" data-src="/img/global/logo.svg" alt="CIRCLE-O">
+          <nuxt-link to="/mock/dashboard/" class="d-block hvr-no">
+            <img class="w-505rem w-sm-7rem w-md-9rem" src="/img/global/logo.svg" alt="CIRCLE-O">
+          </nuxt-link>
         </li>
         <li class="col">
           <ul class="row low-gutters row-sm flex-nowrap align-items-center">
-            <li class="col-auto">
+            <li class="col-7 col-sm-auto">
               <div class="form-row row-md">
                 <div class="col-sm-auto">
                   <h2 class="fz-xs clr-blk text-md-center lh-103 ls-0">Circle<small class="font-weight-700">さん</small> <small class="font-weight-700">こんにちは</small>😄</h2>
-                  <small class="d-block small-2xs mt-sm-1 lh-103 ls-0">レッスンのためにプロフを100%に</small>
+                  <small class="d-block small-2xs mt-sm-1 lh-103 ls-n005">レッスンのためにプロフを100%に</small>
                 </div>
                 <div class="col-sm-auto">
                   <button class="d-block py-1 px-2 py-sm-2 px-sm-3 w-12rem w-md-13rem bg-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r mt-sm-1">
@@ -73,8 +78,27 @@
         </div>
       </li>
     </ul>
-    <div class="row add3x-gutters" :class="constants.mtSec">
-      <div class="col-md">
+    <div class="row add2x-gutters add3x-3xl-gutters flex-xl-nowrap" :class="constants.mtSec">
+      <div class="col-xl">
+        <h1 class="fz-xsm lh-1 clr-co pl-025"><font-awesome-icon :icon="['fas', 'dot-circle']" /> Welcome to Circle O</h1>
+        <div :class="[constants.whtBoard,constants.mtSec]">
+          <h2 :class="constants.fzLg" class="clr-co fz-xl-2xl"> ろう･難聴児向けオンライン対話授業<br class="d-none d-xl-block">｢サークルオー｣にご登録ありがとうございます🙆‍♀️🙆‍♂️</h2>
+          <h3 class="mt-405 fz-md">授業開始に向けて､下記ステップを進めて行きましょう！</h3>
+          <ul class="liDic mt-3 font-RyoGothic-B fz-xsm pl-1 bf-clr-co">
+            <li class="mt-2">プロフィールの完成 <small class="font-RyoGothic-B clr-gray-dark">(レッスンがよりスムーズ)</small></li>
+            <li class="mt-2">運営との初回面談 <small class="font-RyoGothic-B clr-gray-dark">(ことば検査)</small>の日程調整</li>
+            <li class="mt-2">初回面談実施</li>
+            <li class="mt-2">先生を予約する</li>
+            <li class="mt-2">授業開始</li>
+          </ul>
+          <p class="mt-3">まずは､｢プロフィールの完成｣｢初回面談の日程調整｣から始めてください！ご不明点などは､<a class="clr-line" href="https://lin.ee/PMtIjxz" target=""><font-awesome-icon :icon="['fab', 'line']" /> 公式LINE</a>よりお気軽にお問い合わせください！運営チームがお答えします。</p>
+          <a href="https://docs.google.com/document/d/1ZwbPGmkFjvdyKx_Zp1YJC0OS3g8TIrNx9_EAHPb6U14/edit#heading=h.49lo9z5tojsc" class="d-block mt-4 py-2 px-3 px-sm-4 fz-sm w-100 w-md-26rem hvr-bg-blk clr-wht rounded-xl btn-neumo-co bsd bc-wht bw-02r" target="_blank">
+            <div class="h-100 d-flex flex-wrap align-items-center">
+              <div class="font-weight-700 ls-0">Google Docs でさらに詳しく読む</div>
+              <div class="ml-auto"><font-awesome-icon class="mb-025" :icon="['fas', 'external-link']" /></div>
+            </div>
+          </a>
+        </div>
         <h1 class="fz-xsm lh-1 clr-co pl-025"><font-awesome-icon :icon="['fas', 'dot-circle']" /> 受講中のレッスン</h1>
         <ul class="ml-md-2">
           <li :class="[constants.whtBoard,constants.mtSec]" class="position-relative">
@@ -110,29 +134,6 @@
                 <p class="fz-lg-xsm lh-103 clr-blk pl-3 pl-md-2 mt-sm-2">｢もう少しで半分ですね！単語の記憶力すごいです！｣</p>
               </div>
             </div>
-            <!-- <div class="form-row align-items-center mt-4">
-              <div class="col-auto mb-2">
-                <div class="w-2rem w-md-3rem d-block">
-                  <picture class="d-block rounded-circle ovh bsd bw-1px">
-                    <source data-srcset="/img/prof/7@0.25x.jpg" media="--sm" />
-                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/7@0.25x.jpg" alt="元木 哲三">
-                  </picture>
-                </div>
-              </div>
-              <div class="col mt-3 mt-md-0">
-                <h1 class="fz-xsm lh-103 clr-blk pl-1">ゆうこ<small class="font-weight-700 ml-1">先生</small></h1>
-                <ul class="form-row align-items-center">
-                  <li class="col-auto">
-                    <p class="fz-2xs ls-0 lh-1">サッカーが好きです^^</p>
-                  </li>
-                  <li class="col-auto">
-                    <nuxt-link to="" class="fz-2xs ls-0 lh-1">
-                      <font-awesome-icon class="clr-blk" :icon="['fas', 'user']" /> プロフィール
-                    </nuxt-link>
-                  </li>
-                </ul>
-              </div>
-            </div> -->
             <hr class="btda pt-405 mt-405">
             <h3 class="clr-gray-dark small-xs mb-3 lh-1">最近の状況</h3>
             <ul class="liDisc fz-md pl-2">
@@ -271,32 +272,9 @@
                 </div>
               </div>
               <div class="col">
-                <p class="fz-lg-xsm lh-103 clr-blk pl-3 pl-md-2 mt-sm-2">｢初回は、ぜひリラックスして！がクスして！がクスして！がクスして！がんばりましょう！｣</p>
+                <p class="fz-lg-xsm lh-103 clr-blk pl-3 pl-md-2 mt-sm-2">｢初回は､ぜひリラックスして！がクスして！がクスして！がクスして！がんばりましょう！｣</p>
               </div>
             </div>
-            <!-- <div class="form-row align-items-center mt-4">
-              <div class="col-auto mb-2">
-                <div class="w-2rem w-md-3rem d-block">
-                  <picture class="d-block rounded-circle ovh bsd bw-1px">
-                    <source data-srcset="/img/prof/7@0.25x.jpg" media="--sm" />
-                    <img class="w-100 lazyload lazypreload" data-src="/img/prof/7@0.25x.jpg" alt="元木 哲三">
-                  </picture>
-                </div>
-              </div>
-              <div class="col mt-3 mt-md-0">
-                <h1 class="fz-xsm lh-103 clr-blk pl-1">ゆうこ<small class="font-weight-700 ml-1">先生</small></h1>
-                <ul class="form-row align-items-center">
-                  <li class="col-auto">
-                    <p class="fz-2xs ls-0 lh-1">サッカーが好きです^^</p>
-                  </li>
-                  <li class="col-auto">
-                    <nuxt-link to="" class="fz-2xs ls-0 lh-1">
-                      <font-awesome-icon class="clr-blk" :icon="['fas', 'user']" /> プロフィール
-                    </nuxt-link>
-                  </li>
-                </ul>
-              </div>
-            </div> -->
             <hr class="btda pt-405 mt-405">
             <h3 class="clr-gray-dark small-xs mb-3 lh-1">最近の状況</h3>
             <ul class="liDisc fz-md pl-2">
@@ -369,62 +347,68 @@
           </li>
         </ul>
       </div>
-      <div class="col-md-auto mt-405 mt-md-0">
-        <div class="w-25rem">
-          <section class="mb-7">
-            <h1 class="fz-xsm lh-1 clr-co pl-025"><font-awesome-icon :icon="['fas', 'dot-circle']" /> ニュース</h1>
-            <ul class="row low-gutters">
-              <li class="col-6 mt-405">
-                <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
-                  <!-- <picture class="h-5rem d-block ovh">
-                    <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/safe_image.jpg" alt="">
-                  </picture> -->
-                  <div class="px-3 py-3">
-                    <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
-                    <h2 class="fz-2xs lh-103">2020年12月04日(火)、爆音コンビニ 東京都板橋区某所にオープン！...</h2>
-                  </div>
-                </a>
-              </li>
-              <li class="col-6 mt-405">
-                <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
-                  <!-- <picture class="h-5rem d-block ovh">
-                    <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/Co_catch.png" alt="">
-                  </picture> -->
-                  <div class="px-3 py-3">
-                    <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
-                    <h2 class="fz-2xs lh-103">2021年01月03日(金)、ZOOMで大集合！ろう難聴児のことばの学びを...</h2>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </section>
-          <section class="mb-7">
-            <h1 class="fz-xsm lh-1 clr-co pl-025"><font-awesome-icon :icon="['fas', 'dot-circle']" /> イベント情報</h1>
-            <ul class="row low-gutters">
-              <li class="col-6 mt-405">
-                <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
-                  <!-- <picture class="h-5rem d-block ovh">
-                    <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/safe_image.jpg" alt="">
-                  </picture> -->
-                  <div class="px-3 py-3">
-                    <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
-                    <h2 class="fz-2xs lh-103">2020年12月04日(火)、爆音コンビニ 東京都板橋区某所にオープン！...</h2>
-                  </div>
-                </a>
-              </li>
-              <li class="col-6 mt-405">
-                <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
-                  <!-- <picture class="h-5rem d-block ovh">
-                    <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/Co_catch.png" alt="">
-                  </picture> -->
-                  <div class="px-3 py-3">
-                    <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
-                    <h2 class="fz-2xs lh-103">2021年01月03日(金)、ZOOMで大集合！ろう難聴児のことばの学びを...</h2>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </section>
+      <div class="col-xl-auto mt-7 mt-xl-0">
+        <div class="w-xl-25rem">
+          <ul class="row add-gutters add2x-lg-gutters">
+            <li class="col-md-6 col-xl-12">
+              <section class="mb-7">
+                <h1 class="fz-xsm lh-1 clr-co pl-025"><font-awesome-icon :icon="['fas', 'dot-circle']" /> ニュース</h1>
+                <ul class="row low-gutters">
+                  <li class="col-6 mt-405">
+                    <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
+                      <!-- <picture class="h-5rem d-block ovh">
+                        <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/safe_image.jpg" alt="">
+                      </picture> -->
+                      <div class="px-3 py-3">
+                        <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
+                        <h2 class="fz-2xs lh-103">2020年12月04日(火)､爆音コンビニ 東京都板橋区某所にオープン！...</h2>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-6 mt-405">
+                    <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
+                      <!-- <picture class="h-5rem d-block ovh">
+                        <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/Co_catch.png" alt="">
+                      </picture> -->
+                      <div class="px-3 py-3">
+                        <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
+                        <h2 class="fz-2xs lh-103">2021年01月03日(金)､ZOOMで大集合！ろう難聴児のことばの学びを...</h2>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </li>
+            <li class="col-md-6 col-xl-12">
+              <section class="mb-7">
+                <h1 class="fz-xsm lh-1 clr-co pl-025"><font-awesome-icon :icon="['fas', 'dot-circle']" /> イベント情報</h1>
+                <ul class="row low-gutters">
+                  <li class="col-6 mt-405">
+                    <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
+                      <!-- <picture class="h-5rem d-block ovh">
+                        <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/safe_image.jpg" alt="">
+                      </picture> -->
+                      <div class="px-3 py-3">
+                        <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
+                        <h2 class="fz-2xs lh-103">2020年12月04日(火)､爆音コンビニ 東京都板橋区某所にオープン！...</h2>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-6 mt-405">
+                    <a class="d-block bsd bc-wht bw-02r bg-wht-op06 rounded-lg ovh" href="_blank">
+                      <!-- <picture class="h-5rem d-block ovh">
+                        <img class="w-100 img-align-center lazyload lazypreload" data-src="/img/evt/Co_catch.png" alt="">
+                      </picture> -->
+                      <div class="px-3 py-3">
+                        <time class="small-xs clr-co mb-2 d-block font-RyoGothic-B">2021.02.03</time>
+                        <h2 class="fz-2xs lh-103">2021年01月03日(金)､ZOOMで大集合！ろう難聴児のことばの学びを...</h2>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </section>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
