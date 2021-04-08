@@ -35,7 +35,8 @@
   "devDependencies": {
     "@nuxt/types": "^2.14.6",
     "@nuxt/typescript-build": "^2.0.3",
-    "@types/node": "^14.11.8"
+    "@types/node": "^14.11.8",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
