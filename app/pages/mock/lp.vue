@@ -93,7 +93,7 @@
           <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-0">👩‍🎓ろう･難聴児の学びを💮</strong></span>
         </h2>
         <div :class="constants.mtP" class="embed-responsive embed-responsive-16by9 rounded ovh z-1 position-relative bsd bc-co bw-05r bg-co btn-neumo">
-          <iframe class="w-100 rounded ovh lazypreload lazyload"  data-src="https://www.youtube-nocookie.com/embed/-5zzlWjnoac" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="w-100 rounded ovh lazypreload lazyload"  data-src="https://www.youtube-nocookie.com/embed/4-hL2XI3_Dw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="row low-gutters justify-content-center align-items-center mt-2">
           <div class="col-auto">
@@ -1111,10 +1111,16 @@
                 <span class="d-block mb-2 mb-xl-3 fz-tl ls-n01 clr-co">サポーターのご紹介</span>
                 <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">💝 皆さまの寄付で無償に ✍</strong>
               </h2>
-              <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">無償提供は､これまでNPO法人Silent Voiceへ集まった寄付金を先生の授業報酬に充てております｡</p>
-              <div class="row justify-content-center" :class="constants.mtP">
-                <div class="col-11 col-sm-9 col-lg-7">
-                  <img data-src="/img/global/logo-nf-land.svg" alt="公益財団法人日本財団" class="w-100 lazyload lazypreload">
+              <div class="row justify-content-center">
+                <div class="col-11 col-sm-9 col-lg-8">
+                  <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">無償提供は､これまでNPO法人Silent Voiceへ集まった寄付金を先生の授業報酬に充てております｡</p>
+                  <a href="https://silentvoice.co.jp/news/2576/" target="_blank" class="d-block w-100 mt-4 px-3 px-sm-4 py-2 clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-co bw-02r">
+                    <div class="h-100 d-flex flex-wrap align-items-center">
+                      <div class="font-V7MG-EB fz-xs ls-0">Silent Voice「サークルオー」寄付ページを読む</div>
+                      <div class="ml-auto"><font-awesome-icon class="small" :icon="['fas', 'external-link']" /></div>
+                    </div>
+                  </a>
+                  <img :class="constants.mtSec" data-src="/img/global/logo-nf-land.svg" alt="公益財団法人日本財団" class="w-100 lazyload lazypreload">
                   <a :class="constants.mtP" href="https://www.nippon-foundation.or.jp/journal/2020/44203" target="_blank" class="d-block w-100 px-3 px-sm-4 py-2 clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-co bw-02r">
                     <div class="h-100 d-flex flex-wrap align-items-center">
                       <div class="font-V7MG-EB fz-xs ls-0">日本財団ジャーナルの取材記事を読む</div>
@@ -1212,7 +1218,7 @@
                 <div class="col-md col-lg-5">
                   <dl class="row low-gutters form-lg-row flex-nowrap mt-2 fz-2xs fz-lg-xsm">
                     <dt class="col-auto font-V7MG-EB lh-102 mt-1">運営<br>会社</dt>
-                    <dd class="col">NPO法人<br>Silent Voice（サイレントヴォイス）</dd>
+                    <dd class="col">NPO法人<br>Silent Voice（サイレントボイス）</dd>
                   </dl>
                   <dl class="row low-gutters flex-nowrap mt-2 fz-2xs fz-lg-xsm">
                     <dt class="col-auto font-V7MG-EB">本部</dt>
