@@ -4,6 +4,19 @@
 
 generateして本番サーバーに設置する
 
+## 事前準備
+env.zipを解凍し.envファイル等をプロジェクトルートディレクトリに設置
+
+## 本番リリース
+
+### generate
+
+```bash
+$ npm run generate:prod
+```
+
+- `./dist/`に出力されるので本番サーバーに設置
+
 ## Build Setup
 
 ``` bash
