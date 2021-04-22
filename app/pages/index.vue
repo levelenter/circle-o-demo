@@ -1,6 +1,9 @@
 <template>
   <main :class="constants.pxMain">
     <header class="pt-2 pt-lg-0" :class="constants.mySec">
+      <div class="text-right mt-n405">
+        <a class="font-V7MG-EB ls-n005 d-inline-block" href="" target="_blank">ログイン</a>
+      </div>
       <ul class="row no-gutters low-md-gutters align-items-center">
         <li class="col-auto">
           <img class="w-7rem w-md-10rem" src="/img/global/logo.svg" alt="CIRCLE-O">
@@ -32,7 +35,7 @@
         <img id="ils-7" data-src="/img/global/illust/7.svg" alt="" class="w-3rem w-sm-5rem w-lg-8rem w-xl-12rem w-2xl-13rem rotate-n8 position-absolute z-1 lazyload lazypreload">
       </figure>
       <h1 class="text-center clr-blk fz-tl font-V7MG-EB lh-1 pt-3 pb-405">
-        <span class="ls-n0105 ls- bigger-lg strong ml-n2 mb-2 d-block clr-co">
+        <span class="ls-n0105 ls-n01 bigger-lg strong ml-n2 mb-2 d-block clr-co">
           <span class="mr-2">話</span>そう<span class="ml-1">､</span><span class="mr-2 mr-xl-3">学</span>ぼう!
         </span>
         <span class="d-block my-3 my-md-4"><span class="ls-n01 mr-1">オンライン</span>対話授業</span>
