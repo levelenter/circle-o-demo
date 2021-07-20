@@ -174,7 +174,7 @@
       </div>
       <div class="col-11 col-sm-9 col-lg-7">
         <h2 :class="constants.mtLg" class="text-center clr-blk font-V7MG-EB lh-1 mx-n3">
-          <span class="d-block mb-2 ls-n005 fz-tl clr-co">2021年7月まで無料</span>
+          <span class="d-block mb-2 ls-n005 fz-tl clr-co"><span class="ls-n01">2021</span>年<span class="ls-n01">12</span>月末まで無料</span>
           <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">聴覚障害のある6歳〜18歳の方</strong></span>
         </h2>
         <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">インターネット環境があれば､いつでもどこからでも授業を受けることができます。全国の皆様からのご応募お待ちしております｡</p>
