@@ -2,7 +2,7 @@
   <main :class="constants.pxMain">
     <header class="pt-2 pt-lg-0" :class="constants.mySec">
       <div class="text-right mt-n405">
-        <a class="font-V7MG-EB ls-n005 d-inline-block" href="" target="_blank">ログイン</a>
+        <a class="font-V7MG-EB ls-n005 d-inline-block" href="/#/entrance-page" target="_self">ログイン</a>
       </div>
       <ul class="row no-gutters low-md-gutters align-items-center">
         <li class="col-auto">
