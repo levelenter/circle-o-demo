@@ -9,7 +9,7 @@
           <img class="w-7rem w-md-10rem" src="/img/global/logo.svg" alt="CIRCLE-O">
         </li>
         <li class="col-auto ml-auto">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_MpLUgaoXjWf9_5nS2mu-A0Hf9_xu66E2lQuMUx-h075h3g/viewform" target="_blank" class="d-block w-11rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+          <a href="https://circle-o.jp/app/#/entrance-page" target="_blank" class="d-block w-11rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
             <div class="h-100 d-flex flex-wrap align-items-center">
               <div class="font-V7MG-EB fz-xs fz-md-md">無料お申し込み</div>
               <div class="ml-auto"><font-awesome-icon class="clr-wht small" :icon="['fas', 'hands-helping']" /></div>
@@ -50,7 +50,7 @@
               <img class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem lazyload" data-src="/img/global/win-l.svg">
             </div>
             <div class="col-auto">
-              <h2 class="clr-blk font-V7MG-EB text-center lh-1 lh-md-102" :class="constants.fzLg"><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">無償提供<br>授業回数</span><span class="ls-n01">1153<small class="font-V7MG-B fz-2xs"> 回以上</small></span></h2>
+              <h2 class="clr-blk font-V7MG-EB text-center lh-1 lh-md-102" :class="constants.fzLg"><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">無償提供<br>授業回数</span><span class="ls-n01">1312<small class="font-V7MG-B fz-2xs"> 回以上</small></span></h2>
             </div>
             <div class="col-auto">
               <img class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem lazyload" data-src="/img/global/win-r.svg">
@@ -87,7 +87,7 @@
     </div>
     <div class="row justify-content-center" :class="constants.mbLg">
       <div class="col-10 col-sm-6 col-md-7 col-lg-5 col-2xl-4 mt-5">
-        <img data-src="/img/global/illust/4-2.svg" alt="" class="w-100 pr-3 lazyload lazypreload">
+        <img data-src="/img/global/illust/4-2.svg" alt="ろう･難聴児に双方向型オンライン対話授業を" class="w-100 pr-3 lazyload lazypreload">
         <h3 class="font-V7MG-EB text-center lh-104 clr-co fz-md-sm fz-xl-md mt-n5 mt-md-n6 pl-2">ろう･難聴児に双方向型<br>｢<strong class="clr-red">オンライン対話授業</strong>｣を</h3>
       </div>
       <div class="col-11 col-sm-10">
@@ -103,7 +103,7 @@
             <h3 class="small-2xs ls-0 clr-blk">powerded by <a href="https://silentvoice.co.jp/" class="clr-sv small-xs ml-1" target="_blank">Silent Voice</a></h3>
           </div>
           <div class="col-auto">
-            <img data-src="/img/global/logo-sv-port.svg" alt="" class="w-1rem lazyload lazypreload">
+            <img data-src="/img/global/logo-sv-port.svg" alt="Silent Voice" class="w-1rem lazyload lazypreload">
           </div>
         </div>
       </div>
@@ -174,7 +174,7 @@
       </div>
       <div class="col-11 col-sm-9 col-lg-7">
         <h2 :class="constants.mtLg" class="text-center clr-blk font-V7MG-EB lh-1 mx-n3">
-          <span class="d-block mb-2 ls-n005 fz-tl clr-co"><span class="ls-n01">2021</span>年<span class="ls-n01">12</span>月末まで無料</span>
+          <span class="d-block mb-2 ls-n005 fz-tl clr-co"><span class="ls-n01">2022</span>年<span class="ls-n01">3</span>月末まで無料</span>
           <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">聴覚障害のある6歳〜18歳の方</strong></span>
         </h2>
         <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">インターネット環境があれば､いつでもどこからでも授業を受けることができます。全国の皆様からのご応募お待ちしております｡</p>
@@ -196,7 +196,7 @@
           <li class="col-md-4 mt-1">
             <div class="form-row flex-nowrap align-items-center align-items-md-start">
               <div class="col-auto">
-                <img data-src="/img/global/illust/3-1.svg" alt="" class="w-5rem shadow-light lazyload lazypreload">
+                <img data-src="/img/global/illust/3-1.svg" alt="WEBカメラとパソコン" class="w-5rem shadow-light lazyload lazypreload">
               </div>
               <div class="col">
                 <h4 class="font-V7MG-EB clr-blk fz-2xs">WEBカメラとパソコン</h4>
@@ -211,7 +211,7 @@
               </div>
               <div class="col">
                 <h4 class="font-V7MG-EB clr-blk fz-2xs">LINEアカウント</h4>
-                <p class="fz-2xs lh-102 mt-1">授業予約の調整､その他連絡事項等はLINE公式アカウントを使用いたします。個人のLINEアカウントを先生/生徒間で交換する必要はありません｡</p>
+                <p class="fz-2xs lh-102 ls-n005 mt-1">授業予約の調整､その他連絡事項等はLINE公式アカウントを使用いたします。個人のLINEアカウントを先生/生徒間で交換する必要はありません｡</p>
               </div>
             </div>
           </li>
@@ -220,36 +220,36 @@
       <div class="col-12">
         <div :class="[constants.mtP,constants.mxNmain]">
           <div :class="[constants.mtLg]" class="row no-gutters">
-            <picture class="col-12 col-lg-4 h-14rem h-sm-22rem h-md-25rem h-lg-20rem h-xl-26rem h-2xl-30rem">
+            <picture class="col-lg-4 h-14rem h-sm-22rem h-md-25rem h-lg-20rem h-xl-26rem h-2xl-30rem">
               <source data-srcset="/img/lp/scene/8@0.75x.jpg" media="--xl" />
               <source data-srcset="/img/lp/scene/8@0.5x.jpg" media="--sm" />
-              <img data-src="/img/lp/scene/8@0.33x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+              <img data-src="/img/lp/scene/8@0.33x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
             </picture>
-            <div class="col-12 col-md-6 col-lg-4">
+            <div class="col-md-6 col-lg-4">
               <div class="row no-gutters">
                 <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem">
                   <source data-srcset="/img/lp/scene/9@0.5x.jpg" media="--xl" />
                   <source data-srcset="/img/lp/scene/9@0.33x.jpg" media="--sm" />
-                  <img data-src="/img/lp/scene/9@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                  <img data-src="/img/lp/scene/9@0.15x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
                 <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem"">
                   <source data-srcset="/img/lp/scene/3@0.5x.jpg" media="--xl" />
                   <source data-srcset="/img/lp/scene/3@0.33x.jpg" media="--sm" />
-                  <img data-src="/img/lp/scene/3@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                  <img data-src="/img/lp/scene/3@0.15x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
                 <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem"">
                   <source data-srcset="/img/lp/scene/5@0.5x.jpg" media="--xl" />
                   <source data-srcset="/img/lp/scene/5@0.33x.jpg" media="--sm" />
-                  <img data-src="/img/lp/scene/5@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                  <img data-src="/img/lp/scene/5@0.15x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
                 <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem"">
                   <source data-srcset="/img/lp/scene/4@0.5x.jpg" media="--xl" />
                   <source data-srcset="/img/lp/scene/4@0.33x.jpg" media="--sm" />
-                  <img data-src="/img/lp/scene/4@0.15x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
+                  <img data-src="/img/lp/scene/4@0.15x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
               </div>
             </div>
-            <picture class="col-12 col-md-6 col-lg-4 h-14rem h-sm-22rem h-md-20rem h-xl-26rem h-2xl-30rem">
+            <picture class="col-md-6 col-lg-4 h-14rem h-sm-22rem h-md-20rem h-xl-26rem h-2xl-30rem">
               <source data-srcset="/img/lp/scene/1@0.75x.jpg" media="--xl" />
               <source data-srcset="/img/lp/scene/1@0.5x.jpg" media="--sm" />
               <img data-src="/img/lp/scene/1@0.33x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
@@ -272,7 +272,7 @@
               <li class="col-9 col-sm-12 col-lg-4" :class="constants.mtListTeacher">
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                   <div class="row no-gutters justify-content-center">
-                    <div class="col-12 col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
+                    <div class="col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
                         <source data-srcset="/img/lp/curriculum/1@0.75x.jpg" media="--xl" />
                         <img data-src="/img/lp/curriculum/1@0.5x.jpg" alt="ことばの授業" class="h-100 w-100 of-cover lazyload lazypreload">
@@ -292,7 +292,7 @@
               <li class="col-9 col-sm-12 col-lg-4" :class="constants.mtListTeacher">
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                   <div class="row no-gutters justify-content-center">
-                    <div class="col-12 col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
+                    <div class="col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
                         <source data-srcset="/img/lp/curriculum/2@0.75x.jpg" media="--xl" />
                         <img data-src="/img/lp/curriculum/2@0.5x.jpg" alt="教科学習授業" class="h-100 w-100 of-cover lazyload lazypreload">
@@ -312,7 +312,7 @@
               <li class="col-9 col-sm-12 col-lg-4" :class="constants.mtListTeacher">
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                   <div class="row no-gutters justify-content-center">
-                    <div class="col-12 col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
+                    <div class="col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
                         <source data-srcset="/img/lp/curriculum/3@0.75x.jpg" media="--xl" />
                         <img data-src="/img/lp/curriculum/3@0.5x.jpg" alt="ロールモデル教育授業" class="h-100 w-100 of-cover lazyload lazypreload">
@@ -434,7 +434,7 @@
               </div>
               <h1 class="clr-blk font-V7MG-EB fz-xsm text-center"><strong class="clr-co mb-1 fz-tl ls-n005 d-block">📛 生徒さん募集 🐣</strong>お気軽にお問い合わせ&お申し込みください</h1>
               <p class="mt-3 fz-xsm fz-lg-md">全国の手話のできる､ろう者､難聴者､聴者の先生が多数在籍しております。現在､ことば､教科指導､ロールモデル教育ともに無償提供を行っております。全国の皆様からのご応募お待ちしております｡</p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_MpLUgaoXjWf9_5nS2mu-A0Hf9_xu66E2lQuMUx-h075h3g/viewform" target="_blank"  :class="constants.mySm" class="d-block w-100 fz-xl fz-md-3xl fz-xl-4xl px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+              <a href="https://circle-o.jp/app/#/entrance-page" target="_blank"  :class="constants.mySm" class="d-block w-100 fz-xl fz-md-3xl fz-xl-4xl px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
                 <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
                   <div class="font-V7MG-EB">無料お申し込み</div>
                   <div class="ml-2 mt-025"><font-awesome-icon class="clr-wht" :icon="['fas', 'hands-helping']" /></div>
@@ -685,13 +685,38 @@
                   <img data-src="/img/global/logo.svg" alt="CIRCLE-O サークルオー" class="w-10rem lazyload lazypreload">
                 </div>
               </div>
-              <h2 class="text-center clr-blk font-V7MG-EB lh-1 mt-405">
-                <span class="d-block mb-2 mb-xl-3 fz-tl ls-n01 clr-co">サポーターのご紹介</span>
-                <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">💝 皆さまの寄付で無償に ✍</strong>
-              </h2>
+              <h1 class="text-center clr-blk font-V7MG-EB lh-1 mt-405">
+                <span class="d-block mb-2 mb-xl-3 fz-tl ls-n01 clr-co">協力団体のご紹介</span>
+              </h1>
               <div class="row justify-content-center">
                 <div class="col-11 col-sm-9 col-lg-8">
-                  <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">無償提供は､これまでNPO法人Silent Voiceへ集まった寄付金を先生の授業報酬に充てております｡</p>
+                  <a href="https://www.comekko.com/" target="_blank" class="d-block">
+                    <picture class="d-block">
+                      <source data-srcset="/img/global/bnr/bnr-comekko.png" media="--xl" />
+                      <img data-src="/img/global/bnr/bnr-comekko@0.75x.png" alt="子どもの手話の力を育む「こめっこ」" class="w-100 lazyload lazypreload">
+                    </picture>
+                    <h4 class="fz-2xs font-V7MG-B mt-3 lh-104 clr-gray-dark">０歳〜未就学児のろう･難聴児が集まり､遊びをとおして<ruby>手話<rt>ことば</rt></ruby>を獲得･習得する場です｡手話のあふれる場所で､子どもたちは楽しみながらわかる体験をします｡同じ仲間や先輩ろう者とかかわり､伝え合う力を育みます｡</h4>
+                  </a>
+                  <a :class="constants.mtP" href="https://www.comekko.com/" target="_blank" class="d-block w-100 px-3 px-sm-4 py-2 clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-co bw-02r">
+                    <div class="h-100 d-flex flex-wrap align-items-center">
+                      <div class="font-V7MG-EB fz-xs ls-0">子どもの手話の力を育む「NPOこめっこ」</div>
+                      <div class="ml-auto"><font-awesome-icon class="small" :icon="['fas', 'external-link']" /></div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div :class="[constants.mtLg]" class="row justify-content-center">
+                <div class="col-auto">
+                  <img data-src="/img/global/logo.svg" alt="CIRCLE-O サークルオー" class="w-10rem lazyload lazypreload">
+                </div>
+              </div>
+              <h1 class="text-center clr-blk font-V7MG-EB lh-1 mt-405">
+                <span class="d-block mb-2 mb-xl-3 fz-tl ls-n01 clr-co">サポーターのご紹介</span>
+                <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">💝 皆さまの寄付で無償に ✍</strong>
+              </h1>
+              <div class="row justify-content-center">
+                <div class="col-11 col-sm-9 col-lg-8">
+                  <p :class="[constants.mtP]" class="fz-xsm fz-lg-md ls-0">NPO法人Silent Voiceへの寄付金を先生の授業報酬に充てながら､無償提供を行なっております｡</p>
                   <a href="https://silentvoice.co.jp/news/2576/" target="_blank" class="d-block w-100 mt-4 px-3 px-sm-4 py-2 clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-co bw-02r">
                     <div class="h-100 d-flex flex-wrap align-items-center">
                       <div class="font-V7MG-EB fz-xs ls-0">Silent Voice「サークルオー」寄付ページを読む</div>
@@ -705,13 +730,13 @@
                       <div class="ml-auto"><font-awesome-icon class="small" :icon="['fas', 'external-link']" /></div>
                     </div>
                   </a>
-                </div>
-              </div>
               <hr class="bc-wht effect-neumo bw-02r" :class="constants.mySec">
               <h3 class="font-V7MG-EB clr-co fz-xsm pb-205">📣 メディア掲載(一部)</h3>
               <ul class="liSlash ls-0 fz-2xs fz-xl-xs font-V7MG-B">
                 <li>NHK｢ろうを生きる難聴を生きる｣</li><li>NHK｢おはよう関西｣</li><li>日本テレビ｢the SOCIAL｣</li><li>毎日放送｢VOICE｣</li><li>朝日放送 ドキュメンタリー</li><li>読売新聞 毎日新聞 産経新聞</li><li>致知｢致知随想｣</li><li>TEDxKOBE</li><li>another life.</li><li>WORMO by KOKUYO</li>
               </ul>
+                </div>
+              </div>
               <!-- <hr class="bc-wht effect-neumo bw-02r" :class="constants.mySec">
               <h3 class="font-V7MG-EB clr-co fz-xsm pb-205">💳 単発寄付で応援ください</h3>
               <p>オンライン授業の無償提供における先生への謝礼の補填､教材の拡充に充てさせて頂きます｡</p>
