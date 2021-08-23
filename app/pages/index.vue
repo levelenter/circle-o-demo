@@ -17,7 +17,7 @@
           </a>
         </li>
         <li class="col-auto ml-2">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB6e9nSS-JI3TyrDNTLsUDkVujJSDQ2l2O9Cu5YiG4ewYY_w/viewform" target="_blank" class="d-block w-9rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+          <a href="https://circle-o.jp/app/#/teacher-term-of-use-page?building=co01" target="_blank" class="d-block w-9rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
             <div class="h-100 d-flex flex-wrap align-items-center">
               <div class="font-V7MG-EB fz-xs fz-md-md">先生になる</div>
               <div class="ml-auto"><font-awesome-icon class="clr-wht small" :icon="['fas', 'user-edit']" /></div>
@@ -471,7 +471,7 @@
               </div>
               <h1 class="clr-blk font-V7MG-EB fz-xsm text-center mx-n5"><strong class="clr-co mb-1 fz-tl ls-n005 d-block">👩‍🏫手話のできる先生募集👨‍💻</strong>お気軽にお問い合わせ&お申し込みください</h1>
               <p class="mt-3 fz-xsm fz-lg-md">先生自身の今までの学び方､工夫のひとつひとつが､より多くの子どもたちにとっての学びであり工夫になっていきます｡心ある先生のご応募をお待ちしております｡</p>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB6e9nSS-JI3TyrDNTLsUDkVujJSDQ2l2O9Cu5YiG4ewYY_w/viewform" target="_blank" :class="constants.mySm" class="d-block w-100 fz-xl fz-md-3xl fz-xl-4xl px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+              <a href="https://circle-o.jp/app/#/teacher-term-of-use-page?building=co01" target="_blank" :class="constants.mySm" class="d-block w-100 fz-xl fz-md-3xl fz-xl-4xl px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
                 <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
                   <div class="font-V7MG-EB">先生になる</div>
                   <div class="ml-2 mt-025"><font-awesome-icon class="clr-wht" :icon="['fas', 'user-edit']" /></div>
