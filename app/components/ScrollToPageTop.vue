@@ -18,7 +18,7 @@
           </a>
         </div>
         <div class="col-auto ml-2">
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdB6e9nSS-JI3TyrDNTLsUDkVujJSDQ2l2O9Cu5YiG4ewYY_w/viewform" target="_blank" class="d-block w-9rem w-sm-13rem w-lg-17rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
+          <a href="https://circle-o.jp/app/#/teacher-term-of-use-page?building=co01" target="_blank" class="d-block w-9rem w-sm-13rem w-lg-17rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
             <div class="h-100 d-flex flex-wrap align-items-center">
               <div class="font-V7MG-EB fz-xs fz-md-md fz-lg-lg">先生になる</div>
               <div class="ml-auto"><font-awesome-icon class="clr-wht" :icon="['fas', 'user-edit']" /></div>
