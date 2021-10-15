@@ -9,7 +9,7 @@
           <img class="w-7rem w-md-10rem" src="/img/global/logo.svg" alt="CIRCLE-O">
         </li>
         <li class="col-auto ml-auto">
-          <a href="https://circle-o.jp/app/#/entrance-page" target="_blank" class="d-block w-11rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+          <a href="https://circle-o.jp/app/#/entrance-page" target="_blank" class="d-block w-13rem w-sm-15rem w-md-17rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
             <div class="h-100 d-flex flex-wrap align-items-center">
               <div class="font-V7MG-EB fz-xs fz-md-md">無料で生徒になる</div>
               <div class="ml-auto"><font-awesome-icon class="clr-wht small" :icon="['fas', 'hands-helping']" /></div>
