@@ -6,12 +6,12 @@
       </div>
       <ul class="row no-gutters low-md-gutters align-items-center">
         <li class="col-auto">
-          <img class="w-7rem w-md-10rem" src="/img/global/logo.svg" alt="CIRCLE-O">
+          <img class="w-505rem w-sm-7rem w-md-10rem" src="/img/global/logo.svg" alt="CIRCLE-O">
         </li>
         <li class="col-auto ml-auto">
-          <a href="https://circle-o.jp/app/#/entrance-student-page" target="_blank" class="d-block w-13rem w-sm-15rem w-md-17rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+          <a href="https://circle-o.jp/app/#/entrance-student-page" target="_blank" class="d-block w-1105rem w-sm-15rem w-md-17rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
             <div class="h-100 d-flex flex-wrap align-items-center">
-              <div class="font-V7MG-EB fz-xs fz-md-md">無料で生徒になる</div>
+              <div class="font-V7MG-EB fz-xs fz-md-md ls-0">無料で生徒になる</div>
               <div class="ml-auto"><font-awesome-icon class="clr-wht small" :icon="['fas', 'hands-helping']" /></div>
             </div>
           </a>
@@ -19,7 +19,7 @@
         <li class="col-auto ml-2">
           <a href="https://circle-o.jp/app/#/teacher-term-of-use-page?building=co01" target="_blank" class="d-block w-9rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
             <div class="h-100 d-flex flex-wrap align-items-center">
-              <div class="font-V7MG-EB fz-xs fz-md-md">先生になる</div>
+              <div class="font-V7MG-EB fz-xs fz-md-md ls-0">先生になる</div>
               <div class="ml-auto"><font-awesome-icon class="clr-wht small" :icon="['fas', 'user-edit']" /></div>
             </div>
           </a>

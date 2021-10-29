@@ -19,13 +19,12 @@
           </nuxt-link>
         </li>
         <li class="col">
-          <ul class="row low-gutters row-sm flex-nowrap align-items-center">
+          <ul class="row low-gutters row-sm align-items-center">
+            <div class="col-sm-auto">
+              <h2 class="fz-xs clr-blk text-md-center lh-103 ls-0">Circle<small class="font-weight-700">さん</small> <small class="font-weight-700">こんにちは</small>😄</h2>
+            </div>
             <li class="col-7 col-sm-auto">
               <div class="form-row row-md">
-                <div class="col-sm-auto">
-                  <h2 class="fz-xs clr-blk text-md-center lh-103 ls-0">Circle<small class="font-weight-700">さん</small> <small class="font-weight-700">こんにちは</small>😄</h2>
-                  <small class="d-block small-2xs mt-sm-1 lh-103 ls-n005">レッスンのためにプロフを100%に</small>
-                </div>
                 <div class="col-sm-auto">
                   <button class="d-block py-1 px-2 py-sm-2 px-sm-3 w-12rem w-md-13rem bg-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-wht bw-02r mt-sm-1">
                     <div class="h-100 d-flex flex-wrap align-items-center">
@@ -36,7 +35,7 @@
                 </div>
               </div>
             </li>
-            <li class="col">
+            <li class="col-5">
               <button class="d-block w-9rem w-md-10rem py-2 px-4 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
                 <div class="h-100 form-row flex-wrap align-items-center">
                   <div class="font-weight-700 ls-0 fz-xs">先生を探す</div>
