@@ -6,7 +6,7 @@
       </div>
       <ul class="row no-gutters low-md-gutters align-items-center">
         <li class="col-auto">
-          <img class="w-505rem w-sm-7rem w-md-10rem" src="/img/global/logo.svg" alt="CIRCLE-O">
+          <img class="w-505rem w-sm-7rem w-md-10rem" style="aspect-ratio:120/83" src="/img/global/logo.svg" alt="CIRCLE-O">
         </li>
         <li class="col-auto ml-auto">
           <a href="https://circle-o.jp/app/#/entrance-student-page" target="_blank" class="d-block w-1105rem w-sm-15rem w-md-17rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
@@ -28,11 +28,11 @@
     </header>
     <div class="position-relative">
       <figure>
-        <img id="ils-5" data-src="/img/global/illust/5.svg" alt="" class="w-2rem w-sm-3rem w-lg-5rem w-xl-6rem w-2xl-7rem rotate-15 position-absolute z-1 lazyload lazypreload">
-        <img id="ils-6" data-src="/img/global/illust/6.svg" alt="" class="w-3rem w-sm-5rem w-lg-9rem w-xl-12rem w-2xl-14rem rotate-n15 position-absolute z-1 lazyload lazypreload">
-        <img id="ils-9" data-src="/img/global/illust/9.svg" alt="" class="w-5rem w-sm-9rem w-lg-15rem w-xl-17rem w-2xl-18rem rotate-8 position-absolute z-1 lazyload lazypreload">
-        <img id="ils-8" data-src="/img/global/illust/8.svg" alt="" class="w-2rem w-sm-3rem w-lg-5rem w-xl-7rem w-2xl-8rem rotate-n8 position-absolute z-1 lazyload lazypreload">
-        <img id="ils-7" data-src="/img/global/illust/7.svg" alt="" class="w-3rem w-sm-5rem w-lg-8rem w-xl-12rem w-2xl-13rem rotate-n8 position-absolute z-1 lazyload lazypreload">
+        <img id="ils-5" data-src="/img/global/illust/5.svg" style="aspect-ratio:4/7" aria-hidden="true" alt="" class="w-2rem w-sm-3rem w-lg-5rem w-xl-6rem w-2xl-7rem rotate-15 position-absolute z-1 lazyload lazypreload">
+        <img id="ils-6" data-src="/img/global/illust/6.svg" style="aspect-ratio:27/23" aria-hidden="true" alt="" class="w-3rem w-sm-5rem w-lg-9rem w-xl-12rem w-2xl-14rem rotate-n15 position-absolute z-1 lazyload lazypreload">
+        <img id="ils-9" data-src="/img/global/illust/9.svg" style="aspect-ratio:20/17" aria-hidden="true" alt="" class="w-5rem w-sm-9rem w-lg-15rem w-xl-17rem w-2xl-18rem rotate-8 position-absolute z-1 lazyload lazypreload">
+        <img id="ils-8" data-src="/img/global/illust/8.svg" style="aspect-ratio:20/17" aria-hidden="true" alt="" class="w-2rem w-sm-3rem w-lg-5rem w-xl-7rem w-2xl-8rem rotate-n8 position-absolute z-1 lazyload lazypreload">
+        <img id="ils-7" data-src="/img/global/illust/7.svg" style="aspect-ratio:48/41" aria-hidden="true" alt="" class="w-3rem w-sm-5rem w-lg-8rem w-xl-12rem w-2xl-13rem rotate-n8 position-absolute z-1 lazyload lazypreload">
       </figure>
       <h1 class="text-center clr-blk fz-tl font-V7MG-EB lh-1 pt-3 pb-405">
         <span class="ls-n0105 ls-n01 bigger-lg strong ml-n2 mb-2 d-block clr-co">
@@ -87,7 +87,7 @@
     </div>
     <div class="row justify-content-center" :class="constants.mbLg">
       <div class="col-10 col-sm-6 col-md-7 col-lg-5 col-2xl-4 mt-5">
-        <img data-src="/img/global/illust/4-2.svg" alt="ろう･難聴児に双方向型オンライン対話授業を" class="w-100 pr-3 lazyload lazypreload">
+        <img data-src="/img/global/illust/4-2.svg" style="aspect-ratio:371/316" alt="ろう･難聴児に双方向型オンライン対話授業を" class="w-100 pr-3 lazyload lazypreload">
         <h3 class="font-V7MG-EB text-center lh-104 clr-co fz-md-sm fz-xl-md mt-n5 mt-md-n6 pl-2">ろう･難聴児に双方向型<br>｢<strong class="clr-red">オンライン対話授業</strong>｣を</h3>
       </div>
       <div class="col-11 col-sm-10">
@@ -96,7 +96,7 @@
           <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-0">👩‍🎓ろう･難聴児の学びを💮</strong></span>
         </h2>
         <div :class="constants.mtP" class="embed-responsive embed-responsive-16by9 rounded ovh z-1 position-relative bsd bc-co bw-05r bg-co btn-neumo">
-          <iframe class="w-100 rounded ovh lazypreload lazyload"  data-src="https://www.youtube-nocookie.com/embed/4-hL2XI3_Dw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe loading="lazy" class="w-100 rounded ovh lazypreload lazyload"  data-src="https://www.youtube-nocookie.com/embed/4-hL2XI3_Dw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <div class="row low-gutters justify-content-center align-items-center mt-2">
           <div class="col-auto">
@@ -137,7 +137,7 @@
                     </div>
                     <div class="col-6">
                       <picture class="d-block w-2rem w-md-205rem h-2rem h-md-205rem rounded-circle ovh bsd bw-1px">
-                        <source :data-srcset="t.image_url" media="--sm" />
+                        <source :data-srcset="t.image_url" :media="constants.mdSm" />
                         <img class="w-100 h-100 of-cover lazyload lazypreload" :data-src="t.image_url" :alt="t.user_name + '先生'">
                       </picture>
                       <h2 class="fz-xsm lh-104 clr-blk mt-1">{{ t.user_name }}<small class="ml-1">先生</small></h2>
@@ -221,37 +221,37 @@
         <div :class="[constants.mtP,constants.mxNmain]">
           <div :class="[constants.mtLg]" class="row no-gutters">
             <picture class="col-lg-4 h-14rem h-sm-22rem h-md-25rem h-lg-20rem h-xl-26rem h-2xl-30rem">
-              <source data-srcset="/img/lp/scene/8@0.75x.jpg" media="--xl" />
-              <source data-srcset="/img/lp/scene/8@0.5x.jpg" media="--sm" />
+              <source data-srcset="/img/lp/scene/8@0.75x.jpg" :media="constants.mdXl" />
+              <source data-srcset="/img/lp/scene/8@0.5x.jpg" :media="constants.mdSm" />
               <img data-src="/img/lp/scene/8@0.33x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
             </picture>
             <div class="col-md-6 col-lg-4">
               <div class="row no-gutters">
                 <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem">
-                  <source data-srcset="/img/lp/scene/9@0.5x.jpg" media="--xl" />
-                  <source data-srcset="/img/lp/scene/9@0.33x.jpg" media="--sm" />
+                  <source data-srcset="/img/lp/scene/9@0.5x.jpg" :media="constants.mdXl" />
+                  <source data-srcset="/img/lp/scene/9@0.33x.jpg" :media="constants.mdSm" />
                   <img data-src="/img/lp/scene/9@0.15x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
                 <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem"">
-                  <source data-srcset="/img/lp/scene/3@0.5x.jpg" media="--xl" />
-                  <source data-srcset="/img/lp/scene/3@0.33x.jpg" media="--sm" />
+                  <source data-srcset="/img/lp/scene/3@0.5x.jpg" :media="constants.mdXl" />
+                  <source data-srcset="/img/lp/scene/3@0.33x.jpg" :media="constants.mdSm" />
                   <img data-src="/img/lp/scene/3@0.15x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
                 <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem"">
-                  <source data-srcset="/img/lp/scene/5@0.5x.jpg" media="--xl" />
-                  <source data-srcset="/img/lp/scene/5@0.33x.jpg" media="--sm" />
+                  <source data-srcset="/img/lp/scene/5@0.5x.jpg" :media="constants.mdXl" />
+                  <source data-srcset="/img/lp/scene/5@0.33x.jpg" :media="constants.mdSm" />
                   <img data-src="/img/lp/scene/5@0.15x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
                 <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem"">
-                  <source data-srcset="/img/lp/scene/4@0.5x.jpg" media="--xl" />
-                  <source data-srcset="/img/lp/scene/4@0.33x.jpg" media="--sm" />
+                  <source data-srcset="/img/lp/scene/4@0.5x.jpg" :media="constants.mdXl" />
+                  <source data-srcset="/img/lp/scene/4@0.33x.jpg" :media="constants.mdSm" />
                   <img data-src="/img/lp/scene/4@0.15x.jpg" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover lazyload lazypreload">
                 </picture>
               </div>
             </div>
             <picture class="col-md-6 col-lg-4 h-14rem h-sm-22rem h-md-20rem h-xl-26rem h-2xl-30rem">
-              <source data-srcset="/img/lp/scene/1@0.75x.jpg" media="--xl" />
-              <source data-srcset="/img/lp/scene/1@0.5x.jpg" media="--sm" />
+              <source data-srcset="/img/lp/scene/1@0.75x.jpg" :media="constants.mdXl" />
+              <source data-srcset="/img/lp/scene/1@0.5x.jpg" :media="constants.mdSm" />
               <img data-src="/img/lp/scene/1@0.33x.jpg" alt="" class="w-100 h-100 of-cover lazyload lazypreload">
             </picture>
           </div>
@@ -274,7 +274,7 @@
                   <div class="row no-gutters justify-content-center">
                     <div class="col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
-                        <source data-srcset="/img/lp/curriculum/1@0.75x.jpg" media="--xl" />
+                        <source data-srcset="/img/lp/curriculum/1@0.75x.jpg" :media="constants.mdXl" />
                         <img data-src="/img/lp/curriculum/1@0.5x.jpg" alt="ことばの授業" class="h-100 w-100 of-cover lazyload lazypreload">
                       </picture>
                     </div>
@@ -294,7 +294,7 @@
                   <div class="row no-gutters justify-content-center">
                     <div class="col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
-                        <source data-srcset="/img/lp/curriculum/2@0.75x.jpg" media="--xl" />
+                        <source data-srcset="/img/lp/curriculum/2@0.75x.jpg" :media="constants.mdXl" />
                         <img data-src="/img/lp/curriculum/2@0.5x.jpg" alt="教科学習授業" class="h-100 w-100 of-cover lazyload lazypreload">
                       </picture>
                     </div>
@@ -314,7 +314,7 @@
                   <div class="row no-gutters justify-content-center">
                     <div class="col-sm-5 col-lg-12 bbsd bb-sm-0 brsd-sm br-lg-0 bbsd-lg bc-gray-light">
                       <picture class="d-block h-14rem ovh">
-                        <source data-srcset="/img/lp/curriculum/3@0.75x.jpg" media="--xl" />
+                        <source data-srcset="/img/lp/curriculum/3@0.75x.jpg" :media="constants.mdXl" />
                         <img data-src="/img/lp/curriculum/3@0.5x.jpg" alt="ロールモデル教育授業" class="h-100 w-100 of-cover lazyload lazypreload">
                       </picture>
                     </div>
@@ -692,7 +692,7 @@
                 <div class="col-11 col-sm-9 col-lg-8">
                   <a href="https://www.comekko.com/" target="_blank" class="d-block">
                     <picture class="d-block">
-                      <source data-srcset="/img/global/bnr/bnr-comekko.png" media="--xl" />
+                      <source data-srcset="/img/global/bnr/bnr-comekko.png" :media="constants.mdXl" />
                       <img data-src="/img/global/bnr/bnr-comekko@0.75x.png" alt="子どもの手話の力を育む「こめっこ」" class="w-100 lazyload lazypreload">
                     </picture>
                     <h4 class="fz-2xs font-V7MG-B mt-3 lh-104 clr-gray-dark">０歳〜未就学児のろう･難聴児が集まり､遊びをとおして<ruby>手話<rt>ことば</rt></ruby>を獲得･習得する場です｡手話のあふれる場所で､子どもたちは楽しみながらわかる体験をします｡同じ仲間や先輩ろう者とかかわり､伝え合う力を育みます｡</h4>
