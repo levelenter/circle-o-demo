@@ -50,7 +50,7 @@
               <img loading="lazy" class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem" src="/img/global/win-l.svg">
             </div>
             <div class="col-auto">
-              <h2 class="clr-blk font-V7MG-EB text-center lh-1 lh-md-102" :class="constants.fzLg"><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">無償提供<br>授業回数</span><span class="ls-n01">1312<small class="font-V7MG-B fz-2xs"> 回以上</small></span></h2>
+              <h2 class="clr-blk font-V7MG-EB text-center lh-1 lh-md-102" :class="constants.fzLg"><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">無償提供<br>授業回数</span><span class="ls-n01">2253<small class="font-V7MG-B fz-2xs"> 回以上</small></span></h2>
             </div>
             <div class="col-auto">
               <img loading="lazy" class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem" src="/img/global/win-r.svg">
@@ -63,7 +63,7 @@
               <img loading="lazy" class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem" src="/img/global/win-l.svg">
             </div>
             <div class="col-auto">
-              <h2 class="clr-blk font-V7MG-EB text-center lh-1 lh-md-102" :class="constants.fzLg"><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">授業<br>満足度</span>94.8<small class="font-V7MG-B fz-xs">%</small></h2>
+              <h2 class="clr-blk font-V7MG-EB text-center lh-1 lh-md-102" :class="constants.fzLg"><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">授業<br>満足度</span>100<small class="font-V7MG-B fz-xs">%</small></h2>
             </div>
             <div class="col-auto">
               <img loading="lazy" class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem" src="/img/global/win-r.svg">
@@ -179,7 +179,7 @@
       </div>
       <div class="col-11 col-sm-9 col-lg-7">
         <h2 :class="constants.mtLg" class="text-center clr-blk font-V7MG-EB lh-1 mx-n3">
-          <span class="d-block mb-2 ls-n005 fz-tl clr-co"><span class="ls-n01">2022</span>年<span class="ls-n01">3</span>月末まで無料</span>
+          <span class="d-block mb-2 ls-n005 fz-tl clr-co"><span class="ls-n01">2022</span>年<span class="ls-n01">5</span>月末まで無料</span>
           <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">聴覚障害のある6歳〜18歳の方</strong></span>
         </h2>
         <p :class="[constants.mtP]" class="fz-xsm fz-lg-md">インターネット環境があれば､いつでもどこからでも授業を受けることができます。全国の皆様からのご応募お待ちしております｡</p>
