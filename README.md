@@ -1,41 +1,43 @@
-# circle-o
+# Welcome to [Astro](https://astro.build)
 
-## 概要
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/starter)
 
-generateして本番サーバーに設置する
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## 事前準備
-env.zipを解凍し.envファイル等をプロジェクトルートディレクトリに設置
+## 🚀 Project Structure
 
-## 本番リリース
-
-### generate
-
-```bash
-$ npm run generate:prod
-```
-
-- `./dist/`に出力されるので本番サーバーに設置
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-$ npm run clear-dist
-
-# generate static project
-$ npm run generate
+Inside of your Astro project, you'll see the following folders and files:
 
 ```
+/
+├── public/
+│   ├── robots.txt
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   └── Tour.astro
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+
+Any static assets, like images, can be placed in the `public/` directory.
+
+## 🧞 Commands
+
+All commands are run from the root of the project, from a terminal:
+
+| Command           | Action                                       |
+|:----------------  |:-------------------------------------------- |
+| `npm install`     | Installs dependencies                        |
+| `npm run dev`     | Starts local dev server at `localhost:3000`  |
+| `npm run build`   | Build your production site to `./dist/`      |
+| `npm run preview` | Preview your build locally, before deploying |
+
+## 👀 Want to learn more?
+
+Feel free to check [our documentation](https://github.com/withastro/astro) or jump into our [Discord server](https://astro.build/chat).

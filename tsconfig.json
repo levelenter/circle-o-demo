@@ -1,22 +1,8 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "experimentalDecorators": true,
-//    "noImplicitThis": true,
-    "lib": [
-      "esnext",
-      "esnext.asynciterable",
-      "dom"
-    ],
-    "esModuleInterop": true,
-    "allowJs": true,
-    "sourceMap": true,
-    "strict": true,
-    "noEmit": true,
-    "baseUrl": "app",
+    "target": "es2020",
+    "baseUrl": "src",
     "paths": {
       "~/*": [ "./*" ],
       "@/*": [ "./*" ],
@@ -24,12 +10,7 @@
       "@@/*": [ "../*" ]
     },
     "types": [
-      "@types/node",
-      "@nuxt/types",
-      "bootstrap-vue/src"
+      "./types"
     ]
-  },
-  "exclude": [
-    "node_modules"
-  ]
+  }
 }

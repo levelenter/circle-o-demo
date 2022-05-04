@@ -1,0 +1,84 @@
+---
+import AppFooter from '@/components/AppFooter.astro'
+import { SEO } from "astro-seo";
+import { Constants } from '@/utils/constants.ts'
+
+import "../styles/bt4Ex.css";
+import "../styles/main.css";
+import "../styles/form.css";
+import "../styles/app.css";
+
+const SITE_NAME = 'CIRCLE O'
+const OG_IMAGE = '/img/global/ogi/default.jpg'
+
+let {title, description, ogImage, titleSuffix} = Astro.props.meta
+const titleAndSuffix = (titleSuffix === undefined || titleSuffix)
+ ? title + ' | ' + (titleSuffix || SITE_NAME)
+ : title
+
+const canonical = import.meta.env.SITE_URL + Astro.request.url.pathname
+const image = (ogImage) ? ogImage : OG_IMAGE
+const openGraph = {
+  basic: {
+    title,
+    type: 'website',
+    image,
+    url: canonical
+  },
+  image: {
+    alt: SITE_NAME
+  },
+  optional: {
+    locale: 'ja_JP',
+    siteName: SITE_NAME
+  },
+  twitter: {
+    card: 'summary_large_image'
+  }
+}
+---
+<html lang="ja">
+<head>
+  <SEO
+    title={titleAndSuffix}
+    {description}
+    {canonical}
+    {openGraph}
+    noindex={!!import.meta.env.NOINDEX_NOFOLLOW}
+    nofollow={!!import.meta.env.NOINDEX_NOFOLLOW}
+   />
+	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+	<meta name="copyright" content="Copyright © CIRCLE O All rights reserved.">
+	<meta name="Author" content="CIRCLE O">
+	<meta name="format-detection" content="telephone=no">
+
+  <script defer src="https://kit.fontawesome.com/299216191a.js" crossorigin="anonymous"></script>
+
+	<link rel="shortcut icon" href="/img/global/favicon.svg" />
+	<link rel="apple-touch-icon-precomposed" href="/img/global/webclip.png" />
+	<link rel="apple-touch-icon" href="/img/global/webclip.png" />
+
+	<style is:global>
+  </style>
+  <script is:inline>
+    (function(d) {
+      var config = {
+          kitId: 'arj7eql',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+	<slot name="head" />
+</head>
+<body>
+<div id="scroll-top-observer" aria-hidden="true"></div>
+<div class="h-100vh position-relative">
+  <main class={Constants.pxMain}>
+    <slot />
+  </main>
+  <AppFooter />
+</div>
+</html>
