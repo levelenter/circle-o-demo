@@ -1,5 +1,17 @@
+<script setup>
+import {startScroll} from '@/utils/scroll'
+import { onMounted, ref } from 'vue'
+
+const isShow = ref(false)
+onMounted(() => {
+  (new IntersectionObserver(entries => {
+    isShow.value = !(entries[0].isIntersecting)
+  })).observe(document.getElementById('scroll-top-observer'))
+})
+</script>
+
 <template>
-  <div id="to-top" :class="{ 'is-show': isShow }" class="transition-fade page-scroll w-100 bottomRight pl-3 pr-4 pb-4 px-lg-5">
+  <div id="to-top" :class="{ 'is-show': isShow }" class="transition-fade w-100 bottomRight pl-3 pr-4 pb-4 px-lg-5">
     <div class="row no-gutters form-row-md align-items-center">
       <div class="col-auto ml-md-auto">
         <a href="https://circle-o.jp/app/#/entrance-student-page" target="_blank" class="d-block w-11rem w-sm-13rem w-lg-17rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo btn-neumo-co bsd bc-wht bw-02r">
@@ -24,28 +36,7 @@
       </div>
     </div>
   </div>
-
-
 </template>
-
-<script>
-import {startScroll} from '@/utils/scroll'
-export default {
-  data() {
-    return {
-      isShow: false
-    }
-  },
-  mounted () {
-    (new IntersectionObserver(entries => {
-    this.isShow = !(entries[0].isIntersecting)
-    })).observe(document.getElementById('scroll-top-observer'))
-  },
-  methods: {
-    startScroll
-  },
-}
-</script>
 
 <style>
 #to-top {

@@ -1,5 +1,4 @@
 export const startScroll = (y: number) => {
-  console.log('startScroll', y)
   const x = window.scrollX
   const startPositionY = window.scrollY
   const endPositionY = y
