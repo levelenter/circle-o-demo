@@ -7560,12 +7560,19 @@ utility
   .table { margin-bottom: 0; border-spacing: 0; }
   table { border-collapse: collapse; border-spacing: 0; }
 /*overflow vertical-align visibility*/
-  .ovxs{overflow-x: scroll;-webkit-overflow-scrolling: touch}
-  .ovv{overflow: visible;}
-  .ovh{overflow: hidden;}
-  .ovyh{overflow-y: hidden;}
-  .vm{vertical-align: middle;}
-  .vh{visibility: hidden;}
+  .snap-x{scroll-behavior:smooth;scroll-snap-type: x mandatory;}
+    .snap-x::-webkit-scrollbar{display:none;}
+    .snap-x>li{scroll-snap-align: start;}
+  .ovxs{overflow-x:scroll}
+  .ovys{overflow-y:scroll}
+  .ovxs,.ovys{-webkit-overflow-scrolling:touch}
+  .ovv{overflow:visible}
+  .ovxh{overflow-x:hidden}
+  .ovyh{overflow-y:hidden}
+  .ovh{overflow:hidden}
+  .ova{overflow:auto}
+  .vm{vertical-align:middle}
+  .vh{visibility:
 
 /*display*/
   .z-1{z-index:1 !important;}

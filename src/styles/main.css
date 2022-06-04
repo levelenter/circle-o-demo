@@ -1,6 +1,4 @@
-/* ==========================================================================
-Base
-========================================================================== */
+:root{--g-def:.8rem;--p-vt:1rem;--p-vt-col:.5rem;--percent-vt:1;--percent-vt-lp:0.83333333}
 /* iPhone 320px */
 @media only screen and (min-width:320px){html{font-size: 67.5%;}}
 /* Android 360px 1.125 */
@@ -22,15 +20,12 @@ Base
 /*3xl*/
 @media(min-width:1600px){html{font-size: 90%;}}
 
-html{position: relative; background: #f0f0f0;}
-body{color: #444;font-family:"font-RyoGothic-R",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;letter-spacing: .02em;font-weight: 400;background: #f0f0f0;}
+html{position: relative;}
+body{color: #444;font-family:"font-RyoGothic-R",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;letter-spacing: .02em;font-weight: 400;}
 
 .font-RyoGothic-R,.font-RyoGothic-B,.font-RyoGothic-H,h1,h2,h3,h4,h5,h6,strong{font-family: ryo-gothic-plusn;font-style: normal;}
-
 .font-V7MG-B,.font-V7MG-EB{font-family: vdl-v7marugothic, sans-serif;}
-
 .font-weight-bolder{font-weight: bolder !important;}
-
 .font-weight-200{font-weight: 200 !important}
 .font-weight-300{font-weight: 300 !important}
 .font-weight-400,.font-RyoGothic-R{font-weight: 400 !important}
@@ -63,9 +58,36 @@ a:hover,a:focus {color: #999; text-decoration: none;}
 .of-cover{object-fit: cover;}
 
 /*  ((100vw - 2*一番外の左右Pd - 2*colの間Pd)*レスポンシブ)/半分/9*16   */
-.h-vt-moive{height: calc(((100vw - 2*1rem - 2*.5rem)*1)/2/9*16);}
+.h-vt-moive{height:calc((100vw - 2 * var(--p-vt) - 2 * var(--p-vt-col)) * var(--percent-vt) / 2 / 9 * 16);}
 /*lp*/
-.ovyh .h-vt-moive{height: calc((((100vw - 2*1rem - 2*.5rem)*0.83333333)/2)/9*16);}
+.ovyh .h-vt-moive{height:calc((100vw - 2 * var(--p-vt) - 2 * var(--p-vt-col)) * var(--percent-vt-lp) / 2 / 9 * 16);}
+.d-grid{display:grid;grid-auto-columns: 100%;}
+/* gap */
+.gap-0{gap:0}
+.gap-05{gap:calc(var(--g-def)/4) 0}
+.gap-1{gap:calc(var(--g-def)/2) 0}
+.gap-2{gap:var(--g-def) 0}
+.gap-3{gap:calc(var(--g-def)*2) 0}
+.gap-4{gap:calc(var(--g-def)*3) 0}
+.gap-5{gap:calc(var(--g-def)*4) 0}
+.bigger-1{font-size:1.4em}
+.bigger-2{font-size:1.65em}
+.bigger-3{font-size:2em}
+.smaller-4{font-size:.4em}
+.smaller-3{font-size:.45em}
+.smaller-2{font-size:.65em}
+.smaller-1,small{font-size:.8em}
+
+.fz-025{font-size:clamp(0.7rem, 0.67rem + 0.15vw, 0.85rem) !important}
+.fz-05{font-size:clamp(0.85rem, 0.83rem + 0.1vw, 0.95rem) !important}
+.fz-1{font-size:clamp(1rem, 0.98rem + 0.1vw, 1.1rem) !important}
+.fz-105{font-size:clamp(1.1rem, 1.08rem + 0.1vw, 1.2rem) !important}
+.fz-2{font-size:clamp(1.2rem, 1.19rem + 0.05vw, 1.25rem) !important}
+.fz-3{font-size:clamp(1.275rem, 1.26rem + 0.08vw, 1.35rem) !important}
+.fz-4{font-size:clamp(1.3rem, 1.27rem + 0.15vw, 1.45rem) !important}
+.fz-5{font-size:clamp(1.75rem, 1.7rem + 0.25vw, 2rem) !important}
+.fz-6{font-size:clamp(2rem, 1.8rem + 1vw, 3rem) !important}
+.fz-7{font-size:clamp(3rem, 2.8rem + 1vw, 4rem) !important}
 
 .fz-tl{font-size: 2.45rem !important;}
 
@@ -90,8 +112,8 @@ a:hover,a:focus {color: #999; text-decoration: none;}
 .pb-10{padding-bottom: 8rem;}
 
 .bc-co{border-color: #328ab6 !important;}
+.bg-gray-co{background-color: #f0f0f0 !important;}
 .bc-gray-dark{border-color: #333 !important;}
-
 .bg-gray-light{background-color: #bdbdbd !important;}
 .bg-gray-dark{background-color: #1b1b1b;}
 .bg-wht-op06{background-color: rgba(255,255,255,.6);}
@@ -163,10 +185,7 @@ Responsive
 ========================================================================== */
 /* sm */
 @media(min-width: 576px){
-  /*  ((100vw - 2*一番外の左右Pd - 2*一番外の左右Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
-  .h-vt-moive{height: calc(((100vw - 2*3rem - 2*.5rem)*0.5 - .5rem*2)/2/9*16);}
-  /*lp*/
-  .ovyh .h-vt-moive{height: calc((((100vw - 2*1rem - 2*.5rem)*0.41666667)/2)/9*16);}
+  :root{--p-vt:3rem;--percent-vt:0.5;--percent-vt-lp:0.41666667}
   .fz-tl{font-size: 3.5rem !important;}
   #ils-5{top:30rem;left:5rem;}
   #ils-6{top:24rem;left:8rem;}
@@ -188,9 +207,11 @@ Responsive
 }
 /* lg */
 @media(min-width: 920px){
+  :root{--percent-vt-lp:0.33333333}
   .fz-tl{font-size: 4.5rem !important;}
   /*  ((100vw - 2*一番外の左右Pd - 4*colの間Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
-  .h-vt-moive,.ovyh .h-vt-moive{height: calc(((100vw - 2*3rem - 4*.5rem)*0.33333333 - .5rem*2)/2/9*16);}
+  .h-vt-moive,.ovyh .h-vt-moive{height: calc(  (  (100vw - 2 * var(--p-vt) - 4 * var(--p-vt-col))  * var(--percent-vt-lp) - var(--p-vt-col) * 2  ) / 2 / 9 * 16 );}
+
   #ils-5{top:37rem;left:12rem;}
   #ils-6{top:25rem;left:5rem;}
   #ils-7{top:24rem;right:4rem;}
@@ -202,6 +223,7 @@ Responsive
 }
 /*xl*/
 @media(min-width:1200px){
+  :root{--percent-vt-lp:0.25}
   .m-xl-505{margin: 3.5rem !important;}
   .mt-xl-505,.my-xl-505{margin-top: 3.5rem !important;}
   .mb-xl-505,.my-xl-505{margin-bottom: 3.5rem !important;}
@@ -209,8 +231,8 @@ Responsive
   .ml-xl-505,.mx-xl-505{margin-left: 3.5rem !important;}
   .fz-tl{font-size: 5rem !important;}
   /*  ((100vw - 2*一番外の左右Pd - 4*colの間Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
-  .h-vt-moive{height: calc(((100vw - 2*3rem - 4*2rem)*0.33333333 - .5rem*2)/2/9*16);}
-  .ovyh .h-vt-moive{height: calc(((100vw - 2*3rem - 6*.5rem)*0.25 - .5rem*2)/2/9*16);}
+  .ovyh .h-vt-moive{height: calc(((100vw - 2*var(--p-vt) - 6*var(--p-vt-col)) * var(--percent-vt-lp) - var(--p-vt-col)*2)/2/9*16);}
+
   #ils-5{top:33rem;left:12rem;}
   #ils-6{top:13rem;left:3rem;}
   #ils-7{top:11rem;right:2rem;}
@@ -219,6 +241,7 @@ Responsive
 }
 /*2xl*/
 @media(min-width:1366px){
+  :root{--p-vt:4rem;--percent-vt:0.33333333;}
   .px-2xl-10,.pl-2xl-10{padding-left: 8rem !important;}
   .px-2xl-10,.pr-2xl-10{padding-right: 8rem !important;}
   .px-2xl-11,.pl-2xl-11{padding-left: 9rem !important;}
@@ -229,7 +252,7 @@ Responsive
   .ml-2xl-10,.mx-2xl-10{margin-left: 8rem !important}
   .mr-2xl-10,.mx-2xl-10{margin-right: 8rem !important}
   /*  ((100vw - 2*一番外の左右Pd - 4*colの間Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
-  .h-vt-moive{height: calc(((100vw - 2*4rem - 4*2rem)*0.33333333 - .5rem*2)/2/9*16);}
+  .h-vt-moive{height: calc(((100vw - 2*var(--p-vt) - 4*2rem) * var(--percent-vt) - var(--p-vt-col)*2)/2/9*16);}
   #ils-5{top:27rem;left:12rem;}
   #ils-6{top:7rem;left:5rem;}
   #ils-7{top:5rem;right:0rem;}
@@ -238,8 +261,9 @@ Responsive
 }
 /*3xl*/
 @media(min-width:1600px){
+  :root{--p-vt:7rem;}
   /*  ((100vw - 2*一番外の左右Pd - 2*一番外の左右Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
-  .h-vt-moive{height: calc(((100vw - 2*7rem - 4*2rem)*0.33333333 - .5rem*2)/2/9*16);}
+  .h-vt-moive{height: calc(((100vw - 2*var(--p-vt) - 4*2rem) * var(--percent-vt) - var(--p-vt-col)*2)/2/9*16);}
   .m-3xl-505{margin: 3.5rem !important;}
   .mt-3xl-505,.my-3xl-505{margin-top: 3.5rem !important;}
   .mb-3xl-505,.my-3xl-505{margin-bottom: 3.5rem !important;}
@@ -253,19 +277,23 @@ Responsive
 }
 /*4xl*/
 @media(min-width:1800px){
-  .col-4xl{-webkit-flex-basis:0;-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}.col-4xl-auto{-webkit-box-flex:0;-webkit-flex:0 0 auto;-ms-flex:0 0 auto;flex:0 0 auto;width:auto}.col-4xl-1{-webkit-box-flex:0;-webkit-flex:0 0 8.333333%;-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}.col-4xl-2{-webkit-box-flex:0;-webkit-flex:0 0 16.666667%;-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}.col-4xl-3{-webkit-box-flex:0;-webkit-flex:0 0 25%;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-4xl-4{-webkit-box-flex:0;-webkit-flex:0 0 33.333333%;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.col-4xl-5{-webkit-box-flex:0;-webkit-flex:0 0 41.666667%;-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}.col-4xl-6{-webkit-box-flex:0;-webkit-flex:0 0 50%;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.col-4xl-7{-webkit-box-flex:0;-webkit-flex:0 0 58.333333%;-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}.col-4xl-8{-webkit-box-flex:0;-webkit-flex:0 0 66.666667%;-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}.col-4xl-9{-webkit-box-flex:0;-webkit-flex:0 0 75%;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}.col-4xl-10{-webkit-box-flex:0;-webkit-flex:0 0 83.333333%;-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}.col-4xl-11{-webkit-box-flex:0;-webkit-flex:0 0 91.666667%;-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}.col-4xl-12{-webkit-box-flex:0;-webkit-flex:0 0 100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.pull-4xl-0{right:auto}.pull-4xl-1{right:8.333333%}.pull-4xl-2{right:16.666667%}.pull-4xl-3{right:25%}.pull-4xl-4{right:33.333333%}.pull-4xl-5{right:41.666667%}.pull-4xl-6{right:50%}.pull-4xl-7{right:58.333333%}.pull-4xl-8{right:66.666667%}.pull-4xl-9{right:75%}.pull-4xl-10{right:83.333333%}.pull-4xl-11{right:91.666667%}.pull-4xl-12{right:100%}.push-4xl-0{left:auto}.push-4xl-1{left:8.333333%}.push-4xl-2{left:16.666667%}.push-4xl-3{left:25%}.push-4xl-4{left:33.333333%}.push-4xl-5{left:41.666667%}.push-4xl-6{left:50%}.push-4xl-7{left:58.333333%}.push-4xl-8{left:66.666667%}.push-4xl-9{left:75%}.push-4xl-10{left:83.333333%}.push-4xl-11{left:91.666667%}.push-4xl-12{left:100%}.offset-4xl-0{margin-left:0}.offset-4xl-1{margin-left:8.333333%}.offset-4xl-2{margin-left:16.666667%}.offset-4xl-3{margin-left:25%}.offset-4xl-4{margin-left:33.333333%}.offset-4xl-5{margin-left:41.666667%}.offset-4xl-6{margin-left:50%}.offset-4xl-7{margin-left:58.333333%}.offset-4xl-8{margin-left:66.666667%}.offset-4xl-9{margin-left:75%}.offset-4xl-10{margin-left:83.333333%}.offset-4xl-11{margin-left:91.666667%}
-  .row-4xl > [class*=col-],.row-4xl > .col{padding-right:1rem !important;padding-left:1rem !important;}
-  .row-4xl {margin-right: -1rem !important;margin-left: -1rem !important;}
-  .low-4xl-gutters > [class*=col-],.low-4xl-gutters > .col{padding-right:.35rem !important;padding-left:.35rem !important;}
-  .low-4xl-gutters {margin-right: -.35rem !important;margin-left: -.35rem !important;}
-  .form-4xl-row{margin-right: -.5rem !important;margin-left: -.5rem !important;}
-  .form-4xl-row>.col, .form-4xl-row>[class*=col-] {padding-right: .5rem !important;padding-left: .5rem !important;}
-  .add05x-4xl-gutters > [class*=col-],.add05x-4xl-gutters > .col{padding-right:1.25rem !important;padding-left:1.25rem !important;}
-  .add05x-4xl-gutters {margin-right: -1.25rem !important;margin-left: -1.25rem !important;}
-  .add-4xl-gutters > [class*=col-],.add-4xl-gutters > .col{padding-right:1.5rem !important;padding-left:1.5rem !important;}
-  .add-4xl-gutters {margin-right: -1.5rem !important;margin-left: -1.5rem !important;}
-  .add2x-4xl-gutters > [class*=col-],.add2x-4xl-gutters > .col{padding-right:2rem !important;padding-left:2rem !important;}
-  .add2x-4xl-gutters {margin-right: -2rem !important;margin-left: -2rem !important;}
+  .col-4xl{flex-basis:0;flex-grow:1;max-width:100%}.col-4xl-auto{flex:0 0 auto;width:auto}.col-4xl-1{flex:0 0 8.333333%;max-width:8.333333%}.col-4xl-2{flex:0 0 16.666667%;max-width:16.666667%}.col-4xl-3{flex:0 0 25%;max-width:25%}.col-4xl-4{flex:0 0 33.333333%;max-width:33.333333%}.col-4xl-5{flex:0 0 41.666667%;max-width:41.666667%}.col-4xl-6{flex:0 0 50%;max-width:50%}.col-4xl-7{flex:0 0 58.333333%;max-width:58.333333%}.col-4xl-8{flex:0 0 66.666667%;max-width:66.666667%}.col-4xl-9{flex:0 0 75%;max-width:75%}.col-4xl-10{flex:0 0 83.333333%;max-width:83.333333%}.col-4xl-11{flex:0 0 91.666667%;max-width:91.666667%}.col-4xl-12{flex:0 0 100%;max-width:100%}.pull-4xl-0{right:auto}.pull-4xl-1{right:8.333333%}.pull-4xl-2{right:16.666667%}.pull-4xl-3{right:25%}.pull-4xl-4{right:33.333333%}.pull-4xl-5{right:41.666667%}.pull-4xl-6{right:50%}.pull-4xl-7{right:58.333333%}.pull-4xl-8{right:66.666667%}.pull-4xl-9{right:75%}.pull-4xl-10{right:83.333333%}.pull-4xl-11{right:91.666667%}.pull-4xl-12{right:100%}.push-4xl-0{left:auto}.push-4xl-1{left:8.333333%}.push-4xl-2{left:16.666667%}.push-4xl-3{left:25%}.push-4xl-4{left:33.333333%}.push-4xl-5{left:41.666667%}.push-4xl-6{left:50%}.push-4xl-7{left:58.333333%}.push-4xl-8{left:66.666667%}.push-4xl-9{left:75%}.push-4xl-10{left:83.333333%}.push-4xl-11{left:91.666667%}.push-4xl-12{left:100%}.offset-4xl-0{margin-left:0}.offset-4xl-1{margin-left:8.333333%}.offset-4xl-2{margin-left:16.666667%}.offset-4xl-3{margin-left:25%}.offset-4xl-4{margin-left:33.333333%}.offset-4xl-5{margin-left:41.666667%}.offset-4xl-6{margin-left:50%}.offset-4xl-7{margin-left:58.333333%}.offset-4xl-8{margin-left:66.666667%}.offset-4xl-9{margin-left:75%}.offset-4xl-10{margin-left:83.333333%}.offset-4xl-11{margin-left:91.666667%}
+  .row-4xl > [class*=col-],.row-4xl > .col{padding-right:1rem!important;padding-left:1rem!important}
+  .row-4xl{margin-right:-1rem!important;margin-left:-1rem!important}
+  .low-4xl-gutters > [class*=col-],.low-4xl-gutters > .col{padding-right:.35rem!important;padding-left:.35rem!important}
+  .low-4xl-gutters{margin-right:-.35rem!important;margin-left:-.35rem!important}
+  .form-4xl-row{margin-right:-.5rem!important;margin-left:-.5rem!important}
+  .form-4xl-row>.col,.form-4xl-row>[class*=col-]{padding-right:.5rem!important;padding-left:.5rem!important}
+  .add05x-4xl-gutters > [class*=col-],.add05x-4xl-gutters > .col{padding-right:1.25rem!important;padding-left:1.25rem!important}
+  .add05x-4xl-gutters{margin-right:-1.25rem!important;margin-left:-1.25rem!important}
+  .add-4xl-gutters > [class*=col-],.add-4xl-gutters > .col{padding-right:1.5rem!important;padding-left:1.5rem!important}
+  .add-4xl-gutters{margin-right:-1.5rem!important;margin-left:-1.5rem!important}
+  .add2x-4xl-gutters > [class*=col-],.add2x-4xl-gutters > .col{padding-right:2rem!important;padding-left:2rem!important}
+  .add2x-4xl-gutters{margin-right:-2rem!important;margin-left:-2rem!important}
+  .add205x-4xl-gutters > [class*=col-],.add205x-4xl-gutters > .col{padding-right:3rem!important;padding-left:3rem!important}
+  .add205x-4xl-gutters{margin-right:-3rem!important;margin-left:-3rem!important}
+  .add3x-4xl-gutters > [class*=col-],.add3x-4xl-gutters > .col{padding-right:4rem!important;padding-left:4rem!important}
+  .add3x-4xl-gutters{margin-right:-4rem!important;margin-left:-4rem!important}
   /*  ((100vw - 2*一番外の左右Pd - 2*一番外の左右Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
   .h-vt-moive{height: calc(((100vw - 2*7rem - 4*4rem)*0.33333333 - .5rem*2)/2/9*16);}
 }

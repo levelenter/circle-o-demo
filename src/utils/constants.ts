@@ -33,6 +33,7 @@ export const Constants = {
   ptSec: 'pt-5 pt-xl-505',
   pbSec: 'pb-5 pb-xl-505',
   pySec: 'py-5 py-xl-505',
+  gapDef: 'gap-3 gap-md-4',
   whtBoard: 'bsd bc-wht bw-02r bg-wht-op06 px-3 px-sm-5 pt-4 pb-405 pt-sm-405 pb-5 rounded-lg',
   mtP: 'mt-4 mt-sm-405 mt-2xl-5',
   mbP: 'mb-4 mb-sm-405 mb-2xl-5',

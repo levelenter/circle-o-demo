@@ -1,0 +1,30 @@
+---
+import { Constants } from '@/utils/constants.ts'
+import AppLink from '@/components/AppLink.astro'
+---
+<header class:list={['pt-2 pt-lg-0', Constants.mySec]}>
+  <div class="text-right mt-n405">
+    <AppLink href="/#/entrance-page" class="font-V7MG-EB ls-n005 d-inline-block" target="_self">ログイン</AppLink>
+  </div>
+  <ul class="row no-gutters low-md-gutters align-items-center">
+    <li class="col-auto">
+      <AppLink href="/" class="d-block"><img class="w-505rem w-sm-7rem w-md-10rem" style="aspect-ratio:36/25" src="/img/global/logo.svg" alt="CIRCLE-O"></AppLink>
+    </li>
+    <li class="col-auto ml-auto">
+      <AppLink href="https://circle-o.jp/app/#/entrance-student-page" target="_blank" class="d-block w-1105rem w-sm-15rem w-md-17rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+        <div class="h-100 d-flex flex-wrap align-items-center">
+          <div class="font-V7MG-EB fz-xs fz-md-md ls-0">無料で生徒になる</div>
+          <div class="ml-auto"><i class="clr-wht small fas fa-hands-helping"></i></div>
+        </div>
+      </AppLink>
+    </li>
+    <li class="col-auto ml-2">
+      <AppLink href="https://circle-o.jp/app/#/teacher-term-of-use-page?building=co01" target="_blank" class="d-block w-9rem w-sm-13rem w-md-15rem px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r">
+        <div class="h-100 d-flex flex-wrap align-items-center">
+          <div class="font-V7MG-EB fz-xs fz-md-md ls-0">先生になる</div>
+          <div class="ml-auto"><i class="clr-wht small fas fa-user-edit"></i></div>
+        </div>
+      </AppLink>
+    </li>
+  </ul>
+</header>

@@ -6,32 +6,14 @@
 .v-select .dropdown-toggle button.clear {visibility: hidden;}
 /* scroll lock */
 html.scroll-locked, body.scroll-locked { overflow: hidden; }
-
 .vhw-real,.vh-real{height: 100vh;height: calc(var(--vh, 1vh) * 100);}
 .vhw-real,.vw-real{width: 100vw;width: calc(var(--vw, 1vw) * 100);}
 
 
-html.terms {
-  overflow: auto;
-  font-size: 62.5%;
-}
-
-html.terms.is-overhidden {
-  overflow: hidden;
-}
-
-html.terms,
-body.terms {
-  color: #2F2F2F;
-  background: #FAFAFA;
-}
-
-body.terms {
-  position: relative;
-  font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', -apple-system, blinkMacSystemFont, sans-serif;;
-  line-height: 1.8;
-  font-size: 1.6rem;
-  letter-spacing: 1px;
+html.terms {overflow: auto;font-size: 62.5%;}
+html.terms.is-overhidden {overflow: hidden;}
+html.terms,body.terms {color: #2F2F2F;background: #FAFAFA;}
+body.terms {position: relative;font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, '游ゴシック体', 'ヒラギノ角ゴ Pro W3', 'メイリオ', -apple-system, blinkMacSystemFont, sans-serif;;line-height: 1.8;font-size: 1.6rem;letter-spacing: 1px;
 }
 
 /** レイアウト遷移時のエフェクト */
@@ -61,4 +43,4 @@ body.terms {
 .transition-fade{transition:opacity 500ms, visibility 0s ease 500ms;opacity:0;visibility:hidden}
 .transition-fade.is-show{transition-delay:0s;opacity:1;visibility:visible}
 /*#scroll-top-observer{position:absolute;top:0;height:1px;width:1px;z-index:-1;visibility:hidden}*/
-#scroll-top-observer{top:0;height:1px;width:1px;z-index:-1;visibility:hidden}
+#scroll-top-observer{top:0;height:1px;width:1px;z-index:-1;visibility:hidden;display: none;}

@@ -48,7 +48,7 @@ onMounted(async () => {
         <div class="col-6">
           <picture class="d-block w-2rem w-md-205rem h-2rem h-md-205rem rounded-circle ovh bsd bw-1px">
             <source :srcset="t.image_url" :media="Constants.mdSm" />
-            <img loading="lazy" class="w-100 h-100 of-cover" :src="t.image_url" :alt="t.user_name + '先生'">
+            <img loading="lazy" class="w-100 h-100 of-cover" style="aspect-ratio:1/1" :src="t.image_url" :alt="t.user_name + '先生'">
           </picture>
           <h2 class="fz-xsm lh-104 clr-blk mt-1">{{ t.user_name }}<small class="ml-1">先生</small></h2>
           <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4" v-html="t.self_introduction"></p>
