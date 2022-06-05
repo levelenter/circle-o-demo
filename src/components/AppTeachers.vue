@@ -33,7 +33,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <ul class="form-row flex-nowrap flex-lg-wrap pl-3 pl-md-4 pl-lg-0 pb-5 pb-lg-0">
+  <ul class="form-row flex-nowrap flex-lg-wrap pl-3 pl-md-4 pl-lg-0">
     <li v-for="t in teachers" :class="['col-10 col-sm-5 col-lg-4 col-xl-3', Constants.mtListTeacher]">
       <div class="form-row align-items-end">
         <div class="col-6">

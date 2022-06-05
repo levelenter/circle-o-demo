@@ -40,5 +40,11 @@ export const Constants = {
   myP: 'my-4 my-sm-405 my-2xl-5',
   mtFormRow: 'mt-3',
   myFormRow: 'my-3',
+  swipe: 'ovh ovxh ovv-lg mx-n3 mx-sm-n5 mx-lg-0',
+  swipeWrap: 'snap-x ovxs ovyh ovv-sm pb-4 pb-lg-0',
+  swipeUl: 'form-row row-md flex-nowrap flex-lg-wrap align-items-stretch pl-3 pl-md-5 pl-lg-0',
+  gap_1: 'gap-1 gap-md-2',
+  gapDef: 'gap-2 gap-md-3',
+
 } as const
 export type Constants = typeof Constants[keyof typeof Constants]

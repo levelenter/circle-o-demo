@@ -2,7 +2,6 @@
 import DefaultLayout from '@/layouts/DefaultLayout.astro'
 import SpTel from '@/components/SpTel.vue'
 import SmoothScroll from '@/components/SmoothScroll.vue'
-import AppHeader from '@/components/AppHeader.astro'
 import AppTeachers from '@/components/AppTeachers.vue'
 import AppSwipeFinger from '@/components/AppSwipeFinger.astro'
 import { Constants } from '@/utils/constants.ts'
@@ -15,7 +14,6 @@ const meta = {
 }
 ---
 <DefaultLayout { meta }>
-  <AppHeader />
   <div class="position-relative">
     <figure>
       <img id="ils-5" src="/img/global/illust/5.svg" style="aspect-ratio:4/7" aria-hidden="true" alt="" class="w-2rem w-sm-3rem w-lg-5rem w-xl-6rem w-2xl-7rem rotate-15 position-absolute z-1">
@@ -96,13 +94,15 @@ const meta = {
           <img class="w-1rem" loading="lazy" src="/img/global/logo-sv-port.svg" style="aspect-ratio:13/22" alt="Silent Voice">
         </div>
       </div>
-      <div class="ovh ovv-lg mx-n5 mx-lg-0">
-        <div class="ovxs ovyh ovv-sm pb-4 pb-lg-0">
-          <ul class="snap-x form-row row-md flex-nowrap flex-lg-wrap align-items-stretch pl-5 pl-lg-0 gap-2">
-            <li class:list={["col-10 col-sm-7 col-md-5 col-lg",Constants.mtListTeacher]}>
+    </div>
+    <div class="col-12 col-lg-10">
+      <div class:list={[Constants.swipe]}>
+        <div class:list={[Constants.swipeWrap]}>
+          <ul class:list={['gap-2',Constants.swipeUl]}>
+            <li class:list={["col-10 col-sm-7 col-md-5 col-lg-3",Constants.mtListTeacher]}>
               <div class="rounded-sm ovh bg-wht bsd bc-wht bw-04r effect-neumo">
                 <div class:list={['px-3 py-4 d-grid',Constants.gapDef]}>
-                  <h2 class="fz-5 lh-1 mx-n2 mt-3 ls-n001 clr-co font-V7MG-EB text-center"><span class="mb-2 fz-2xs bg-co clr-wht px-2 py-1 rounded d-inline-block text-left position-absolute topLeft z-1 ml-3 mt-2">point.1</span>自宅でオンライン受講</h2>
+                  <h2 class="fz-5 lh-1 mx-n2 mt-3 ls-n001 clr-co font-V7MG-EB text-center"><span class="mb-2 fz-2xs bg-co clr-wht px-2 py-1 rounded d-inline-block text-left position-absolute topLeft z-1 ml-3 ml-md-4 mt-2">point.1</span>自宅でオンライン受講</h2>
                   <div class="form-row align-items-center justify-content-center">
                     <div class="col-auto">
                       <div class="row no-gutters justify-content-center align-items-end">
@@ -114,7 +114,7 @@ const meta = {
                         </div>
                       </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-7 col-lg-12 mt-lg-3">
                       <p class="lh-105">いつでも、どこにいても、授業を受けることができる。自宅で受けれるので、子どもの変化を直近で知ることができる</p>
                     </div>
                   </div>
@@ -126,10 +126,10 @@ const meta = {
                 </picture>
               </div>
             </li>
-            <li class:list={["col-10 col-sm-7 col-md-5 col-lg",Constants.mtListTeacher]}>
+            <li class:list={["col-10 col-sm-7 col-md-5 col-lg-3",Constants.mtListTeacher]}>
               <div class="rounded-sm ovh bg-wht bsd bc-wht bw-04r effect-neumo">
                 <div class:list={['px-3 py-4 d-grid',Constants.gapDef]}>
-                  <h2 class="fz-5 lh-1 mx-n2 mt-3 ls-n001 clr-co font-V7MG-EB text-center"><span class="mb-2 fz-2xs bg-co clr-wht px-2 py-1 rounded d-inline-block text-left position-absolute topLeft z-1 ml-3 mt-2">point.2</span>得意な手段で授業を</h2>
+                  <h2 class="fz-5 lh-1 mx-n2 mt-3 ls-n001 clr-co font-V7MG-EB text-center"><span class="mb-2 fz-2xs bg-co clr-wht px-2 py-1 rounded d-inline-block text-left position-absolute topLeft z-1 ml-3 ml-md-4 mt-2">point.2</span>授業は得意な手段で</h2>
                   <div class="form-row align-items-center justify-content-center">
                     <div class="col-auto">
                       <div class="row no-gutters justify-content-center align-items-end">
@@ -141,7 +141,7 @@ const meta = {
                         </div>
                       </div>
                     </div>
-                    <div class="col-7">
+                    <div class="col-7 col-lg-12 mt-lg-3">
                       <p class="lh-105">手話、口話、筆談、子どもが一番わかる手段で授業を。視覚的な情報の増加で、ことばや新しい概念に触れてもらいます。</p>
                     </div>
                   </div>
@@ -153,10 +153,10 @@ const meta = {
                 </picture>
               </div>
             </li>
-            <li class:list={["col-10 col-sm-7 col-md-5 col-lg",Constants.mtListTeacher]}>
+            <li class:list={["col-10 col-sm-7 col-md-5 col-lg-3",Constants.mtListTeacher]}>
               <div class="rounded-sm ovh bg-wht bsd bc-wht bw-04r effect-neumo">
                 <div class:list={['px-3 py-4 d-grid',Constants.gapDef]}>
-                  <h2 class="fz-5 lh-1 mx-n2 mt-3 ls-n001 clr-co font-V7MG-EB text-center"><span class="mb-2 fz-2xs bg-co clr-wht px-2 py-1 rounded d-inline-block text-left position-absolute topLeft z-1 ml-3 mt-2">point.3</span>レベルに合わせた1対1形式</h2>
+                  <h2 class="fz-5 lh-1 mx-n2 mt-3 ls-n001 clr-co font-V7MG-EB text-center"><span class="mb-2 fz-2xs bg-co clr-wht px-2 py-1 rounded d-inline-block text-left position-absolute topLeft z-1 ml-3 ml-md-4 mt-2">point.3</span>レベルに合わせ1対1</h2>
                   <div class="form-row align-items-center justify-content-center">
                     <div class="col-auto">
                       <div class="row no-gutters justify-content-center align-items-end">
@@ -168,8 +168,35 @@ const meta = {
                         </div>
                       </div>
                     </div>
-                    <div class="col-7">
-                      <p class="lh-105">子どもの性格、言語、理解力を考慮して、個別授業をおこないます。個別だから先生にも相談しやい！安心して受講できます。</p>
+                    <div class="col-7 col-lg-12 mt-lg-3">
+                      <p class="lh-105">子どもの性格、言語、理解力が考慮された個別授業を。個別だから先生にも相談しやい！安心して受講できます。</p>
+                    </div>
+                  </div>
+                </div>
+                <picture class="h-12rem h-xl-14rem d-block rounded-bottom-sm ovh">
+                  <source srcset="/img/lp/scene/1@0.5x.webp" media={Constants.mdXl} />
+                  <source srcset="/img/lp/scene/1@0.33x.webp" media={Constants.mdSm} />
+                  <img loading="lazy" src="/img/lp/scene/1@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                </picture>
+              </div>
+            </li>
+            <li class:list={["col-10 col-sm-7 col-md-5 col-lg-3",Constants.mtListTeacher]}>
+              <div class="rounded-sm ovh bg-wht bsd bc-wht bw-04r effect-neumo">
+                <div class:list={['px-3 py-4 d-grid',Constants.gapDef]}>
+                  <h2 class="fz-5 lh-1 mx-n2 mt-3 ls-n001 clr-co font-V7MG-EB text-center"><span class="mb-2 fz-2xs bg-co clr-wht px-2 py-1 rounded d-inline-block text-left position-absolute topLeft z-1 ml-3 ml-md-4 mt-2">point.3</span>広がる!子どもの世界</h2>
+                  <div class="form-row align-items-center justify-content-center">
+                    <div class="col-auto">
+                      <div class="row no-gutters justify-content-center align-items-end">
+                        <div class="col-auto">
+                          <img loading="lazy" class="w-3rem w-sm-5rem" src="/img/global/illust/2-1.svg" style="aspect-ratio:144/163" decoding="async" alt="CIRCLE-O">
+                        </div>
+                        <div class="col-auto">
+                          <img loading="lazy" class="w-3rem w-sm-5rem" src="/img/global/illust/3-4.svg" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE-O">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-7 col-lg-12 mt-lg-3">
+                      <p class="lh-105">ASL（アメリカ手話）、ロールモデル授業など、多様な先生から多くの発見が。全国にいる共に学べるコンテンツも用意。</p>
                     </div>
                   </div>
                 </div>
@@ -181,8 +208,9 @@ const meta = {
               </div>
             </li>
           </ul>
-        </ul>
+        </div>
       </div>
+      <AppSwipeFinger />
     </div>
     <div class="col-11 col-sm-9 col-lg-7">
       <h2 class:list={['text-center clr-blk font-V7MG-EB lh-1', Constants.mtLg]}>
@@ -191,16 +219,13 @@ const meta = {
       </h2>
       <p class:list={['fz-xsm fz-lg-md', Constants.mtP]}>学校の先生､弁護士､海外在住､スポーツ選手などさまざまなジャンルで活躍する先生が在籍しています。お子さまのコミュニケーション手段･学習言語･文化･聴力等といったろう･難聴児における多様性の重点項目を考慮した"授業"を提供しています｡</p>
     </div>
-    <!-- 先生リスト 横スクロール -->
     <div class="col-12">
-      <div class="ovyh h-23rem h-sm-21rem h-md-24rem h-lg-auto mt-2 mx-n3 mx-sm-n5 mx-lg-0">
-        <div class="ovxs ovh-lg">
+      <div class:list={['mt-2',Constants.swipe]}>
+        <div class:list={[Constants.swipeWrap]}>
           <AppTeachers client:load />
         </div>
       </div>
       <AppSwipeFinger />
-    </div>
-    <div class="col-12">
       <div class:list={['position-relative', Constants.mtLg, Constants.mxNmain]}>
         <div class="row justify-content-center align-items-center position-sm-absolute z-1 topRight mb-405 mb-sm-6 mx-1 mt-md-n6 mt-lg-n2 mt-xl-4 mr-sm-n3 mr-md-4 mr-lg-8 mr-xl-9 h-sm-11rem h-md-20rem">
           <div class="col-11 col-sm-auto ml-sm-auto mr-sm-405 mr-2xl-9 w-sm-32rem w-lg-40rem w-xl-45rem w-2xl-50rem">
@@ -317,9 +342,9 @@ const meta = {
       </div>
     </div>
     <div class="col-12">
-      <div class="ovyh h-30rem h-sm-auto mt-2 mx-n3 mx-sm-0">
-        <div class="ovxs ovh-sm">
-          <ul class="form-row row-md flex-nowrap flex-sm-wrap align-items-stretch pl-3 pl-md-0 pb-5 pb-sm-0">
+      <div class:list={["mt-2",Constants.swipe]}>
+        <div class:list={[Constants.swipeWrap]}>
+          <ul class:list={[Constants.swipeUl]}>
             <li class:list={[Constants.mtListTeacher, 'col-9 col-sm-12 col-lg-4']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                 <div class="row no-gutters justify-content-center">
@@ -389,14 +414,166 @@ const meta = {
       <div class="d-flex justify-content-center">
         <h2 class:list={[Constants.mtLg, 'clr-blk font-V7MG-EB lh-1']}>
           <span class="d-block mb-2 fz-sm clr-co">User's Voice</span>
+          <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n004 ml-n1">ご利用までの流れ 😊 <span class="position-relative t-n1">💬</span></strong></span>
+        </h2>
+      </div>
+    </div>
+    <div class="col-12">
+      <div class={Constants.swipe}>
+        <div class={Constants.swipeWrap}>
+          <ul class:list={[Constants.mtSec,Constants.swipeUl]}>
+            <li class="col-auto col-sm-12">
+              <div class:list={['clr-theme rounded w-flow w-lg-100 d-grid',Constants.gapDef]}>
+                <figure class="form-row row-xl justify-content-center fz-5">
+                  <div class="col-auto">
+                    <i class="clr-co far fa-user-plus"></i>
+                  </div>
+                  <div class="col">
+                    <div class:list={['d-grid',Constants.gapDef]}>
+                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">WEBよりお申込み</h3>
+                      <div class="form-row align-items-center justify-content-center gap-1">
+                        <div class="col-auto">
+                          <div class="row no-gutters justify-content-center align-items-end">
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/2-1.svg" style="aspect-ratio:144/163" decoding="async" alt="CIRCLE-O">
+                            </div>
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/3-4.svg" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE-O">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-7 col-lg-12 mt-lg-3">
+                          <p class="fz-05 ff-L clr-blk"><a href="">無料お申し込みページ</a>より、必要な情報をご記入ください。細かい入力項目にお答えいただく面談がよりスムーズになります。</p>
+                          <ul class="liKome fz-025 lh-102">
+                            <li class="d-block mt-2"><a href="https://twitter.com/circleo_" target="_blank" class="clr-co">授業の様子はCircle O 公式twitter<i class="fab fa-twitter"></i></a>からご覧ください。</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="clr-co far fa-user-headset"></i>
+                  </div>
+                  <div class="col">
+                    <div class:list={['d-grid',Constants.gapDef]}>
+                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">担当とアセスメント面談</h3>
+                      <div class="form-row align-items-center justify-content-center gap-1">
+                        <div class="col-auto">
+                          <div class="row no-gutters justify-content-center align-items-end">
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/2-1.svg" style="aspect-ratio:144/163" decoding="async" alt="CIRCLE-O">
+                            </div>
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/3-4.svg" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE-O">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-7 col-lg-12 mt-lg-3">
+                          <p class="fz-05 ff-L clr-blk">お子様の様子や保護者のニーズやご希望のコースを伺います。運営面談の内容を元に、マッチする先生をご相談いたします。</p>
+                          <ul class="liKome fz-025 lh-102">
+                            <li class="d-block mt-2"><strong class="font-weight-bold">体験授業も随時実施</strong>しております。まずは運営面談にてお気軽にご相談ください。</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="clr-co far fa-comments-question"></i>
+                  </div>
+                  <div class="col">
+                    <div class:list={['d-grid',Constants.gapDef]}>
+                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">ご希望の先生と面談</h3>
+                      <div class="form-row align-items-center justify-content-center gap-1">
+                        <div class="col-auto">
+                          <div class="row no-gutters justify-content-center align-items-end">
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/2-1.svg" style="aspect-ratio:144/163" decoding="async" alt="CIRCLE-O">
+                            </div>
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/3-4.svg" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE-O">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-7 col-lg-12 mt-lg-3">
+                          <p class="fz-05 ff-L clr-blk">先生一覧リストより担当を希望したい先生を選択いただきます。20分間のお試し面談を経て、担当可否を決定頂きます。</p>
+                          <ul class="liKome fz-025 lh-102">
+                            <li class="d-block mt-2">お申し込みの状況によっては紹介をお待ち頂く可能性があります</li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="clr-co far fa-user-check"></i>
+                  </div>
+                  <div class="col">
+                    <div class:list={['d-grid',Constants.gapDef]}>
+                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">授業の先生が決定</h3>
+                      <div class="form-row align-items-center justify-content-center gap-1">
+                        <div class="col-auto">
+                          <div class="row no-gutters justify-content-center align-items-end">
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/2-1.svg" style="aspect-ratio:144/163" decoding="async" alt="CIRCLE-O">
+                            </div>
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/3-4.svg" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE-O">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-7 col-lg-12 mt-lg-3">
+                          <p class="fz-05 ff-L clr-blk">担当の先生とご連絡する専用の公式LINEグループに招待いたします。授業頻度や日時は自由にご相談頂けます。</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-auto">
+                    <i class="clr-co far fa-person-chalkboard"></i>
+                  </div>
+                  <div class="col">
+                    <div class:list={['d-grid',Constants.gapDef]}>
+                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">授業スタート</h3>
+                      <div class="form-row align-items-center justify-content-center gap-1">
+                        <div class="col-auto">
+                          <div class="row no-gutters justify-content-center align-items-end">
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/2-1.svg" style="aspect-ratio:144/163" decoding="async" alt="CIRCLE-O">
+                            </div>
+                            <div class="col-auto">
+                              <img loading="lazy" class="w-3rem w-xl-4rem" src="/img/global/illust/3-4.svg" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE-O">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-7 col-lg-12 mt-lg-3">
+                          <p class="fz-05 ff-L clr-blk">初回授業日が決まれば、正式に授業がスタート！楽しむ事まず優先してください！</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </figure>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <AppSwipeFinger />
+      </div>
+    </div>
+    <div class="col-11 col-sm-9 col-md-12">
+      <div class="d-flex justify-content-center">
+        <h2 class:list={[Constants.mtLg, 'clr-blk font-V7MG-EB lh-1']}>
+          <span class="d-block mb-2 fz-sm clr-co">User's Voice</span>
           <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n004 ml-n1">ご利用者さまの声 😊 <span class="position-relative t-n1">💬</span></strong></span>
         </h2>
       </div>
     </div>
     <div class="col-12">
-      <div class="ovyh h-23rem h-sm-24rem h-md-22rem h-lg-auto mt-2 mx-n3 mx-md-n5 mx-lg-0">
-        <div class="ovxs ovh-lg">
-          <ul class="form-row row-md flex-nowrap flex-lg-wrap align-items-stretch pl-3 pl-md-5 pl-lg-0 pb-5 pb-lg-0">
+      <div class:list={["mt-2",Constants.swipe]}>
+        <div class:list={[Constants.swipeWrap]}>
+          <ul class:list={[Constants.swipeUl]}>
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                 <div class="px-3 py-4">
@@ -550,13 +727,14 @@ const meta = {
       </div>
     </div>
     <div class="col-12">
-      <div class="ovyh h-13rem h-sm-14rem h-lg-auto mt-2 mx-n3 mx-md-n5 mx-lg-0 box-tl-q">
-        <div class="ovxs ovh-lg">
-          <ul class="form-row row-lg flex-nowrap flex-lg-wrap align-items-stretch pl-3 pl-lg-0 pb-5 pb-lg-0">
+      <h3 class:list={[Constants.mtSm, 'clr-co fz-4 font-V7MG-EB lh-1']}>👩🏻生徒さんや保護者さまからのご質問👨🏻</h3>
+      <div class:list={["mt-2 box-tl-q",Constants.swipe]}>
+        <div class:list={[Constants.swipeWrap]}>
+          <ul class:list={[Constants.swipeUl]}>
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">未就学でも受講可能でしょうか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">未就学でも受講可能でしょうか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ことばの獲得に対する課題感が高い場合､対象年齢外(未就学)でもを授業提供を行う場合があります｡</p>
                 </div>
               </div>
@@ -564,7 +742,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">PCがなくても受講可能ですか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">PCがなくても受講可能ですか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">PCもしくはタブレットなどの大画面で受講できる環境が必要です｡</p>
                 </div>
               </div>
@@ -572,7 +750,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">スマホでも利用できますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">スマホでも利用できますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">スライド教材を使用する為､PCもしくはタブレットなどの大画面で受講できる環境が必要です｡</p>
                 </div>
               </div>
@@ -580,7 +758,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">海外在住でも受講可能ですか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">海外在住でも受講可能ですか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">インターネットが繋がる環境であれば､どこでも受講可能です｡</p>
                 </div>
               </div>
@@ -588,7 +766,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">手話ができなくても利用可能ですか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">手話ができなくても利用可能ですか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ろう者･難聴者･聴者の先生在籍しています｡お子様のコミュニケーション手段に合わせて授業を行います｡</p>
                 </div>
               </div>
@@ -596,7 +774,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">授業は保護者同席が必須ですか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">授業は保護者同席が必須ですか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">初回授業のみ同席をお願いしております｡以降は保護者さまにお任せしております｡</p>
                 </div>
               </div>
@@ -604,7 +782,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">ことば学習とはどんな授業ですか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">ことば学習とはどんな授業ですか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">子どものことばの数を増やすための学習を先生との対話や授業などを通じて行います｡</p>
                 </div>
               </div>
@@ -612,7 +790,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">ロールモデル学習とはなんですか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">ロールモデル学習とはなんですか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ろう･難聴者の先生との交流会やイベントなどを実施しています｡</p>
                 </div>
               </div>
@@ -620,7 +798,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">学校の勉強も教えてもらえますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">学校の勉強も教えてもらえますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">手話を使った教科学習指導も行っております｡</p>
                 </div>
               </div>
@@ -628,7 +806,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">ことば教材を自宅で利用できますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">ことば教材を自宅で利用できますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">授業で利用した教材はご自宅でご活用頂いて構いません｡</p>
                 </div>
               </div>
@@ -636,7 +814,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">先生とはどのように連絡しますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">先生とはどのように連絡しますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">本サービス登録後､会員ページ内で担当の先生と連絡ができます｡</p>
                 </div>
               </div>
@@ -644,7 +822,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">聞こえる先生もいますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">聞こえる先生もいますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ろう者･難聴者･聴者の先生在籍しています｡お子様のコミュニケーション手段に合わせて授業を行います｡</p>
                 </div>
               </div>
@@ -652,7 +830,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">保護者が先生とお話する時間はありますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">保護者が先生とお話する時間はありますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">授業の終わりにお話する時間を設けています｡不明なことがありましたら運営にご連絡くださいませ｡</p>
                 </div>
               </div>
@@ -660,7 +838,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">先生を変えることはできますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">先生を変えることはできますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">お子さまに合わせて変更して頂くことは可能です｡</p>
                 </div>
               </div>
@@ -668,7 +846,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">実際に先生と会うことはできますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">実際に先生と会うことはできますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">基本的にオンラインでの対応になっております｡</p>
                 </div>
               </div>
@@ -676,7 +854,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">いつから有料になりますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">いつから有料になりますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">7月末まで無償提供しており､以降は有償予定です｡</p>
                 </div>
               </div>
@@ -684,7 +862,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">有償になったタイミングでで辞めれますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">有償になったタイミングでで辞めれますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">可能です｡その場合､事前に運営までご連絡ください｡</p>
                 </div>
               </div>
@@ -692,7 +870,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">知り合いに紹介することは可能ですか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">知り合いに紹介することは可能ですか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ぜひご紹介ください!!</p>
                 </div>
               </div>
@@ -700,7 +878,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">運営とのやりとりは何で行いますか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">運営とのやりとりは何で行いますか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">サークルオー公式LINEを通してやりとりをします｡</p>
                 </div>
               </div>
@@ -708,7 +886,7 @@ const meta = {
             <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
                 <div class="px-3 py-4">
-                  <h2 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">子どもについて相談することも可能ですか？</h2>
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">子どもについて相談することも可能ですか？</h4>
                   <p class="lh-105 mt-2 fz-2xs fz-xl-xs">公式LINEよりご相談を受け付けております｡</p>
                 </div>
               </div>
@@ -717,8 +895,230 @@ const meta = {
         </div>
       </div>
       <AppSwipeFinger />
-    </div>
-    <div class="col-12">
+      <h3 class:list={[Constants.mtLg, 'clr-co fz-4 font-V7MG-EB lh-1']}>👨‍🏫先生希望の方からのご質問👩🏻‍🎓</h3>
+      <div class:list={["mt-2 box-tl-q",Constants.swipe]}>
+        <div class:list={[Constants.swipeWrap]}>
+          <ul class:list={[Constants.swipeUl]}>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">1回(コマ)の授業時間は何分ですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">原則1コマ50分で、時間配分は先生にお任せしています。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">保護者とはどこまでやり取りしたらいいですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">基本的に授業に関わるやりとりのみお願いしております。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">授業で使う教材はどんなものですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ことば教材や字幕付き映像教材などこちらで準備しているものがあります。先生によっては保護者と相談して教材を別途購入し、それを使っているケースもございます。教材購入費は先生、生徒がそれぞれ自己負担になっております。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">週に何回授業を実施しますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">平均週1回程度ですが、中には週に2回実施する方もいらっしゃいます。保護者と相談して実施頻度は決めて頂きます。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">担当生徒はどのように決まりますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">生徒が希望の先生を指名して、20分間の”セレクト面談”を実施します。その後、双方同意の元、担当生徒が決定します。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">生徒との相性が合わない場合、変えられますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">生徒より変更希望があった場合のみペアの変更が可能です。生徒に関してトラブルやご相談がある場合は、運営が間に入り対応をいたします。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">就活や家庭の事情などで一時休止できますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">運営と相談の上、休止は可能です。ご都合に合わせて稼働を決めて頂けます。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">手話があまり得意ではないのですが、先生として活動はできますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">生徒のコミュニケーション手段に合わせて先生をマッチングいたしますので、手話レベルを考慮した上で生徒をご紹介いたします。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">マニュアルや研修制度はありますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">授業を担当して頂く前に他の先生の授業を見学して頂きます。授業に際して必要な知識をマニュアルにまとめております。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">困った時に相談できる場はありますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">サークルオー運営とは公式LINEでいつでも連絡が取れます。些細な事からご遠慮なく何でもご相談ください。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">他の先生から話を聞いてみたいのですが、そのような制度はありますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">ご希望があれば、他の先生の授業見学、または話を聞くことは可能です。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">個別授業のみですか？集団授業はありますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">現在は個別指導を担当いただいています。今後集団指導も取り入れていく予定ですので、チャレンジしたい方は大歓迎です。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">自身の都合で授業をお休みしたい場合はどうしたらいいですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">日程変更は可能です。まずは保護者に先生公式LINEからご連絡いただき、その後予約システムからキャンセル手続きを行っていただきます。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">活動日や休日など、どのように設定したらいいですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">予約管理システム内で活動可能日を登録いただきますので、ご自身のスケジュールに合わせてご登録頂くことが可能です。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">どのように保護者にその日の授業内容を報告したらいいですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">予約システムにて日報という機能がございます。日報にてその日の授業内容を報告していただきます。それを基に給与計算を行いますので、提出必須になっております。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">子どもは最大何人まで担当できますか？また最低何人担当ですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">先生の可能な範囲で担当して頂くことは可能です。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">他の先生の授業を見学してから申し込みを決めることはできますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">可能です。ご希望の方は問い合わせフォームより「見学希望」と記載してください。運営より日程調整を行います。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">授業の準備には、給与が出ますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">授業準備、授業実施、授業後の日報提出含めて、 1200円/コマ(授業報酬)として報酬をお支払いいたします。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">授業を実施する場所はどこでも大丈夫ですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">子どもが授業に集中して参加できる場所であれば、場所は問いません。ズームの背景設定などして頂けると良いと思います。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">働いている人同士が交流する場はありますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">現在先生同士が悩み相談をし合う場を用意しております。授業に関する疑問や不安などご相談頂けます。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">何かあった時に相談できる場所はありますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">サークルオー運営公式LINEはもちろんのこと、新しい先生が慣れるまでは経験のある先生とペアを組み、困ったことがあったらそちらに質問できるような制度を設けております。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">勤務開始にあたって用意するものはありますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">報酬のお支払い銀行口座がGMOあおぞら銀行になります。該当口座をお持ちで無い場合は、初回の振り込みまでに口座開設をお願いしております。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">授業時間配分の例を聞きたいです。</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">45分間は子供との授業、残り5分間は保護者様とその日の振り返りや次回授業の相談の時間として頂きます。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">具体的にどんなことを教えますか？教科だけではなく、スキルを教える授業もOKですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">対話型ことば学習コースと個別学習サポートコースから担当可能なコースを選択頂きます。個別学習サポートコースの場合は、担当可能な教科、学年を事前に決めて頂き、その範囲で担当生徒を決定いたします。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">教育の知識がなくても大丈夫ですか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">スキルや経験は問いません。活動の中で試行錯誤できる方を歓迎しております。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">授業カリキュラム（授業構成）はどのように組み立てれば良いでしょうか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">初回授業にて確認したご家庭のニーズを元に授業の計画を立てていただきます。計画の立て方について、運営に相談することも可能です。</p>
+                </div>
+              </div>
+            </li>
+            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-md-5 col-lg-3']}>
+              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100 d-flex flex-wrap">
+                <div class="px-3 py-4">
+                  <h4 class="fz-lg-xsm ls-0 lh-103 clr-blk font-V7MG-EB tl-q">授業で使用するズームは自分で用意しますか？</h4>
+                  <p class="lh-105 mt-2 fz-2xs fz-xl-xs">先生のズームアカウントを使用して授業を実施して頂きます。使用するズームアカウントは、無料プランで構いません。</p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <AppSwipeFinger />
       <section class:list={[Constants.pyLg, Constants.mtLg, Constants.mxNmain, 'bg-wht']}>
         <div class="row justify-content-center">
           <div class="col-11 col-sm-10 col-md-8 col-lg-7 col-xl-5">
@@ -779,7 +1179,7 @@ const meta = {
             </ul>
               </div>
             </div>
-            <!-- <hr class:list={[Constants.mySec, 'bc-wht effect-neumo bw-02r']}>
+            <hr class:list={[Constants.mySec, 'bc-wht effect-neumo bw-02r']}>
             <h3 class="font-V7MG-EB clr-co fz-xsm pb-205">💳 単発寄付で応援ください</h3>
             <p>オンライン授業の無償提供における先生への謝礼の補填､教材の拡充に充てさせて頂きます｡</p>
             <ul class="row low-gutters">
@@ -836,12 +1236,10 @@ const meta = {
               <li>クレジットカードで寄付いただけます</li>
               <li>決済会社｢アナザーレーン｣のシステムを利用します</li>
               <li>ボタンを押すとの決済画面に移行します</li>
-            </ul> -->
+            </ul>
           </div>
         </div>
       </section>
-    </div>
-    <div class="col-12">
       <section class:list={[Constants.pLg, Constants.mxNmain, 'px-4 px-sm-6 px-md-12']}>
         <div class="row low-gutters justify-content-center align-items-center">
           <div class="col-auto">

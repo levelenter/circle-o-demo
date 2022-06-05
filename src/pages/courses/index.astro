@@ -1,6 +1,5 @@
 ---
 import DefaultLayout from '@/layouts/DefaultLayout.astro'
-import AppHeader from '@/components/AppHeader.astro'
 import AppSwipeFinger from '@/components/AppSwipeFinger.astro'
 import SpTel from '@/components/SpTel.vue'
 import SmoothScroll from '@/components/SmoothScroll.vue'
@@ -15,7 +14,6 @@ const meta = {
 }
 ---
 <DefaultLayout { meta }>
-  <AppHeader />
   <div class:list={[Constants.mbLg]}>
     <div class="row justify-content-center">
       <div class="col-11 col-lg-10 col-2xl-9">
@@ -117,9 +115,9 @@ const meta = {
                   <div class="h-100 bg-gray-co px-3 py-4 d-flex align-items-center">
                     <div class="d-grid gap-2">
                       <h3 class="fz-3 lh-103 clr-co font-V7MG-EB">ご利用者さまの声🙋‍♀️</h3>
-                      <div class="ovyh h-12rem h-lg-auto mx-n3 mx-md-n5 mx-lg-0">
-                        <div class="ovxs ovh-lg">
-                          <ul class="snap-x form-row row-md flex-nowrap flex-lg-wrap align-items-stretch pl-3 pl-md-5 pl-lg-0 pb-5 pb-lg-0 gap-2">
+                      <div class:list={[Constants.swipe]}>
+                        <div class:list={[Constants.swipeWrap]}>
+                          <ul class:list={["gap-2",Constants.swipeUl]}>
                             <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                                 <div class="px-3 py-4 d-grid gap-1">
@@ -240,9 +238,9 @@ const meta = {
                   <div class="h-100 bg-gray-co px-3 py-4 d-flex align-items-center">
                     <div class="d-grid gap-2">
                       <h3 class="fz-3 lh-103 clr-co font-V7MG-EB">ご利用者さまの声🙋‍♀️</h3>
-                      <div class="ovyh h-14rem h-lg-auto mx-n3 mx-md-n5 mx-lg-0">
-                        <div class="ovxs ovh-lg">
-                          <ul class="snap-x form-row row-md flex-nowrap flex-lg-wrap align-items-stretch pl-3 pl-md-5 pl-lg-0 pb-5 pb-lg-0 gap-2">
+                      <div class:list={[Constants.swipe]}>
+                        <div class:list={[Constants.swipeWrap]}>
+                          <ul class:list={["gap-2",Constants.swipeUl]}>
                             <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                                 <div class="px-3 py-4 d-grid gap-1">
@@ -369,9 +367,9 @@ const meta = {
                   <div class="h-100 bg-gray-co px-3 py-4 d-flex align-items-center">
                     <div class="d-grid gap-2">
                       <h3 class="fz-3 lh-103 clr-co font-V7MG-EB">ご利用者さまの声🙋‍♀️</h3>
-                      <div class="ovyh h-10rem h-lg-auto mx-n3 mx-md-n5 mx-lg-0">
-                        <div class="ovxs ovh-lg">
-                          <ul class="snap-x form-row row-md flex-nowrap flex-lg-wrap align-items-stretch pl-3 pl-md-5 pl-lg-0 pb-5 pb-lg-0 gap-2">
+                      <div class:list={[Constants.swipe]}>
+                        <div class:list={[Constants.swipeWrap]}>
+                          <ul class:list={["gap-2",Constants.swipeUl]}>
                             <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                               <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                                 <div class="px-3 py-4 d-grid gap-1">
@@ -442,8 +440,8 @@ const meta = {
         </div>
       </div>
     </div>
-    <div class="ovyh h-23rem h-sm-21rem h-md-24rem h-lg-auto mx-n3 mx-sm-n5 mx-lg-0">
-      <div class="ovxs ovh-lg">
+    <div class:list={[Constants.swipe]}>
+      <div class:list={[Constants.swipeWrap]}>
         <AppTeachers client:load />
       </div>
     </div>

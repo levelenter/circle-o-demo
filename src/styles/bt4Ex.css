@@ -6351,6 +6351,7 @@ a.close.disabled {
   display: -ms-flexbox !important;
   display: flex !important;
 }
+.d-grid{display:grid;grid-auto-columns: 100%;}
 
 .d-inline-flex {
   display: -ms-inline-flexbox !important;
@@ -7560,12 +7561,11 @@ utility
   .table { margin-bottom: 0; border-spacing: 0; }
   table { border-collapse: collapse; border-spacing: 0; }
 /*overflow vertical-align visibility*/
-  .snap-x{scroll-behavior:smooth;scroll-snap-type: x mandatory;}
+  .snap-x{scroll-behavior:smooth;}
     .snap-x::-webkit-scrollbar{display:none;}
-    .snap-x>li{scroll-snap-align: start;}
-  .ovxs{overflow-x:scroll}
+    .snap-x li{scroll-snap-align: start;}
+  .ovxs{overflow-x:scroll;}
   .ovys{overflow-y:scroll}
-  .ovxs,.ovys{-webkit-overflow-scrolling:touch}
   .ovv{overflow:visible}
   .ovxh{overflow-x:hidden}
   .ovyh{overflow-y:hidden}
