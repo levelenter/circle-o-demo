@@ -14,6 +14,12 @@ const meta = {
 }
 ---
 <DefaultLayout { meta }>
+  <script name="head" type="module" hoist>
+    window.addEventListener('load', () => {
+      const [body] = document.getElementsByTagName('body')
+      body.classList.add('noPr')
+    })
+  </script>
   <div class:list={[Constants.mbLg]}>
     <div class="row justify-content-center">
       <div class="col-11 col-lg-10 col-2xl-9">

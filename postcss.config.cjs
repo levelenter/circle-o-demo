@@ -8,7 +8,7 @@ module.exports = {
         './public/**/*.html',
         './src/**/*.{astro,js,jsx,svelte,ts,tsx,vue}',
       ],
-      whitelist: ['link-active', 'link-exact-active'],
+      whitelist: ['link-active', 'link-exact-active', 'noPr'],
     })
   ],
 }
