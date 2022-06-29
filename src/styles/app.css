@@ -44,3 +44,39 @@ body.terms {position: relative;font-family: 'Yu Gothic Medium', '游ゴシック
 .transition-fade.is-show{transition-delay:0s;opacity:1;visibility:visible}
 /*#scroll-top-observer{position:absolute;top:0;height:1px;width:1px;z-index:-1;visibility:hidden}*/
 #scroll-top-observer{top:0;height:1px;width:1px;z-index:-1;visibility:hidden;display: none;}
+
+
+/* modal */
+/* 👇 Optional. change the background style. */
+
+dialog {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, .25);
+  backdrop-filter: blur(1px);
+}
+/* 👇 style1: fadeIn */
+dialog[open] {
+  -webkit-animation: myFadeIn 0.5s ease normal;
+}
+@-webkit-keyframes myFadeIn{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*html {*/
+/*  overflow: auto;*/
+/*  height: 100%;*/
+/*}*/
+/*body.is-locked {*/
+/*  overflow: hidden;*/
+/*  height: 100%;*/
+/*}*/

@@ -5,6 +5,7 @@ import SpTel from '@/components/SpTel.vue'
 import SmoothScroll from '@/components/SmoothScroll.vue'
 import AppTeachers from '@/components/AppTeachers.vue'
 import { Constants } from '@/utils/constants.ts'
+import Modal from '@/components/Modal.vue'
 
 const meta = {
   title: '先生大募集',
@@ -388,6 +389,21 @@ const meta = {
                       </div>
                     </div>
                     <p class="lh-105 mt-2">自由に学べる場。自分の経験を、これからの日本を生きていく若い子供たちに伝えられる、未来につなげることを経験できる貴重な機会です。</p>
+                    <Modal client:load id="dialog-1">
+                      <div class="form-row align-items-center">
+                        <div class="col-auto">
+                          <picture class="h-5rem w-5rem d-block rounded-circle z-1 ovh">
+                            <source srcset="/img/prof/v-1@0.5x.webp" media={Constants.mdXl} />
+                            <source srcset="/img/prof/v-1@0.33x.webp" media={Constants.mdSm} />
+                            <img loading="lazy" src="/img/prof/v-1@0.15x.webp" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                          </picture>
+                        </div>
+                        <div class="col">
+                          <h3 class="fz-xs fz-lg-2xs ls-n001 lh-105"><span class="font-V7MG-EB"><strong class="bigger-2 clr-blk">まゆみ</strong>先生</span><br>担当：小学校低学年（3人）</h3>
+                        </div>
+                      </div>
+                      <p class="lh-105 mt-2">自由に学べる場。自分の経験を、これからの日本を生きていく若い子供たちに伝えられる、未来につなげることを経験できる貴重な機会です。</p>
+                    </Modal>
                   </div>
                 </div>
               </li>
@@ -407,6 +423,21 @@ const meta = {
                       </div>
                     </div>
                     <p class="lh-105 mt-2">自分自身も勉強を頑張っていたあの時を思い出しながら取り組むことができます。自分の経験が子供たちにとって価値になる、それがとても嬉しいです。</p>
+                    <Modal client:load id="dialog-2">
+                      <div class="form-row align-items-center">
+                        <div class="col-auto">
+                          <picture class="h-5rem w-5rem d-block rounded-circle z-1 ovh">
+                            <source srcset="/img/prof/v-2@0.5x.webp" media={Constants.mdXl} />
+                            <source srcset="/img/prof/v-2@0.33x.webp" media={Constants.mdSm} />
+                            <img loading="lazy" src="/img/prof/v-2@0.15x.webp" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                          </picture>
+                        </div>
+                        <div class="col">
+                          <h3 class="fz-xs fz-lg-2xs ls-n001 lh-105"><span class="font-V7MG-EB"><strong class="bigger-2 clr-blk">いなんちょー</strong>先生</span><br>担当：小学校低学年（1人）</h3>
+                        </div>
+                      </div>
+                      <p class="lh-105 mt-2">自分自身も勉強を頑張っていたあの時を思い出しながら取り組むことができます。自分の経験が子供たちにとって価値になる、それがとても嬉しいです。</p>
+                    </Modal>
                   </div>
                 </div>
               </li>
@@ -426,6 +457,21 @@ const meta = {
                       </div>
                     </div>
                     <p class="lh-105 mt-2">子どもにとっても、保護者にとっても安心できる場を提供。未経験でも教育の知識がなくても問題ありません。一緒に成長してみませんか？</p>
+                    <Modal client:load id="dialog-3">
+                      <div class="form-row align-items-center">
+                        <div class="col-auto">
+                          <picture class="h-5rem w-5rem d-block rounded-circle z-1 ovh">
+                            <source srcset="/img/prof/v-3@0.5x.webp" media={Constants.mdXl} />
+                            <source srcset="/img/prof/v-3@0.33x.webp" media={Constants.mdSm} />
+                            <img loading="lazy" src="/img/prof/v-3@0.15x.webp" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                          </picture>
+                        </div>
+                        <div class="col">
+                          <h3 class="fz-xs fz-lg-2xs ls-n001 lh-105"><span class="font-V7MG-EB"><strong class="bigger-2 clr-blk">えみ</strong>先生</span><br>担当：高校生（2人）</h3>
+                        </div>
+                      </div>
+                      <p class="lh-105 mt-2">子どもにとっても、保護者にとっても安心できる場を提供。未経験でも教育の知識がなくても問題ありません。一緒に成長してみませんか？</p>
+                    </Modal>
                   </div>
                 </div>
               </li>
@@ -445,6 +491,21 @@ const meta = {
                       </div>
                     </div>
                     <p class="lh-105 mt-2">子どもたちがありのままの自分で居られる場所を提供できる。自分にとっても子供たちにとっても良い環境を。</p>
+                    <Modal client:load id="dialog-4">
+                      <div class="form-row align-items-center">
+                        <div class="col-auto">
+                          <picture class="h-5rem w-5rem d-block rounded-circle z-1 ovh">
+                            <source srcset="/img/prof/v-4@0.5x.webp" media={Constants.mdXl} />
+                            <source srcset="/img/prof/v-4@0.33x.webp" media={Constants.mdSm} />
+                            <img loading="lazy" src="/img/prof/v-4@0.15x.webp" style="aspect-ratio:1/1" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                          </picture>
+                        </div>
+                        <div class="col">
+                          <h3 class="fz-xs fz-lg-2xs ls-n001 lh-105"><span class="font-V7MG-EB"><strong class="bigger-2 clr-blk">しおね</strong>先生</span><br>担当：高校生（1人）</h3>
+                        </div>
+                      </div>
+                      <p class="lh-105 mt-2">子どもたちがありのままの自分で居られる場所を提供できる。自分にとっても子供たちにとっても良い環境を。</p>
+                    </Modal>
                   </div>
                 </div>
               </li>
