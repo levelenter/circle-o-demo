@@ -18,7 +18,7 @@ const titleAndSuffix = (titleSuffix === undefined || titleSuffix)
  ? title + ' | ' + (titleSuffix || SITE_NAME)
  : title
 
-const canonical = import.meta.env.PUBLIC_SITE + Astro.request.url.pathname
+const canonical = Astro.canonicalURL.href
 const image = (ogImage) ? ogImage : OG_IMAGE
 const openGraph = {
   basic: {
