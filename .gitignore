@@ -10,13 +10,12 @@ yarn-debug.log*
 yarn-error.log*
 
 # environment variables
-.env
-.env.production
+.env.local
+.env.production.local
 
 # macOS-specific files
 .DS_Store
 
-.env.local
 .idea/
 
 astro.config.mjs

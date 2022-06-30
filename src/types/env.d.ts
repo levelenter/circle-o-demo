@@ -1,6 +1,6 @@
 interface ImportMetaEnv {
-  readonly SITE_URL: string;
-  readonly NOINDEX_NOFOLLOW: boolean;
+  readonly PUBLIC_SITE_URL: string;
+  readonly PUBLIC_NOINDEX_NOFOLLOW: boolean;
 }
 
 interface ImportMeta {

@@ -3,6 +3,7 @@ import AppHeader from '@/components/AppHeader.astro'
 import AppFooter from '@/components/AppFooter.astro'
 import { SEO } from "astro-seo";
 import { Constants } from '@/utils/constants.ts'
+import { parseBoolean } from "@/utils";
 
 import "../styles/bt4Ex.css";
 import "../styles/main.css";
@@ -17,7 +18,7 @@ const titleAndSuffix = (titleSuffix === undefined || titleSuffix)
  ? title + ' | ' + (titleSuffix || SITE_NAME)
  : title
 
-const canonical = import.meta.env.SITE_URL + Astro.request.url.pathname
+const canonical = import.meta.env.PUBLIC_SITE + Astro.request.url.pathname
 const image = (ogImage) ? ogImage : OG_IMAGE
 const openGraph = {
   basic: {
@@ -37,6 +38,7 @@ const openGraph = {
     card: 'summary_large_image'
   }
 }
+const noIndexNoFollow = parseBoolean(import.meta.env.PUBLIC_NOINDEX_NOFOLLOW)
 ---
 <html lang="ja">
 <head>
@@ -45,8 +47,8 @@ const openGraph = {
     {description}
     {canonical}
     {openGraph}
-    noindex={!!import.meta.env.NOINDEX_NOFOLLOW}
-    nofollow={!!import.meta.env.NOINDEX_NOFOLLOW}
+    noindex={noIndexNoFollow}
+    nofollow={noIndexNoFollow}
    />
 	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
