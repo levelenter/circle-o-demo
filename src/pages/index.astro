@@ -7,8 +7,8 @@ import AppSwipeFinger from '@/components/AppSwipeFinger.astro'
 import { Constants } from '@/utils/constants.ts'
 
 const meta = {
-  title: 'ろう児・難聴児のオンライン対話学習コミュニティ｢Circle O - サークルオー｣',
-  description: 'コロナ禍における｢新しい生活様式｣の普及によって生活にマスクは必需品となりました｡この｢口が見えない｣マスクを多くの人が着用することで､話しかけられていることにも気づくことができず､先生やお友達とのコミュニケーションが取りにくい状況になった子どもたちがいます｡オンライン対話コミュニティcircle O(サークルオー)が､そんな状況にある､ろう児・難聴児のご家庭へオンライン授業の無償提供を行います｡子どもたちの｢学びを止めない｣ために､ぜひご活用ください｡',
+  title: 'ろう児･難聴児のオンライン対話学習コミュニティ｢Circle O - サークルオー｣',
+  description: 'コロナ禍における｢新しい生活様式｣の普及によって生活にマスクは必需品となりました｡この｢口が見えない｣マスクを多くの人が着用することで､話しかけられていることにも気づくことができず､先生やお友達とのコミュニケーションが取りにくい状況になった子どもたちがいます｡オンライン対話コミュニティcircle O(サークルオー)が､そんな状況にある､ろう児･難聴児のご家庭へオンライン授業の無償提供を行います｡子どもたちの｢学びを止めない｣ために､ぜひご活用ください｡',
   ogImage: '/img/global/ogi/default.jpg',
   titleSuffix: false
 }
@@ -23,22 +23,25 @@ const meta = {
       <img id="ils-7" src="/img/global/illust/7.svg" style="aspect-ratio:48/41" aria-hidden="true" alt="" class="w-3rem w-sm-5rem w-lg-8rem w-xl-12rem w-2xl-13rem rotate-n8 position-absolute z-1">
     </figure>
     <h1 class="text-center clr-blk fz-tl font-V7MG-EB lh-1 pt-3 pb-405">
-      <span class="ls-n0105 ls-n01 bigger-lg strong ml-n2 mb-2 d-block clr-co">
+      <span class="ls-n01 ls-lg-0 bigger-lg strong ml-n2 mb-2 d-block clr-co">
         <span class="mr-2">話</span>そう<span class="ml-1">､</span><span class="mr-2 mr-xl-3">学</span>ぼう!
       </span>
-      <span class="d-block my-3 my-md-4"><span class="ls-n01 mr-1">オンライン</span>対話授業</span>
-      <strong class="d-block ls-n01">｢サークルオー｣<span class="ls-n01">スタート👨‍💻</span></strong>
+      <span class="d-block my-3 my-md-4"><span class="ls-n01 ls-lg-0  mr-1">オンライン</span>対話授業</span>
+      <strong class="d-block ls-n01 ls-lg-0 ">｢サークルオー｣<span class="ls-n01 ls-lg-0 ">スタート👨‍💻</span></strong>
     </h1>
+    <div class="row justify-content-center mt-2 mb-5">
+      <div class="col-7 col-sm-4 col-lg-3"><img class="w-100" style="aspect-ratio:36/25" src="/img/global/logo.svg" alt="CIRCLE-O"></div>
+    </div>
   </div>
   <div class="mx-n2 position-relative">
-    <ul class="row no-gutters form-sm-row justify-content-between justify-content-sm-center">
+    <ul class="form-row row-md justify-content-center">
       <li class="col-auto">
-        <div class="row no-gutters justify-content-center align-items-center">
+        <div class="row no-gutters low-md-gutters justify-content-center align-items-center">
           <div class="col-auto">
             <img loading="lazy" class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem" src="/img/global/win-l.svg">
           </div>
           <div class="col-auto">
-            <h2 class:list={['clr-blk font-V7MG-EB text-center lh-1 lh-md-102', Constants.fzLg]}><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">無償提供<br>授業回数</span><span class="ls-n01">2639<small class="font-V7MG-B fz-2xs"> 回以上</small></span></h2>
+            <h2 class:list={['clr-blk font-V7MG-EB text-center lh-1 lh-md-102', Constants.fzLg]}><span class="fz-2xs fz-lg-xs clr-co d-block mb-025">無償提供<br>授業回数</span><span class="ls-n01 ls-lg-0 ">2639<small class="font-V7MG-B fz-2xs"> 回以上</small></span></h2>
           </div>
           <div class="col-auto">
             <img loading="lazy" class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem" src="/img/global/win-r.svg">
@@ -46,7 +49,7 @@ const meta = {
         </div>
       </li>
       <li class="col-auto">
-        <div class="row no-gutters justify-content-center align-items-center">
+        <div class="row no-gutters low-md-gutters justify-content-center align-items-center">
           <div class="col-auto">
             <img loading="lazy" class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem" src="/img/global/win-l.svg">
           </div>
@@ -59,7 +62,7 @@ const meta = {
         </div>
       </li>
       <li class="col-auto">
-        <div class="row no-gutters justify-content-center align-items-center">
+        <div class="row no-gutters low-md-gutters justify-content-center align-items-center">
           <div class="col-auto">
             <img loading="lazy" class="w-2rem w-sm-105rem w-md-2rem w-xl-3rem" src="/img/global/win-l.svg">
           </div>
@@ -74,7 +77,7 @@ const meta = {
     </ul>
   </div>
   <div class:list={['row justify-content-center', Constants.mbLg]}>
-    <div class="col-10 col-sm-6 col-md-7 col-lg-5 col-2xl-4 mt-5">
+    <div class="col-10 col-sm-6 col-md-7 col-lg-5 col-2xl-4 mt-3">
       <img src="/img/global/illust/4-2.svg" style="aspect-ratio:371/316" alt="ろう･難聴児に双方向型オンライン対話授業を" class="w-100 pr-3">
       <h3 class="font-V7MG-EB text-center lh-104 clr-co fz-md-sm fz-xl-md mt-n5 mt-md-n6 pl-2">ろう･難聴児に双方向型<br>｢<strong class="clr-red">オンライン対話授業</strong>｣を</h3>
     </div>
@@ -84,7 +87,7 @@ const meta = {
         <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-0">👩‍🎓ろう･難聴児の学びを💮</strong></span>
       </h2>
       <div class:list={[Constants.mtP, 'embed-responsive embed-responsive-16by9 rounded ovh z-1 position-relative bsd bc-co bw-05r bg-co btn-neumo']}>
-        <iframe loading="lazy" class="w-100 rounded ovh"  src="https://www.youtube-nocookie.com/embed/4-hL2XI3_Dw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe decoding="async" loading="lazy" class="w-100 rounded ovh"  src="https://www.youtube-nocookie.com/embed/4-hL2XI3_Dw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="row low-gutters justify-content-center align-items-center mt-2">
         <div class="col-auto">
@@ -95,8 +98,8 @@ const meta = {
         </div>
       </div>
     </div>
-    <div class="col-12 col-lg-11 col-4xl-10">
-      <div class:list={[Constants.swipe]}>
+    <div class="col-xl-11 col-4xl-10">
+      <div class:list={[Constants.swipe,Constants.mtP]}>
         <div class:list={[Constants.swipeWrap]}>
           <ul class:list={['gap-2',Constants.swipeUl]}>
             <li class:list={["col-10 col-sm-7 col-md-5 col-lg-3",Constants.mtListTeacher]}>
@@ -114,22 +117,22 @@ const meta = {
                         </div>
                       </div>
                     </div>
-                    <div class="col-7 col-lg-12 mt-lg-3">
+                    <div class="col-7 col-lg-11 mt-lg-3">
                       <p class="lh-105">全国どこからでも授業を受けることが可能｡また､ご家庭で受講するからこそお子様の変化を感じることができます｡</p>
                     </div>
                   </div>
                 </div>
                 <picture class="h-12rem h-xl-14rem d-block rounded-bottom-sm ovh">
-                  <source srcset="/img/lp/scene/4@0.5x.webp" media={Constants.mdXl} />
-                  <source srcset="/img/lp/scene/4@0.33x.webp" media={Constants.mdSm} />
-                  <img loading="lazy" src="/img/lp/scene/4@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                  <source srcset="/img/lp/p-1@0.5x.webp" media={Constants.mdXl} />
+                  <source srcset="/img/lp/p-1@0.33x.webp" media={Constants.mdSm} />
+                  <img loading="lazy" src="/img/lp/p-1@0.33x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                 </picture>
               </div>
             </li>
             <li class:list={["col-10 col-sm-7 col-md-5 col-lg-3",Constants.mtListTeacher]}>
               <div class="rounded-sm ovh bg-wht bsd bc-wht bw-04r effect-neumo">
                 <div class:list={['py-4 d-grid',Constants.gapDef]}>
-                  <h2 class="fz-5 lh-1 mx-n2 mt-3 ls-n001 clr-co font-V7MG-EB text-center"><span class="mb-2 fz-2xs bg-co clr-wht px-2 py-1 rounded d-inline-block text-left position-absolute topLeft z-1 ml-3 ml-md-4 mt-2">point.2</span>分かる・伝わる体験を</h2>
+                  <h2 class="fz-5 lh-1 mx-n2 mt-3 ls-n001 clr-co font-V7MG-EB text-center"><span class="mb-2 fz-2xs bg-co clr-wht px-2 py-1 rounded d-inline-block text-left position-absolute topLeft z-1 ml-3 ml-md-4 mt-2">point.2</span>分かる･伝わる体験を</h2>
                   <div class="form-row align-items-center justify-content-center">
                     <div class="col-auto">
                       <div class="row no-gutters justify-content-center align-items-end">
@@ -141,15 +144,15 @@ const meta = {
                         </div>
                       </div>
                     </div>
-                    <div class="col-7 col-lg-12 mt-lg-3">
-                      <p class="lh-105">子どもに言語に合わせて､先生を紹介します｡視覚教材を活用しながら､分かる体験を作ります｡</p>
+                    <div class="col-7 col-lg-11 mt-lg-3">
+                      <p class="lh-105">子どもが得意とする言語に合わせて､先生を紹介します｡視覚教材を活用しながら､分かる体験を作ります｡</p>
                     </div>
                   </div>
                 </div>
                 <picture class="h-12rem h-xl-14rem d-block rounded-bottom-sm ovh">
-                  <source srcset="/img/lp/scene/9@0.5x.webp" media={Constants.mdXl} />
-                  <source srcset="/img/lp/scene/9@0.33x.webp" media={Constants.mdSm} />
-                  <img loading="lazy" src="/img/lp/scene/9@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                  <source srcset="/img/lp/p-2@0.5x.webp" media={Constants.mdXl} />
+                  <source srcset="/img/lp/p-2@0.33x.webp" media={Constants.mdSm} />
+                  <img loading="lazy" src="/img/lp/p-2@0.33x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                 </picture>
               </div>
             </li>
@@ -168,15 +171,15 @@ const meta = {
                         </div>
                       </div>
                     </div>
-                    <div class="col-7 col-lg-12 mt-lg-3">
+                    <div class="col-7 col-lg-11 mt-lg-3">
                       <p class="lh-105">子どもの性格､理解力､学力が考慮された個別授業を｡個々に合わせた計画なので､安心して受講できます｡</p>
                     </div>
                   </div>
                 </div>
                 <picture class="h-12rem h-xl-14rem d-block rounded-bottom-sm ovh">
-                  <source srcset="/img/lp/scene/1@0.5x.webp" media={Constants.mdXl} />
-                  <source srcset="/img/lp/scene/1@0.33x.webp" media={Constants.mdSm} />
-                  <img loading="lazy" src="/img/lp/scene/1@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                  <source srcset="/img/lp/p-3@0.5x.webp" media={Constants.mdXl} />
+                  <source srcset="/img/lp/p-3@0.33x.webp" media={Constants.mdSm} />
+                  <img loading="lazy" src="/img/lp/p-3@0.33x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                 </picture>
               </div>
             </li>
@@ -195,15 +198,15 @@ const meta = {
                         </div>
                       </div>
                     </div>
-                    <div class="col-7 col-lg-12 mt-lg-3">
+                    <div class="col-7 col-lg-11 mt-lg-3">
                       <p class="lh-105">ASL､日本手話､ロールモデル交流､など特別ゲストを招き学校では学べない授業を｡同世代の友達と一緒に学ぼう!</p>
                     </div>
                   </div>
                 </div>
                 <picture class="h-12rem h-xl-14rem d-block rounded-bottom-sm ovh">
-                  <source srcset="/img/lp/scene/1@0.5x.webp" media={Constants.mdXl} />
-                  <source srcset="/img/lp/scene/1@0.33x.webp" media={Constants.mdSm} />
-                  <img loading="lazy" src="/img/lp/scene/1@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                  <source srcset="/img/lp/p-4@0.5x.webp" media={Constants.mdXl} />
+                  <source srcset="/img/lp/p-4@0.33x.webp" media={Constants.mdSm} />
+                  <img loading="lazy" src="/img/lp/p-4@0.33x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                 </picture>
               </div>
             </li>
@@ -227,7 +230,7 @@ const meta = {
       </div>
       <h1 class="clr-blk font-V7MG-EB fz-xsm text-center"><strong class="clr-co mb-1 fz-tl ls-n005 d-block">📛 選べる3コース 🐣</strong>お気軽にお問い合わせ&お申し込みください</h1>
       <div class="row justify-content-center">
-        <div class="col-11 col-sm-9 col-lg-7">
+        <div class="col-11 col-sm-10 col-xl-7">
           <p class="mt-3 fz-xsm fz-lg-md">全国各地にいる手話のできる､ろう者､難聴者､聴者の先生が多数在籍しております｡対話型ことば学習コース､個別学習サポートコース､集団学習コースから､お子様に合ったコースを選択できます｡</p>
         </div>
       </div>
@@ -238,7 +241,7 @@ const meta = {
               <div class="col-lg-8">
                 <div class="h-lg-100 d-lg-flex align-items-lg-center">
                   <div class:list={['px-3 py-4 d-grid',Constants.gapDef]}>
-                    <h2 class="fz-6 lh-103 mx-n2 ls-0 clr-co font-V7MG-EB text-center">対話型ことば学習コース<small class="d-block smaller-3">〜楽しくことばに触れる､使う､慣れる〜</small></h2>
+                    <h2 class="fz-6 fz-sm-7 lh-103 mx-n2 ls-n005 clr-co font-V7MG-EB text-center">対話型ことば学習コース<small class="d-block smaller-3 ls-0">〜楽しくことばに触れる､使う､慣れる〜</small></h2>
                     <div class="row no-gutters align-items-center justify-content-center">
                       <div class="col-auto">
                         <div class="row no-gutters justify-content-center align-items-end">
@@ -271,25 +274,25 @@ const meta = {
                     </div>
                     <p class="fz-2 lh-105 mt-2">ことば､絵､など様々な角度から一つの概念を伝えていきます｡視覚教材を用いて､ことばに対するイメージがわかない子どもでも､対話を通して一緒にその概念を獲得していく環境を作っていくことで､“わかる＂を作り出していきます｡</p>
                     <div class="row low-gutters">
-                      <picture class="col h-7rem h-xl-9rem">
-                        <source srcset="/img/lp/scene/9@0.5x.webp" media={Constants.mdXl} />
-                        <source srcset="/img/lp/scene/9@0.33x.webp" media={Constants.mdSm} />
-                        <img loading="lazy" src="/img/lp/scene/9@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                      <picture class="col h-7rem h-md-10rem h-lg-12rem">
+                        <source srcset="/img/lp/c-1-1@0.5x.webp" media={Constants.mdXl} />
+                        <source srcset="/img/lp/c-1-1@0.33x.webp" media={Constants.mdSm} />
+                        <img loading="lazy" src="/img/lp/c-1-1@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                       </picture>
-                      <picture class="col h-7rem h-xl-9rem">
-                        <source srcset="/img/lp/scene/3@0.5x.webp" media={Constants.mdXl} />
-                        <source srcset="/img/lp/scene/3@0.33x.webp" media={Constants.mdSm} />
-                        <img loading="lazy" src="/img/lp/scene/3@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                      <picture class="col h-7rem h-md-10rem h-lg-12rem">
+                        <source srcset="/img/lp/c-1-2@0.5x.webp" media={Constants.mdXl} />
+                        <source srcset="/img/lp/c-1-2@0.33x.webp" media={Constants.mdSm} />
+                        <img loading="lazy" src="/img/lp/c-1-2@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                       </picture>
-                      <picture class="col h-7rem h-xl-9rem">
-                        <source srcset="/img/lp/scene/5@0.5x.webp" media={Constants.mdXl} />
-                        <source srcset="/img/lp/scene/5@0.33x.webp" media={Constants.mdSm} />
-                        <img loading="lazy" src="/img/lp/scene/5@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                      <picture class="col h-7rem h-md-10rem h-lg-12rem">
+                        <source srcset="/img/lp/c-1-3@0.5x.webp" media={Constants.mdXl} />
+                        <source srcset="/img/lp/c-1-3@0.33x.webp" media={Constants.mdSm} />
+                        <img loading="lazy" src="/img/lp/c-1-3@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                       </picture>
                     </div>
-                    <div class="d-grid gap-1">
+                    <div class="d-grid gap-2">
                       <h2 class="fz-3 lh-103 clr-co font-V7MG-EB">こんな方にオススメです🙆‍♂️</h2>
-                      <ul class="d-grid gap-1 fa-ul ml-4 ml-sm-405 fz-05">
+                      <ul class="d-grid gap-2 fa-ul ml-4 ml-sm-405 fz-05 ff-B">
                         <li><span class="fa-li"><i class="clr-co bigger-1 fas fa-circle-check"></i></span>知っていることばの数が少ない｡</li>
                         <li><span class="fa-li"><i class="clr-co bigger-1 fas fa-circle-check"></i></span>自分の考えを相手に伝えることが苦手｡</li>
                         <li><span class="fa-li"><i class="clr-co bigger-1 fas fa-circle-check"></i></span>相手の話を理解して回答することが苦手｡</li>
@@ -313,9 +316,9 @@ const meta = {
                       <div class:list={[Constants.swipeWrap]}>
                         <ul class:list={["gap-2",Constants.swipeUl]}>
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
-                            <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
+                            <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・小学校1年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都･小学校1年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">難聴児にとっての重要な言葉の獲得期に､我が家では引っ越し､単身赴任とコロナが重なって､母親以外の大人とマスク無しでじっくり話せる機会がなくなった｡どこにいても先生と繋がり､良質な会話が出来たことは本当にありがたかった｡</p>
                               </div>
                             </div>
@@ -323,7 +326,7 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・小学校1年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都･小学校1年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">私や家族では気付かなかった言葉がけや語彙をどんどん扱ってもらい､娘もどんどん語彙や知識が増えていきます｡また､わからない事を今まで曖昧にすることがありましたが､｢わからない｣や｢もう一回言って｣としっかり言えるようになってます｡難聴児にとって身近な存在で活用しやすい今の環境を続けてほしいと思います｡</p>
                               </div>
                             </div>
@@ -331,7 +334,7 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・小学校2年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都･小学校2年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">おうちにいながら先生がすぐそこにいるような感覚で授業を受けています｡自分のランドセルの紹介をしたり､おもちゃの自慢をしたり､クリスマスにはサンタクロースの話など､おうちにいるからこそ｢生きた生活のことば｣に触れることができています｡手話ができる先生が一生懸命話をしてくださるので､子どもの話したいという気持ちが強くなった気がします｡</p>
                               </div>
                             </div>
@@ -339,7 +342,7 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 埼玉県・小学校3年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 埼玉県･小学校3年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">初めて子どもが自身でコミュニケーションを取れるようになっているのをみられました｡ママ､何言ってるのか教えて？と､聞かずとも理解できていました｡その環境を体験できたことを子どもも私も嬉しく思いました｡</p>
                               </div>
                             </div>
@@ -347,7 +350,7 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・小学校5年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都･小学校5年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">友達と言葉のやり取りが難しいこともあったのですが､先生と話す経験を増やしたことで会話の練習にもなり､新しく出会った友達と話が出来ているようです｡新しい学校では話せないかもと思っていたのでとっても驚いています｡</p>
                               </div>
                             </div>
@@ -368,7 +371,7 @@ const meta = {
               <div class="col-lg-8">
                 <div class="h-lg-100 d-lg-flex align-items-lg-center">
                   <div class:list={['px-3 py-4 d-grid',Constants.gapDef]}>
-                    <h2 class="fz-6 lh-103 mx-n2 ls-0 clr-co font-V7MG-EB text-center">教科学習サポートコース<small class="d-block smaller-3">〜子どもたちの分からないを解消する〜</small></h2>
+                    <h2 class="fz-6 fz-sm-7 lh-103 mx-n2 ls-n005 clr-co font-V7MG-EB text-center">教科学習サポートコース<small class="d-block smaller-3 ls-0">〜子どもたちの分からないを解消する〜</small></h2>
                     <div class="row no-gutters align-items-center justify-content-center">
                       <div class="col-auto">
                         <div class="row no-gutters justify-content-center align-items-end">
@@ -401,25 +404,25 @@ const meta = {
                     </div>
                     <p class="fz-2 lh-105 mt-2">お子様の学びたい科目､学習レベルに合わせた1対1の学習支援を行います｡学習を通して､目標を持つ､計画を立てる､継続して取り組む　という3つ力を育みます｡</p>
                     <div class="row low-gutters">
-                      <picture class="col h-7rem h-xl-9rem">
-                        <source srcset="/img/lp/scene/9@0.5x.webp" media={Constants.mdXl} />
-                        <source srcset="/img/lp/scene/9@0.33x.webp" media={Constants.mdSm} />
-                        <img loading="lazy" src="/img/lp/scene/9@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                      <picture class="col h-7rem h-md-10rem h-lg-12rem">
+                        <source srcset="/img/lp/c-2-1@0.5x.webp" media={Constants.mdXl} />
+                        <source srcset="/img/lp/c-2-1@0.33x.webp" media={Constants.mdSm} />
+                        <img loading="lazy" src="/img/lp/c-2-1@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                       </picture>
-                      <picture class="col h-7rem h-xl-9rem">
-                        <source srcset="/img/lp/scene/3@0.5x.webp" media={Constants.mdXl} />
-                        <source srcset="/img/lp/scene/3@0.33x.webp" media={Constants.mdSm} />
-                        <img loading="lazy" src="/img/lp/scene/3@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                      <picture class="col h-7rem h-md-10rem h-lg-12rem">
+                        <source srcset="/img/lp/c-2-2@0.5x.webp" media={Constants.mdXl} />
+                        <source srcset="/img/lp/c-2-2@0.33x.webp" media={Constants.mdSm} />
+                        <img loading="lazy" src="/img/lp/c-2-2@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                       </picture>
-                      <picture class="col h-7rem h-xl-9rem">
-                        <source srcset="/img/lp/scene/5@0.5x.webp" media={Constants.mdXl} />
-                        <source srcset="/img/lp/scene/5@0.33x.webp" media={Constants.mdSm} />
-                        <img loading="lazy" src="/img/lp/scene/5@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                      <picture class="col h-7rem h-md-10rem h-lg-12rem">
+                        <source srcset="/img/lp/c-2-3@0.5x.webp" media={Constants.mdXl} />
+                        <source srcset="/img/lp/c-2-3@0.33x.webp" media={Constants.mdSm} />
+                        <img loading="lazy" src="/img/lp/c-2-3@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                       </picture>
                     </div>
-                    <div class="d-grid gap-1">
+                    <div class="d-grid gap-2">
                       <h2 class="fz-3 lh-103 clr-co font-V7MG-EB">こんな方にオススメです🙆‍♂️</h2>
-                      <ul class="d-grid gap-1 fa-ul ml-4 ml-sm-405 fz-05">
+                      <ul class="d-grid gap-2 fa-ul ml-4 ml-sm-405 fz-05 ff-B">
                         <li><span class="fa-li"><i class="clr-co bigger-1 fas fa-circle-check"></i></span>学校の授業のスピードが上がり内容が分からない｡</li>
                         <li><span class="fa-li"><i class="clr-co bigger-1 fas fa-circle-check"></i></span>学ぶことに苦手意識を持っている｡</li>
                         <li><span class="fa-li"><i class="clr-co bigger-1 fas fa-circle-check"></i></span>分からないことを人に言えない｡</li>
@@ -445,7 +448,7 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・小学校4年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都･小学校4年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">親のイライラも減り､先生にたくさん助けてもらいました｡やはり聞こえない子に教えるにあたり､伝え方だったりが難しく意思疎通がうまくいかずお互いにイライラすることが多かったがサークルオーを通して色々と理解をしたり勉強方法を教えてもらったりして有意義な時間になりました｡</p>
                               </div>
                             </div>
@@ -453,7 +456,7 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 三重県・中学1年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 三重県･中学1年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">コロナの不安な状況の中､このような授業を受けることができてとても有意義な時間でした｡地方に住んでおり､聴覚障害への理解のある場や手話が使える場がほぼない中で週２回という高頻度で授業を受けられて本当に貴重な時間となりました｡</p>
                               </div>
                             </div>
@@ -461,7 +464,7 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・高校1年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都･高校1年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">高校に入学してから手話を使い始めたため､手話自体の技量があがり､学校で居場所ができたように感じます｡以前は通訳や筆談してもらいましたが､クラスや部活動でみんなの輪の中に入って､表情豊かにコミュニケーションとっているのをみて､心の支えがあるとこんなにも変わるのかと驚きました｡</p>
                               </div>
                             </div>
@@ -469,15 +472,15 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・高校1年生保護者さま</h4>
-                                <p class="lh-102 fz-05 ls-0">コロナの関係で､授業時間の短縮､補習なしと学校の先生方も困っている状況でした｡そんななか､オンラインで家庭にいながら､手話で丁寧に英語を教えてくださり､英語を好きになりつつありますし､何より娘の表情が明るくなりました｡先生方も豊富で､夜遅くにも関わらず時間を作ってくださり､とても感謝しています｡もっと早く出会いたかった｡子どもの心の安定は保護者の心配も減り､授業を受けることで学力のみならず､心が豊かになると思います｡</p>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都･高校1年生保護者さま</h4>
+                                <p class="lh-102 fz-05 ls-0">オンラインで家庭にいながら､手話で丁寧に英語を教えてくださり､英語を好きになりつつありますし､何より娘の表情が明るくなりました｡先生方も豊富で､夜遅くにも関わらず時間を作ってくださり､とても感謝しています｡もっと早く出会いたかった｡子どもの心の安定は保護者の心配も減り､授業を受けることで学力のみならず､心が豊かになると思います｡</p>
                               </div>
                             </div>
                           </li>
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 神奈川県・高校2年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 神奈川県･高校2年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">聞こえない､また､コロナ禍で皆マスクの中､地域の学校に通っています｡通常の塾には通いにくい我が子にとって､オンラインで手話による授業を受けられるサークルオーは､毎週楽しみにしている時間でした｡わからない問題を教えてもらうことができ､ありがたく思っています｡</p>
                               </div>
                             </div>
@@ -498,7 +501,7 @@ const meta = {
               <div class="col-lg-8">
                 <div class="h-lg-100 d-lg-flex align-items-lg-center">
                   <div class:list={['px-3 py-4 d-grid',Constants.gapDef]}>
-                    <h2 class="fz-6 lh-103 mx-n2 ls-0 clr-co font-V7MG-EB text-center">テーマ別集団学習コース<small class="d-block smaller-3">〜子どもたちの興味関心を広げる〜</small></h2>
+                    <h2 class="fz-6 fz-sm-7 lh-103 mx-n2 ls-n005 clr-co font-V7MG-EB text-center">テーマ別集団学習コース<small class="d-block smaller-3 ls-0">〜子どもたちの興味関心を広げる〜</small></h2>
                     <div class="row no-gutters align-items-center justify-content-center">
                       <div class="col-auto">
                         <div class="row no-gutters justify-content-center align-items-end">
@@ -531,25 +534,25 @@ const meta = {
                     </div>
                     <p class="fz-2 lh-105 mt-2">3ヶ月間毎にテーマが変わる集団学習コース｡ASL(アメリカ手話)､日本手話､科学実験､雑学クイズ､ロールモデル交流､デフのお仕事紹介など､用意するテーマは学校で習えないものばかり!全国の同世代の子どもたちと一緒に様々な世界を探検してみよう!</p>
                     <div class="row low-gutters">
-                      <picture class="col h-7rem h-xl-9rem">
-                        <source srcset="/img/lp/scene/9@0.5x.webp" media={Constants.mdXl} />
-                        <source srcset="/img/lp/scene/9@0.33x.webp" media={Constants.mdSm} />
-                        <img loading="lazy" src="/img/lp/scene/9@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                      <picture class="col h-7rem h-md-10rem h-lg-12rem">
+                        <source srcset="/img/lp/c-3-1@0.5x.webp" media={Constants.mdXl} />
+                        <source srcset="/img/lp/c-3-1@0.33x.webp" media={Constants.mdSm} />
+                        <img loading="lazy" src="/img/lp/c-3-1@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                       </picture>
-                      <picture class="col h-7rem h-xl-9rem">
-                        <source srcset="/img/lp/scene/3@0.5x.webp" media={Constants.mdXl} />
-                        <source srcset="/img/lp/scene/3@0.33x.webp" media={Constants.mdSm} />
-                        <img loading="lazy" src="/img/lp/scene/3@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                      <picture class="col h-7rem h-md-10rem h-lg-12rem">
+                        <source srcset="/img/lp/c-3-2@0.5x.webp" media={Constants.mdXl} />
+                        <source srcset="/img/lp/c-3-2@0.33x.webp" media={Constants.mdSm} />
+                        <img loading="lazy" src="/img/lp/c-3-2@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                       </picture>
-                      <picture class="col h-7rem h-xl-9rem">
-                        <source srcset="/img/lp/scene/5@0.5x.webp" media={Constants.mdXl} />
-                        <source srcset="/img/lp/scene/5@0.33x.webp" media={Constants.mdSm} />
-                        <img loading="lazy" src="/img/lp/scene/5@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                      <picture class="col h-7rem h-md-10rem h-lg-12rem">
+                        <source srcset="/img/lp/c-3-3@0.5x.webp" media={Constants.mdXl} />
+                        <source srcset="/img/lp/c-3-3@0.33x.webp" media={Constants.mdSm} />
+                        <img loading="lazy" src="/img/lp/c-3-3@0.15x.webp" style="aspect-ratio:34/27" decoding="async" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
                       </picture>
                     </div>
-                    <div class="d-grid gap-1">
+                    <div class="d-grid gap-2">
                       <h2 class="fz-3 lh-103 clr-co font-V7MG-EB">こんな方にオススメです🙆‍♂️</h2>
-                      <ul class="d-grid gap-1 fa-ul ml-4 ml-sm-405 fz-05">
+                      <ul class="d-grid gap-2 fa-ul ml-4 ml-sm-405 fz-05 ff-B">
                         <li><span class="fa-li"><i class="clr-co bigger-1 fas fa-circle-check"></i></span>学校以外で聞こえない同級生との出会いが少ない｡</li>
                         <li><span class="fa-li"><i class="clr-co bigger-1 fas fa-circle-check"></i></span>ロールモデルと出会う機会がない｡</li>
                         <li><span class="fa-li"><i class="clr-co bigger-1 fas fa-circle-check"></i></span>将来どんな仕事に就けるかイメージが持てない｡</li>
@@ -574,7 +577,7 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 神奈川県・小学1年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 神奈川県･小学1年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">動物の問題の答えに「へぇぇぇー」って驚いて楽しそうでした!	正直､息子はちゃんと見るかな？途中で抜け出すかな？と心配しましたが､内容が面白いから最後まで見たので､成長を感じました!</p>
                               </div>
                             </div>
@@ -582,7 +585,7 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・小学2年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都･小学2年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">色んな地域の友達と交流出来てよかった｡マスクなしでこどもの笑顔が見れるのはオンラインならではのいいところだと思います♪</p>
                               </div>
                             </div>
@@ -590,23 +593,23 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 愛知県・小学3年生保護者さま</h4>
-                                <p class="lh-102 fz-05 ls-0">本当にこの様な良い機会を与えて頂き感謝しております｡先生は本人に合わせてくれてとても優しいですし､ASLなども楽しく教えていただきました｡ここに出会わなければ､今の息子はなかったのでは？というぐらい楽しんでくれました｡続けれていることが大変ありがたいです｡</p>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 愛知県･小学3年生保護者さま</h4>
+                                <p class="lh-102 fz-05 ls-0">本当にこの様な良い機会を与えて頂き感謝しております｡子どもに先生が合わせてくれて優しいですし､ASLなども楽しく教えていただきました｡ここに出会わなければ､今の息子はなかったのでは？というぐらい｡続けれていることが大変ありがたいです｡</p>
                               </div>
                             </div>
                           </li>
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 北海道・小学3年生保護者さま</h4>
-                                <p class="lh-102 fz-05 ls-0">我が家は札幌在住です｡この度､東京の聾のおともだちに､オンラインで授業がうけられるんだよと教えてもらい､大阪と札幌､だめ元で応募しました｡この1ヶ月､先生との時間を心待ちにしていた子どもの姿を見てきました｡担当していただいた先生がアメリカ在住ということも､インターネットって､オンラインってすごいを子どもと一緒に私も実感しました｡</p>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 北海道･小学3年生保護者さま</h4>
+                                <p class="lh-102 fz-05 ls-0">おともだちに教えてもらい応募しました｡先生との時間を心待ちにしていた子どもの姿を見てきました｡担当していただいた先生がアメリカ在住ということも､インターネットって､オンラインってすごいを子どもと一緒に私も実感しました｡ </p>
                               </div>
                             </div>
                           </li>
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 北海道・小学3年生保護者さま</h4>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 北海道･小学3年生保護者さま</h4>
                                 <p class="lh-102 fz-05 ls-0">世界は広いということ｡北海道にいるので､飛行機にのらなければ別の地域にいけませんが､オンラインで他の地域を知れました｡</p>
                               </div>
                             </div>
@@ -614,8 +617,8 @@ const meta = {
                           <li class="col-10 col-sm-7 col-md-5 col-lg-12">
                             <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
                               <div class="px-3 py-4 d-grid gap-1">
-                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 栃木県・中学1年生</h4>
-                                <p class="lh-102 fz-05 ls-0">聾学校に通っていてクラスは生徒二人だけ｡とても狭い社会で生きています｡コロナ禍前は交流の場を求めて遠方まで足を伸ばしていましたが今はそれも出来ず子供の見聞を広げるためにはどうしたら良いか悩んでいました｡知り合いからサークルオーを教えていただいて初めてのオンライン授業に初めての先生｡慣れるまで時間がかかりましたが少しずつ先生や先生のお話に興味を持ち始め授業態度が変わってきました｡週に1度以上新しい世界が見られるとても大切な時間になりました｡</p>
+                                <h4 class="fz-05 ls-n001 lh-103 clr-blk font-V7MG-EB">👪 栃木県･中学1年生</h4>
+                                <p class="lh-102 fz-05 ls-0">聾学校に通っていてクラスは生徒二人だけ｡とても狭い社会で生きています｡初めてのオンライン授業にも､少しずつ先生やそのお話に興味を持ち始め授業態度が変わってきました｡新しい世界が見られるとても大切な時間になりました｡</p>
                               </div>
                             </div>
                           </li>
@@ -631,9 +634,30 @@ const meta = {
         </li>
       </ul>
     </div>
-    <div class="col-11 col-sm-9 col-lg-7">
+    <div class="col-12">
+      <div class="position-relative mt-6 mt-sm-7 mt-xl-8 mt-2xl-9 mx-n3 mx-sm-n5 mx-2xl-n6 mx-3xl-n9">
+        <div class="row justify-content-center align-items-center position-sm-absolute z-1 topRight mb-405 mb-sm-6 mx-1 mt-md-n6 mt-lg-n2 mt-xl-4 mr-sm-n3 mr-md-4 mr-lg-8 mr-xl-9 h-sm-11rem h-md-20rem">
+          <div class="col-11 col-sm-auto ml-sm-auto mr-sm-405 mr-2xl-9 w-sm-32rem w-lg-40rem w-xl-45rem w-2xl-50rem">
+            <h2 class="text-center clr-blk font-V7MG-EB lh-1"><span class="d-block mb-2 mb-xl-3 fz-tl clr-co">手軽に授業を予約!</span> <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-0">🙆&zwj;♂️授業サポートの充実🙆</strong>
+            </h2>
+            <p class="fz-xsm fz-lg-md mt-4 mt-sm-405 mt-2xl-5">先生の予約から実施内容の確認まで予約管理システムで完結! 困った時のサポート体制も充実｡<small>(Zoomに対応したパソコンWindows Mac と タブレットに対応)</small></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-2xl-7 mt-sm-4 mt-md-0">
+            <picture class="d-block">
+              <source srcset="/img/lp/mock.webp" media={Constants.md2Xl} />
+              <source srcset="/img/lp/mock@0.75x.webp" media={Constants.mdXl} />
+              <source srcset="/img/lp/mock@0.5x.webp" media={Constants.md} />
+              <img loading="lazy" src="/img/lp/mock@0.33x.webp" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100" style="aspect-ratio: 1096 / 789;">
+            </picture>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-11 col-sm-10 col-xl-7">
       <h2 class:list={[Constants.mtLg, 'text-center clr-blk font-V7MG-EB lh-1 mx-n3']}>
-        <span class="d-block mb-2 ls-n005 fz-tl clr-co"><span class="ls-n01">2022</span>年<span class="ls-n01">7</span>月末まで無料</span>
+        <span class="d-block mb-2 ls-n005 fz-tl clr-co"><span class="ls-n01 ls-lg-0 ">2022</span>年<span class="ls-n01 ls-lg-0 ">7</span>月末まで無料</span>
         <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">聴覚障害のある<br>小学1年生〜高校3年生の方</strong></span>
       </h2>
       <p class:list={[Constants.mtP, 'fz-xsm fz-lg-md']}>インターネット環境があれば､いつでもどこからでも授業を受けることができます｡全国の皆様からのご応募お待ちしております｡</p>
@@ -641,7 +665,7 @@ const meta = {
     </div>
     <div class="col-11 col-sm-9 col-md-12 col-lg-9 col-2xl-7">
       <ul class="form-row">
-        <li class="col-md-4 mt-1">
+        <li class="col-md-4 mt-2">
           <div class="form-row flex-nowrap align-items-center align-items-md-start">
             <div class="col-auto">
               <i class="clr-red fz-3xl fas fa-wifi"></i>
@@ -652,10 +676,10 @@ const meta = {
             </div>
           </div>
         </li>
-        <li class="col-md-4 mt-1">
+        <li class="col-md-4 mt-2">
           <div class="form-row flex-nowrap align-items-center align-items-md-start">
             <div class="col-auto">
-              <img loading="lazy" src="/img/global/illust/3-1.svg" style="aspect-ratio:72/73" alt="WEBカメラとパソコン" class="w-5rem shadow-light">
+              <img loading="lazy" src="/img/global/illust/3-1.svg" style="aspect-ratio:72/73" alt="WEBカメラとパソコン" class="ml-4 ml-md-0 w-4rem w-md-5rem shadow-light">
             </div>
             <div class="col">
               <h4 class="font-V7MG-EB clr-blk fz-2xs">WEBカメラとパソコン</h4>
@@ -663,7 +687,7 @@ const meta = {
             </div>
           </div>
         </li>
-        <li class="col-md-4 mt-1">
+        <li class="col-md-4 mt-2">
           <div class="form-row flex-nowrap align-items-center align-items-md-start">
             <div class="col-auto">
               <i class="clr-line fz-4xl ml-1 mr-1 fab fa-line"></i>
@@ -676,13 +700,13 @@ const meta = {
         </li>
       </ul>
     </div>
-    <div class="col-12 col-lg-11 col-4xl-10">
+    <div class="col-xl-11 col-4xl-10">
       <h2 class:list={['text-center clr-blk font-V7MG-EB lh-1', Constants.mtLg]}>
         <span class="d-block mx-n3 mb-2 mb-xl-3 fz-tl clr-co">多様な先生がサポート!</span>
         <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">👨‍🏫各界の先生が世界を拓く👩‍🏫</strong>
       </h2>
       <div class="row justify-content-center">
-        <div class="col-11 col-sm-9 col-lg-7">
+        <div class="col-11 col-sm-10 col-xl-7">
           <p class:list={['fz-xsm fz-lg-md', Constants.mtP]}>学校の先生､弁護士､海外在住､スポーツ選手などさまざまなジャンルで活躍する先生が在籍しています｡お子さまのコミュニケーション手段･学習言語･文化･聴力等といったろう･難聴児における多様性の重点項目を考慮した"授業"を提供しています｡</p>
         </div>
       </div>
@@ -697,39 +721,39 @@ const meta = {
     <div class="col-12">
       <div class:list={[Constants.mtP, Constants.mxNmain]}>
         <div class:list={[Constants.mtLg, 'row no-gutters']}>
-          <picture class="col-lg-4 h-14rem h-sm-22rem h-md-25rem h-lg-20rem h-xl-26rem h-2xl-30rem">
-            <source srcset="/img/lp/scene/8@0.75x.webp" media={Constants.mdXl} />
-            <source srcset="/img/lp/scene/8@0.5x.webp" media={Constants.mdSm} />
-            <img loading="lazy" src="/img/lp/scene/8@0.33x.webp" style="aspect-ratio:545/432" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+          <picture class="col-sm-3 col-lg-4 h-14rem h-sm-22rem h-md-20rem h-xl-26rem h-2xl-30rem">
+            <source srcset="/img/lp/m-1@0.75x.webp" media={Constants.mdXl} />
+            <source srcset="/img/lp/m-1@0.5x.webp" media={Constants.mdSm} />
+            <img loading="lazy" src="/img/lp/m-1@0.33x.webp" style="aspect-ratio:545/432" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover of-leftCenter">
           </picture>
-          <div class="col-md-6 col-lg-4">
+          <div class="col-sm-6 col-lg-4">
             <div class="row no-gutters">
               <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem">
-                <source srcset="/img/lp/scene/9@0.5x.webp" media={Constants.mdXl} />
-                <source srcset="/img/lp/scene/9@0.33x.webp" media={Constants.mdSm} />
-                <img loading="lazy" src="/img/lp/scene/9@0.15x.webp" style="aspect-ratio:34/27" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                <source srcset="/img/lp/m-3@0.5x.webp" media={Constants.mdXl} />
+                <source srcset="/img/lp/m-3@0.33x.webp" media={Constants.mdSm} />
+                <img loading="lazy" src="/img/lp/m-3@0.15x.webp" style="aspect-ratio:34/27" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
               </picture>
               <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem">
-                <source srcset="/img/lp/scene/3@0.5x.webp" media={Constants.mdXl} />
-                <source srcset="/img/lp/scene/3@0.33x.webp" media={Constants.mdSm} />
-                <img loading="lazy" src="/img/lp/scene/3@0.15x.webp" style="aspect-ratio:34/27" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                <source srcset="/img/lp/m-4@0.5x.webp" media={Constants.mdXl} />
+                <source srcset="/img/lp/m-4@0.33x.webp" media={Constants.mdSm} />
+                <img loading="lazy" src="/img/lp/m-4@0.15x.webp" style="aspect-ratio:34/27" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
               </picture>
               <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem">
-                <source srcset="/img/lp/scene/5@0.5x.webp" media={Constants.mdXl} />
-                <source srcset="/img/lp/scene/5@0.33x.webp" media={Constants.mdSm} />
-                <img loading="lazy" src="/img/lp/scene/5@0.15x.webp" style="aspect-ratio:34/27" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                <source srcset="/img/lp/m-5@0.5x.webp" media={Constants.mdXl} />
+                <source srcset="/img/lp/m-5@0.33x.webp" media={Constants.mdSm} />
+                <img loading="lazy" src="/img/lp/m-5@0.15x.webp" style="aspect-ratio:34/27" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
               </picture>
               <picture class="col-6 h-10rem h-sm-12rem h-md-10rem h-xl-13rem h-2xl-15rem">
-                <source srcset="/img/lp/scene/4@0.5x.webp" media={Constants.mdXl} />
-                <source srcset="/img/lp/scene/4@0.33x.webp" media={Constants.mdSm} />
-                <img loading="lazy" src="/img/lp/scene/4@0.15x.webp" style="aspect-ratio:34/27" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+                <source srcset="/img/lp/m-6@0.5x.webp" media={Constants.mdXl} />
+                <source srcset="/img/lp/m-6@0.33x.webp" media={Constants.mdSm} />
+                <img loading="lazy" src="/img/lp/m-6@0.15x.webp" style="aspect-ratio:34/27" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
               </picture>
             </div>
           </div>
-          <picture class="col-md-6 col-lg-4 h-14rem h-sm-22rem h-md-20rem h-xl-26rem h-2xl-30rem">
-            <source srcset="/img/lp/scene/1@0.75x.webp" media={Constants.mdXl} />
-            <source srcset="/img/lp/scene/1@0.5x.webp" media={Constants.mdSm} />
-            <img loading="lazy" src="/img/lp/scene/1@0.33x.webp" style="aspect-ratio:545/432" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
+          <picture class="col-sm-3 col-lg-4 h-14rem h-sm-22rem h-md-20rem h-xl-26rem h-2xl-30rem">
+            <source srcset="/img/lp/m-2@0.75x.webp" media={Constants.mdXl} />
+            <source srcset="/img/lp/m-2@0.5x.webp" media={Constants.mdSm} />
+            <img loading="lazy" src="/img/lp/m-2@0.33x.webp" style="aspect-ratio:545/432" alt="CIRCLE O 聴覚障害のある6歳〜18歳の方向けオンライン授業" class="w-100 h-100 of-cover">
           </picture>
         </div>
       </div>
@@ -754,7 +778,7 @@ const meta = {
                   </div>
                   <div class="col">
                     <div class:list={['d-grid',Constants.gapDef]}>
-                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <div class="btsd bc-co bw-02r lh-2 mt-4 next clr-co"></div>
                       <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">WEBよりお申込み</h3>
                       <div class="form-row align-items-center justify-content-center gap-1">
                         <div class="col-auto">
@@ -767,8 +791,8 @@ const meta = {
                             </div>
                           </div>
                         </div>
-                        <div class="col-7 col-lg-12 mt-lg-3">
-                          <p class="fz-05 ff-L clr-blk"><a href="">無料お申し込みページ</a>より､必要な情報をご記入ください｡細かい入力項目にお答えいただくと面談がよりスムーズになります｡</p>
+                        <div class="col-12 mt-lg-3">
+                          <p class="fz-05 ff-L clr-blk"><a href="">無料お申し込みページ</a>より､必要な情報をご記入ください｡細かい入力項目にお答えいただくと面談がよりスムーズに｡</p>
                           <ul class="liKome fz-025 lh-102">
                             <li class="d-block mt-2"><a href="https://twitter.com/circleo_" target="_blank" class="clr-co">授業の様子はサークルオー公式twitter<i class="fab fa-twitter"></i></a>からご覧ください｡</li>
                           </ul>
@@ -781,7 +805,7 @@ const meta = {
                   </div>
                   <div class="col">
                     <div class:list={['d-grid',Constants.gapDef]}>
-                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <div class="btsd bc-co bw-02r lh-2 mt-4 next clr-co"></div>
                       <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">担当とアセスメント面談</h3>
                       <div class="form-row align-items-center justify-content-center gap-1">
                         <div class="col-auto">
@@ -794,8 +818,8 @@ const meta = {
                             </div>
                           </div>
                         </div>
-                        <div class="col-7 col-lg-12 mt-lg-3">
-                          <p class="fz-05 ff-L clr-blk">お子様の状態や保護者のニーズを伺いながらご希望のコースを決定します｡面談内容を元にお子様に合う先生や授業内容をご提案します｡</p>
+                        <div class="col-12 mt-lg-3">
+                          <p class="fz-05 ff-L clr-blk">お子様の状態や保護者のニーズを伺いながらご希望のコースを決定｡面談内容を元にお子様に合う先生や授業内容をご提案します｡</p>
                           <ul class="liKome fz-025 lh-102">
                             <li class="d-block mt-2"><strong class="font-weight-bold">体験授業も随時実施</strong>しております｡まずは運営面談にてお気軽にご相談ください｡</li>
                           </ul>
@@ -808,7 +832,7 @@ const meta = {
                   </div>
                   <div class="col">
                     <div class:list={['d-grid',Constants.gapDef]}>
-                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <div class="btsd bc-co bw-02r lh-2 mt-4 next clr-co"></div>
                       <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">ご希望の先生と面談</h3>
                       <div class="form-row align-items-center justify-content-center gap-1">
                         <div class="col-auto">
@@ -821,7 +845,7 @@ const meta = {
                             </div>
                           </div>
                         </div>
-                        <div class="col-7 col-lg-12 mt-lg-3">
+                        <div class="col-12 mt-lg-3">
                           <p class="fz-05 ff-L clr-blk">先生一覧リストより担当を希望する先生を選択いただきます｡20分間のお試し面談を経て､担当可否を決定頂きます｡</p>
                           <ul class="liKome fz-025 lh-102">
                             <li class="d-block mt-2">お申し込みの状況によっては紹介をお待ち頂く可能性があります</li>
@@ -835,7 +859,7 @@ const meta = {
                   </div>
                   <div class="col">
                     <div class:list={['d-grid',Constants.gapDef]}>
-                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <div class="btsd bc-co bw-02r lh-2 mt-4 next clr-co"></div>
                       <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">授業の先生が決定</h3>
                       <div class="form-row align-items-center justify-content-center gap-1">
                         <div class="col-auto">
@@ -848,7 +872,7 @@ const meta = {
                             </div>
                           </div>
                         </div>
-                        <div class="col-7 col-lg-12 mt-lg-3">
+                        <div class="col-12 mt-lg-3">
                           <p class="fz-05 ff-L clr-blk">担当の先生と連絡する専用の公式LINEグループに招待いたします｡授業頻度や実施日時は先生と相談して決定頂きます｡</p>
                         </div>
                       </div>
@@ -859,7 +883,7 @@ const meta = {
                   </div>
                   <div class="col">
                     <div class:list={['d-grid',Constants.gapDef]}>
-                      <div class="btsd bc-co bw-02r lh-2 mb-1 mt-4 next clr-co"></div>
+                      <div class="btsd bc-co bw-02r lh-2 mt-4 next clr-co"></div>
                       <h3 class="fz-2 lh-1 text-center font-V7MG-EB clr-blk mx-n3">授業スタート</h3>
                       <div class="form-row align-items-center justify-content-center gap-1">
                         <div class="col-auto">
@@ -872,7 +896,7 @@ const meta = {
                             </div>
                           </div>
                         </div>
-                        <div class="col-7 col-lg-12 mt-lg-3">
+                        <div class="col-12 mt-lg-3">
                           <p class="fz-05 ff-L clr-blk">初回授業日が決まれば､正式に授業がスタート!楽しむ事まず優先してください!</p>
                         </div>
                       </div>
@@ -885,82 +909,6 @@ const meta = {
         </div>
         <AppSwipeFinger />
       </div>
-    </div>
-    <!-- <div class="col-11 col-sm-9 col-md-12">
-      <div class="d-flex justify-content-center">
-        <h2 class:list={[Constants.mtLg, 'clr-blk font-V7MG-EB lh-1']}>
-          <span class="d-block mb-2 fz-sm clr-co">User's Voice</span>
-          <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n004 ml-n1">ご利用者さまの声 😊 <span class="position-relative t-n1">💬</span></strong></span>
-        </h2>
-      </div>
-    </div>
-    <div class="col-12">
-      <div class:list={["mt-2",Constants.swipe]}>
-        <div class:list={[Constants.swipeWrap]}>
-          <ul class:list={[Constants.swipeUl]}>
-            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-lg-3']}>
-              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
-                <div class="px-3 py-4">
-                  <h2 class="fz-xs fz-lg-2xs ls-n001 lh-103 clr-blk font-V7MG-EB">👪 北海道･小学校3年生の保護者さま</h2>
-                  <p class="lh-105 mt-2">我が家は札幌在住です｡この度､東京の聾のおともだちに､オンラインで無償の授業がうけられるんだよと教えてもらい､大阪と札幌､だめ元で応募しました｡この1ヶ月､先生との時間を心待ちにしていた子どもの姿を見てきました｡担当していただいたハリー先生がアメリカ在住ということも､インターネットって､オンラインってすごいを子どもと一緒に私も実感しました｡</p>
-                </div>
-              </div>
-            </li>
-            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-lg-3']}>
-              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
-                <div class="px-3 py-4">
-                  <h2 class="fz-xs fz-lg-2xs ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・6歳保護者さま</h2>
-                  <p class="lh-105 mt-2">おうちにいながら先生がすぐそこにいるような感覚で授業を受けています｡自分のランドセルの紹介をしたり､おもちゃの自慢をしたり､クリスマスにはサンタクロースの話など､おうちにいるからこそ｢生きた生活のことば｣に触れることができています｡手話ができる先生が一生懸命話をしてくださるので､子どもの話したいという気持ちが強くなった気がします｡</p>
-                </div>
-              </div>
-            </li>
-            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-lg-3']}>
-              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
-                <div class="px-3 py-4">
-                  <h2 class="fz-xs fz-lg-2xs ls-n001 lh-103 clr-blk font-V7MG-EB">👨‍👩‍👧‍👦 愛知県･小学校1年生の保護者さま</h2>
-                  <p class="lh-105 mt-2">本当にこの様な良い機会を与えて頂き感謝しております｡先生は本人に合わせてくれてとても優しいですし､ASLなども楽しく教えていただきました｡ここに出会わなければ､今の息子はなかったのでは？というぐらい楽しんでくれました｡無償で続けれていることが大変ありがたいです｡</p>
-                </div>
-              </div>
-            </li>
-            <li class:list={[Constants.mtListTeacher, 'col-8 col-sm-5 col-lg-3']}>
-              <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-100">
-                <div class="px-3 py-4">
-                  <h2 class="fz-xs fz-lg-2xs ls-n001 lh-103 clr-blk font-V7MG-EB">👪 東京都・6歳保護者さま</h2>
-                  <p class="lh-105 mt-2">無料でのオンライン授業本当にありがとうございます｡私や家族では気付かなかった言葉がけや語彙をどんどん扱ってもらい､娘もどんどん語彙や知識が増えていきます｡また､わからない事を今まで曖昧にすることがありましたが､｢わからない｣や｢もう一回言って｣としっかり言えるようになってます｡難聴児にとって身近な存在で活用しやすい今の環境を続けてほしいと思います｡</p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <AppSwipeFinger />
-    </div>
-    <div class="col-11 col-sm-9 col-md-12 col-lg-8">
-      <div class:list={[Constants.mtListTeacher, 'rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo']}>
-        <div class="row no-gutters align-items-stretch">
-          <div class="col-md-5 col-lg-5">
-            <picture class="h-12rem h-md-16rem h-lg-20rem d-block">
-              <img loading="lazy" src="/img/lp/voice.webp" decoding="async" alt="" style="aspect-ratio:131/96" class="w-100 h-100 of-cover">
-            </picture>
-          </div>
-          <div class="col-md">
-            <div class="p-405 p-sm-405 py-md-0 px-md-5 d-flex align-items-center h-100">
-              <div>
-                <h2 class:list={[Constants.fzXs, 'ls-0 lh-103 clr-blk font-V7MG-EB']}>📃🖋 対話授業無償提供の報告と今後の展開</h2>
-                <p class="lh-105 mt-2">4月11日の呼びかけから5月31日までに､日本全国･タイ･アメリカから手話のできるろう者･難聴者･聴者の｢先生｣約30名が､日本全国の約60名のろう･難聴児の｢生徒｣へ向けて､それぞれ週2~3回､合計750回のオンライン授業の無償提供を行いました</p>
-                <a href="https://silentvoice.co.jp/blog/1979/" target="_blank" class="d-block w-100 px-3 px-sm-4 py-2 mt-2 clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-co bw-02r">
-                  <div class="h-100 d-flex flex-wrap align-items-center">
-                    <div class="font-V7MG-EB fz-xs">サークルオーの一次報告書を読む</div>
-                    <div class="ml-auto"><i class="small fas fa-external-link"></i></div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <div class="col-12">
       <section class:list={[Constants.mtLg, Constants.mxNmain, 'bg-wht']}>
         <div class="row justify-content-center">
           <div class="col-11 col-sm-10 col-md-8 col-lg-7 col-2xl-6">
@@ -982,10 +930,11 @@ const meta = {
             <p class="mt-3 fz-xsm fz-lg-md">対話型ことば学習コース､個別学習サポートコース､集団学習コースともに､2022年7月末まで無償提供しています｡全国の皆様からのご応募お待ちしております｡</p>
             <a href="https://circle-o.jp/app/#/entrance-page" target="_blank"  class:list={[Constants.mySm, 'd-block w-100 fz-xl fz-md-3xl fz-xl-4xl px-3 px-sm-4 py-2 clr-wht hvr-bg-red hvr-clr-red rounded-xl btn-neumo-co bsd bc-wht bw-02r']}>
               <div class="h-100 d-flex flex-wrap justify-content-center align-items-center">
-                <div class="font-V7MG-EB">申し込み</div>
+                <div class="font-V7MG-EB">生徒になる</div>
                 <div class="ml-2 mt-025"><i class="clr-wht fas fa-hands-helping"></i></div>
               </div>
             </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2ic-6ac4hjkop08R8qHuBzrj2xttvYzw0-ovpD-xzm7PV-w/viewform" target="_blank" class="text-center mt-n2 mb-2 tdu ff-B d-block">お問い合わせはコチラから</a>
             <div class="row flex-nowrap align-items-center pt-2">
               <div class="col-4 col-sm-3 col-lg-2">
                 <div class="px-lg-4">
@@ -1024,6 +973,7 @@ const meta = {
                 <div class="ml-2 mt-025"><i class="clr-wht fas fa-user-edit"></i></div>
               </div>
             </a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSc2ic-6ac4hjkop08R8qHuBzrj2xttvYzw0-ovpD-xzm7PV-w/viewform" target="_blank" class="text-center mt-n2 mb-2 tdu ff-B d-block">お問い合わせはコチラから</a>
             <hr class:list={[Constants.mtLg, 'mx-n4 mx-sm-0']}>
             <div class="row flex-nowrap align-items-center py-6">
               <div class="col-4 col-sm-3 col-lg-2">
@@ -1043,7 +993,7 @@ const meta = {
         </div>
       </section>
     </div>
-    <div class="col-11 col-sm-9 col-lg-7">
+    <div class="col-11 col-sm-10 col-xl-7">
       <div class="d-flex justify-content-center">
         <h2 class:list={[Constants.mtLg, 'clr-blk font-V7MG-EB lh-1']}>
           <span class="d-block mb-2 fz-sm clr-co">FAQ</span>
@@ -1214,14 +1164,14 @@ const meta = {
       <AppSwipeFinger />
       <section class:list={[Constants.pyLg, Constants.mtLg, Constants.mxNmain, 'bg-wht']}>
         <div class="row justify-content-center">
-          <div class="col-11 col-sm-10 col-md-8 col-lg-7 col-xl-5">
+          <div class="col-11 col-sm-10 col-md-8 col-lg-7 col-xl-6 col-2xl-5">
             <div class="row justify-content-center">
               <div class="col-auto">
                 <img loading="lazy" src="/img/global/logo.svg" alt="CIRCLE-O サークルオー" style="aspect-ratio:16/11" class="w-10rem">
               </div>
             </div>
             <h1 class="text-center clr-blk font-V7MG-EB lh-1 mt-405">
-              <span class="d-block mb-2 mb-xl-3 fz-tl ls-n01 clr-co">協力団体のご紹介</span>
+              <span class="d-block mb-2 mb-xl-3 fz-tl ls-n01 ls-lg-0  clr-co">協力団体のご紹介</span>
             </h1>
             <div class="row justify-content-center">
               <div class="col-11 col-sm-9 col-lg-8">
@@ -1246,7 +1196,7 @@ const meta = {
               </div>
             </div>
             <h1 class="text-center clr-blk font-V7MG-EB lh-1 mt-405">
-              <span class="d-block mb-2 mb-xl-3 fz-tl ls-n01 clr-co">サポーターのご紹介</span>
+              <span class="d-block mb-2 mb-xl-3 fz-tl ls-n01 ls-lg-0  clr-co">サポーターのご紹介</span>
               <strong class="d-block fz-xl fz-sm-2xl fz-lg-3xl fz-2xl-4xl ls-n005 ls-lg-0">💝 皆様の寄付で  ✍<br>質の高い授業を提供</strong>
             </h1>
             <div class="row justify-content-center">
@@ -1347,7 +1297,7 @@ const meta = {
           </div>
         </div>
       </section>
-      <section class:list={[Constants.pLg, Constants.mxNmain, 'px-4 px-sm-6 px-md-12']}>
+      <section class:list={[Constants.pLg, Constants.mxNmain, 'px-sm-6 px-md-12']}>
         <div class="row low-gutters justify-content-center align-items-center">
           <div class="col-auto">
             <h3 class="fz-xsm ls-0 clr-blk">powerded by</h3>
@@ -1356,7 +1306,7 @@ const meta = {
             <img loading="lazy" src="/img/global/logo-sv-port.svg" style="aspect-ratio:18/31" alt="silentvoice" class="w-5rem ml-4">
           </div>
           <div class="col-12"></div>
-          <div class="col-11 col-md-12 col-lg-10 col-3xl-7">
+          <div class="col-sm-11 col-md-12 col-lg-10 col-3xl-7">
             <div class:list={[Constants.mtLg, 'row add-xl-gutters justify-content-center align-items-center']}>
               <div class="col-md-6">
                 <div class="rounded-sm ovh bg-wht bsd bc-gray-light effect-neumo h-md-100">
@@ -1408,7 +1358,7 @@ const meta = {
                       <p class="lh-105 mt-2">4月11日の呼びかけから5月31日までに､日本全国･タイ･アメリカから手話のできるろう者･難聴者･聴者の｢先生｣約30名が､日本全国の約60名のろう･難聴児の｢生徒｣へ向けて､それぞれ週2~3回､合計750回のオンライン授業の無償提供を行いました</p>
                       <a href="https://silentvoice.co.jp/blog/1979/" target="_blank" class="d-block w-100 px-3 px-sm-4 py-2 mt-2 clr-co hvr-bg-red hvr-clr-red rounded-xl btn-neumo bsd bc-co bw-02r">
                         <div class="h-100 d-flex flex-wrap align-items-center">
-                          <div class="font-V7MG-EB fz-xs">サークルオーの一次報告書を読む</div>
+                          <div class="font-V7MG-EB fz-xs">サークルオー報告書vol1</div>
                           <div class="ml-auto"><i class="small fas fa-external-link"></i></div>
                         </div>
                       </a>

@@ -7496,7 +7496,7 @@ a.close.disabled {
   .text−vertical {-ms-writing-mode: tb-rl;writing-mode: vertical-rl;}
   .indent{text-indent: -9999px;white-space: nowrap;overflow: hidden;text-align: left;}
   .td-none{text-decoration: none !important;}
-  .tdu{text-decoration: underline;}
+  .tdu{text-decoration: underline; text-decoration: underline;text-underline-offset: .2em;}
   .tdw{text-decoration-style: wavy;}
   .tddb{text-decoration-style: double;}
   .ttu{text-transform: uppercase;}
@@ -7506,7 +7506,6 @@ a.close.disabled {
   dd{margin-bottom: 0;}
   .font-weight-500{font-weight: 500;}
   .font-weight-700{font-weight: 700;}
-    
   /*small*/
   small.small,.small,.small small{letter-spacing: 0;}
   em{font-style: normal;}
@@ -7561,9 +7560,11 @@ utility
   .table { margin-bottom: 0; border-spacing: 0; }
   table { border-collapse: collapse; border-spacing: 0; }
 /*overflow vertical-align visibility*/
-  .snap-x{scroll-behavior:smooth;}
+  .snap-x{scroll-behavior:smooth;-webkit-overflow-scrolling:touch}
     .snap-x::-webkit-scrollbar{display:none;}
     .snap-x li{scroll-snap-align: start;}
+    .snap-proximity{scroll-snap-type: x proximity}
+    .snap-mandatory{scroll-snap-type: x mandatory}
   .ovxs{overflow-x:scroll;}
   .ovys{overflow-y:scroll}
   .ovv{overflow:visible}
@@ -12582,7 +12583,6 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important;
 }
-/*font-size*/
 /*font-size*/
 .small-2xs{font-size: .5rem !important;}
 .small-xs{font-size: .65rem!important;}

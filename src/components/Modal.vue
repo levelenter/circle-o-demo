@@ -47,10 +47,8 @@ const clickDialog = (e) => {
 </script>
 
 <template>
-  <a @click="openModal">
-    <div class="btn">さらに読む</div>
-  </a>
-  <dialog @click="clickDialog" :id="props.id">
+  <a class="d-block p-2 text-center bsd bc-co ff-B fz-2xs mt-3 rounded clr-co hvr-bg-co hvr-clr-wht" @click="openModal">さらに読む +</a>
+  <dialog class="p-4 p-md-5 rounded-sm bsd bc-co bw-02r" @click="clickDialog" :id="props.id">
     <slot></slot>
 <!--    <form method="dialog">-->
 <!--      <slot name="close"></slot>-->

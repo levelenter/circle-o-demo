@@ -51,7 +51,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <ul class="form-row flex-nowrap flex-lg-wrap pl-3 pl-md-4 pl-lg-0">
+  <ul class="form-row flex-nowrap flex-lg-wrap pl-405 pl-md-4 pl-lg-0">
     <li v-for="t in teachers" :class="['col-10 col-sm-5 col-lg-4 col-xl-3', Constants.mtListTeacher]">
       <div class="form-row align-items-end">
         <div class="col-6">
@@ -60,13 +60,13 @@ onMounted(async () => {
             <div class="h-100 w-2rem w-lg-1rem z-10 box-gra-left position-absolute topLeft op-05"></div>
             <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-top position-absolute topRight op-05"></div>
             <div class="w-100 h-2rem h-lg-1rem z-10 box-gra-bottom position-absolute bottomRight op-05"></div>
-            <iframe loading="lazy" v-if="t.youtubeId" class="embed-responsive-item" :src="`https://www.youtube-nocookie.com/embed/${t.youtubeId}`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe loading="lazy" decoding="async" v-if="t.youtubeId" class="embed-responsive-item" :src="`https://www.youtube-nocookie.com/embed/${t.youtubeId}`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
         <div class="col-6">
           <picture class="d-block w-2rem w-md-205rem h-2rem h-md-205rem rounded-circle ovh bsd bw-1px">
             <source :srcset="t.image_url" :media="Constants.mdSm" />
-            <img loading="lazy" class="w-100 h-100 of-cover" style="aspect-ratio:1/1" :src="t.image_url" :alt="t.user_name + '先生'">
+            <img loading="lazy" decoding="async" class="w-100 h-100 of-cover" style="aspect-ratio:1/1" :src="t.image_url" :alt="t.user_name + '先生'">
           </picture>
           <h2 class="fz-xsm lh-104 clr-blk mt-1">{{ t.user_name }}<small class="ml-1">先生</small></h2>
           <p class="fz-2xs fz-2xl-xs lh-106 mt-3 mt-sm-4" v-html="t.self_introduction"></p>

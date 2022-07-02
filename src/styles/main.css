@@ -4,15 +4,15 @@
 /* Android 360px 1.125 */
 @media only screen and (min-width:360px){html{font-size: 76%;}}
 /* iPhone6 375px 117.1875 */
-@media only screen and (min-width:375px){html{font-size: 79%;}}
+@media only screen and (min-width:375px){html{font-size: 80%;}}
 /* iPhone6 plus 414px 1.29375 */
 @media only screen and (min-width:412px){html{font-size: 87.3%;}}
 /* sm */
-@media(min-width: 576px){html{font-size: 80%;}}
+@media(min-width: 576px){html{font-size: 74%;}}
 /* md */
 @media(min-width: 768px){html{font-size: 80%;}}
 /* lg */
-@media(min-width: 769px){html{font-size: 75%;}}
+@media(min-width: 769px){html{font-size: 72%;}}
 /* xl */
 @media(min-width: 1200px){html{font-size: 78%;}}
 /*2xl*/
@@ -24,7 +24,7 @@ html{position: relative;font-feature-settings:"palt"}
 body{color: #444;font-family:"font-RyoGothic-R",-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial;letter-spacing: .02em;font-weight: 400;}
 
 .font-RyoGothic-R,.font-RyoGothic-B,.font-RyoGothic-H,h1,h2,h3,h4,h5,h6{font-family: ryo-gothic-plusn;font-style: normal;}
-.font-V7MG-B,.font-V7MG-EB{font-family: vdl-v7marugothic, sans-serif;}
+.font-V7MG-B,.font-V7MG-EB,.ff-B{font-family: vdl-v7marugothic, sans-serif;}
 .font-weight-bolder{font-weight: bolder !important;}
 .font-weight-200{font-weight: 200 !important}
 .font-weight-300{font-weight: 300 !important}
@@ -35,6 +35,8 @@ body{color: #444;font-family:"font-RyoGothic-R",-apple-system,system-ui,BlinkMac
 .bigger-lg{font-size: 1.75em;}
 .bigger{font-size: 1.5em;}
 .ls-n004{letter-spacing: -.04em;}
+
+
 
 /*btn*/
 .btn-neumo{background: linear-gradient(145deg, #fff, #f5f5f5);box-shadow:  .15rem .15rem .3rem #ddd,-.2rem -.2rem .4rem #fff;}
@@ -56,6 +58,7 @@ a:hover,a:focus {color: #999; text-decoration: none;}
 .nuxt-link-active.nuxt-link-exact-active.btn-lang{opacity:1 !important;color: #545454 !important;}
 
 .of-cover{object-fit: cover;}
+.of-leftCenter{object-position: left center;}
 
 /*  ((100vw - 2*一番外の左右Pd - 2*colの間Pd)*レスポンシブ)/半分/9*16   */
 .h-vt-moive{height:calc((100vw - 2 * var(--p-vt) - 2 * var(--p-vt-col)) * var(--percent-vt) / 2 / 9 * 16);}
@@ -85,15 +88,15 @@ a:hover,a:focus {color: #999; text-decoration: none;}
 .fz-3{font-size:clamp(1.275rem, 1.26rem + 0.08vw, 1.35rem) !important}
 .fz-4{font-size:clamp(1.3rem, 1.27rem + 0.15vw, 1.45rem) !important}
 .fz-5{font-size:clamp(1.75rem, 1.7rem + 0.25vw, 2rem) !important}
-.fz-6{font-size:clamp(2rem, 1.8rem + 1vw, 3rem) !important}
-.fz-7{font-size:clamp(3rem, 2.8rem + 1vw, 4rem) !important}
+.fz-6{font-size:clamp(2.25rem, 2.2rem + 1vw, 3rem) !important}
+.fz-7{font-size:clamp(3.5rem, 2.8rem + 1vw, 4rem) !important}
 
 .fz-tl{font-size: 2.45rem !important;}
 
 .w-705rem{width:7.5rem;}
 .w-805rem{width:8.5rem;}
 .w-2805rem{width:28.5rem;}
-.w-flow{width:72rem}
+.w-flow{width:90rem}
 
 .maw-20rem{max-width: 20rem;}
 .maw-30rem{max-width: 30rem;}
@@ -119,7 +122,7 @@ a:hover,a:focus {color: #999; text-decoration: none;}
 .bg-gray-dark{background-color: #1b1b1b;}
 .bg-wht-op06{background-color: rgba(255,255,255,.6);}
 .bg-red{background-color: red !important;}
-.bg-co{background-color: #328ab6 !important;}
+.bg-co,.hvr-bg-co:hover{background-color: #328ab6 !important;}
 .bg-sv{background-color: #002045!important;}
 
 .clr-line{color: #00c300 !important;}
@@ -146,16 +149,7 @@ a:hover,a:focus {color: #999; text-decoration: none;}
 
 
 /* arrow */
-
-.next::after {
-    content: '▶️';
-    font-size: .8em;
-    color: currentColor;
-    position: absolute;
-    right:.8rem;
-    top: -.05rem;
-    z-index: 1;
-}
+.next::after{content: '▶';font-size: .8em;color: currentColor;position: absolute;right:.2rem;top: 0.2rem;z-index: 1;}
 
 /*toast*/
 .d-none-alert .dna{display: none;}
@@ -184,11 +178,11 @@ input:checked ~ .custom-control-label::before {border-color: #333 !important;bac
 .rotate-n15{transform: rotate(-15deg);}
 .rotate-8{transform: rotate(8deg);}
 .rotate-n8{transform: rotate(-8deg);}
-#ils-5{top:23rem;left:0rem;}
+#ils-5{top:23rem;left:0;}
 #ils-6{top:20rem;left:2rem;}
-#ils-7{top:24rem;right:0rem;}
-#ils-8{top:20rem;right:3rem;}
-#ils-9{top:37rem;right:2rem;}
+#ils-7{top:24rem;right:0;}
+#ils-8{top:19rem;right:4rem;}
+#ils-9{top:19.5rem;right:-1rem;}
 
 .bf-clr-co ::marker{font-size: 1.2em;color: #328ab6 !important}
 
@@ -200,13 +194,14 @@ Responsive
 /* sm */
 @media(min-width: 576px){
   :root{--p-vt:3rem;--percent-vt:0.5;--percent-vt-lp:0.41666667}
-  .fz-tl{font-size: 3.5rem !important;}
+  .fz-tl{font-size: 4.5rem !important;}
   #ils-5{top:30rem;left:5rem;}
   #ils-6{top:24rem;left:8rem;}
   #ils-7{top:27rem;right:5rem;}
   #ils-8{top:24rem;right:10rem;}
   #ils-9{top:30rem;right:2rem;}
   .fz-sm-1em{font-size: 1em !important;}
+  .fz-sm-7{font-size:clamp(3.5rem, 2.8rem + 1vw, 4rem) !important}
 }
 /* md */
 @media(min-width: 768px){
@@ -233,6 +228,7 @@ Responsive
   .smaller-md-3{font-size:.45em}
   .smaller-md-2{font-size:.65em}
   .smaller-md-1{font-size:.8em}
+  .fz-md-7{font-size:clamp(3.5rem, 2.8rem + 1vw, 4rem) !important}
 }
 /* lg */
 @media(min-width: 920px){
@@ -240,7 +236,8 @@ Responsive
   .fz-tl{font-size: 4.5rem !important;}
   /*  ((100vw - 2*一番外の左右Pd - 4*colの間Pd)*レスポンシブ - formrowPd*2)/半分/9*16   */
   .h-vt-moive,.ovyh .h-vt-moive{height: calc(  (  (100vw - 2 * var(--p-vt) - 4 * var(--p-vt-col))  * var(--percent-vt-lp) - var(--p-vt-col) * 2  ) / 2 / 9 * 16 );}
-
+  /* arrow */
+  .next::after{right:.1rem;top:.1rem;}
   #ils-5{top:37rem;left:12rem;}
   #ils-6{top:25rem;left:5rem;}
   #ils-7{top:24rem;right:4rem;}
@@ -284,7 +281,7 @@ Responsive
   .h-vt-moive{height: calc(((100vw - 2*var(--p-vt) - 4*2rem) * var(--percent-vt) - var(--p-vt-col)*2)/2/9*16);}
   #ils-5{top:27rem;left:12rem;}
   #ils-6{top:7rem;left:5rem;}
-  #ils-7{top:5rem;right:0rem;}
+  #ils-7{top:5rem;right:0;}
   #ils-8{top:18rem;right:13rem;}
   #ils-9{top:30rem;right:8rem;}
 }
