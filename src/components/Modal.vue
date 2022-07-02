@@ -62,7 +62,7 @@ const close = () => {
 <template>
   <a class="d-block p-2 text-center bsd bc-co ff-B fz-2xs mt-3 rounded clr-co hvr-bg-co hvr-clr-wht" @click="openModal">さらに読む +</a>
   <dialog class="p-4 p-md-5 rounded-sm bsd bc-co bw-02r" @click="clickDialog" :id="props.id">
-    <button @click="close">close</button>
+    <button class="bg-none position-absolute topRight z-1 mt-3 mr-3" @click="close"><i class="fz-6 clr-co fa-thin fa-xmark"></i></button>
     <slot></slot>
 <!--    <form method="dialog">-->
 <!--      <slot name="close"></slot>-->
