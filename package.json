@@ -12,7 +12,7 @@
     "pm2-start": "pm2 delete circle-o 2> /dev/null; pm2 start npm --name circle-o -- run build:start && pm2 save"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^0.2.3",
+    "@astrojs/sitemap": "^0.2.4",
     "@astrojs/vue": "^0.2.0",
     "@fullhuman/postcss-purgecss": "^4.1.3",
     "astro": "^1.0.0-beta.59",
